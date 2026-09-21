@@ -1,0 +1,616 @@
+observed_at,energie,mois,indice,valeur,source,sha256
+2026-09-15T04:53:26+00:00,electricite,2026-09,Endex 303,95.66,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-09,Endex 103,98.21,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-09,Endex 101,134.51,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-08,Endex 303,95.66,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-08,Endex 103,98.21,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-08,Endex 101,118.12,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-08,Epex DAM,129.32,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-07,Endex 303,95.66,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-07,Endex 103,98.21,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-07,Endex 101,97.67,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-07,Epex DAM,109.25,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-06,Endex 303,80.19,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-06,Endex 103,95.68,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-06,Endex 101,91.55,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-06,Epex DAM,112.13,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-05,Endex 303,80.19,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-05,Endex 103,95.68,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-05,Endex 101,83.85,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-05,Epex DAM,91.77,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-04,Endex 303,80.19,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-04,Endex 103,95.68,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-04,Endex 101,100.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-04,Epex DAM,78.94,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-03,Endex 303,90.32,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-03,Endex 103,85.72,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-03,Endex 101,80.79,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-03,Epex DAM,92.57,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-02,Endex 303,90.32,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-02,Endex 103,85.72,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-02,Endex 101,106.51,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-02,Epex DAM,85.13,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-01,Endex 303,90.32,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-01,Endex 103,85.72,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-01,Endex 101,93.92,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2026-01,Epex DAM,108.52,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-12,Endex 303,91.80,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-12,Endex 103,89.51,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-12,Endex 101,89.05,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-12,Epex DAM,85.35,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-11,Endex 303,91.80,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-11,Endex 103,89.51,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-11,Endex 101,91.63,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-11,Epex DAM,86.19,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-10,Endex 303,91.80,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-10,Endex 103,89.51,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-10,Endex 101,82.57,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-10,Epex DAM,75.15,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-09,Endex 303,74.38,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-09,Endex 103,79.29,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-09,Endex 101,81.43,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-09,Epex DAM,63.60,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-08,Endex 303,74.38,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-08,Endex 103,79.29,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-08,Endex 101,73.28,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-08,Epex DAM,68.98,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-07,Endex 303,74.38,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-07,Endex 103,79.29,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-07,Endex 101,75.09,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-07,Epex DAM,83.07,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-06,Endex 303,75.69,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-06,Endex 103,69.72,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-06,Endex 101,64.12,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-06,Epex DAM,65.33,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-05,Endex 303,75.69,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-05,Endex 103,69.72,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-05,Endex 101,60.25,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-05,Epex DAM,61.07,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-04,Endex 303,75.69,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-04,Endex 103,69.72,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-04,Endex 101,75.92,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-04,Epex DAM,73.39,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-03,Endex 303,98.04,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-03,Endex 103,97.62,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-03,Endex 101,96.88,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-03,Epex DAM,91.10,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-02,Endex 303,98.04,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-02,Endex 103,97.62,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-02,Endex 101,107.65,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-02,Epex DAM,128.75,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-01,Endex 303,98.04,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-01,Endex 103,97.62,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-01,Endex 101,104.34,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2025-01,Epex DAM,112.00,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-12,Endex 303,89.03,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-12,Endex 103,82.48,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-12,Endex 101,99.61,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-12,Epex DAM,105.22,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-11,Endex 303,89.03,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-11,Endex 103,82.48,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-11,Endex 101,85.98,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-11,Epex DAM,108.94,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-10,Endex 303,89.03,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-10,Endex 103,82.48,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-10,Endex 101,72.29,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-10,Epex DAM,77.89,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-09,Endex 303,65.68,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-09,Endex 103,65.38,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-09,Endex 101,81.66,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-09,Epex DAM,66.65,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-08,Endex 303,65.68,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-08,Endex 103,65.38,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-08,Endex 101,59.52,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-08,Epex DAM,65.53,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-07,Endex 303,65.68,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-07,Endex 103,65.38,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-07,Endex 101,59.13,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-07,Epex DAM,54.56,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-06,Endex 303,58.36,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-06,Endex 103,53.24,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-06,Endex 101,57.23,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-06,Epex DAM,59.80,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-05,Endex 303,58.36,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-05,Endex 103,53.24,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-05,Endex 101,43.60,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-05,Epex DAM,54.45,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-04,Endex 303,58.36,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-04,Endex 103,53.24,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-04,Endex 101,54.80,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-04,Epex DAM,48.01,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-03,Endex 303,115.71,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-03,Endex 103,94.30,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-03,Endex 101,61.99,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-03,Epex DAM,61.15,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-02,Endex 303,115.71,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-02,Endex 103,94.30,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-02,Endex 101,79.93,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-02,Epex DAM,61.51,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-01,Endex 303,115.71,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-01,Endex 103,94.30,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-01,Endex 101,93.13,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2024-01,Epex DAM,78.56,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-12,Endex 303,120.79,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-12,Endex 103,113.47,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-12,Endex 101,101.53,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-12,Epex DAM,69.40,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-11,Endex 303,120.79,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-11,Endex 103,113.47,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-11,Endex 101,112.80,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-11,Epex DAM,91.47,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-10,Endex 303,120.79,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-10,Endex 103,113.47,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-10,Endex 101,95.37,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-10,Epex DAM,86.49,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-09,Endex 303,103.81,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-09,Endex 103,99.66,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-09,Endex 101,94.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-09,Epex DAM,94.35,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-08,Endex 303,103.81,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-08,Endex 103,99.66,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-08,Endex 101,84.01,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-08,Epex DAM,91.96,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-07,Endex 303,103.81,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-07,Endex 103,99.66,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-07,Endex 101,94.91,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-07,Epex DAM,75.35,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-06,Endex 303,136.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-06,Endex 103,116.36,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-06,Endex 101,89.23,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-06,Epex DAM,93.14,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-05,Endex 303,136.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-05,Endex 103,116.36,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-05,Endex 101,107.00,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-05,Epex DAM,80.18,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-04,Endex 303,136.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-04,Endex 103,116.36,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-04,Endex 101,113.44,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-04,Epex DAM,105.53,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-03,Endex 303,373.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-03,Endex 103,332.48,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-03,Endex 101,141.52,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-03,Epex DAM,109.55,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-02,Endex 303,373.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-02,Endex 103,332.48,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-02,Endex 101,169.06,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-02,Epex DAM,143.51,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-01,Endex 303,373.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-01,Endex 103,332.48,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-01,Endex 101,333.32,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2023-01,Epex DAM,130.70,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-12,Endex 303,500.97,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-12,Endex 103,501.23,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-12,Endex 101,276.49,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-12,Epex DAM,269.28,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-11,Endex 303,500.97,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-11,Endex 103,501.23,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-11,Endex 101,325.20,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-11,Epex DAM,180.41,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-10,Endex 303,500.97,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-10,Endex 103,501.23,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-10,Endex 101,393.53,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-10,Epex DAM,157.45,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-09,Endex 303,228.22,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-09,Endex 103,236.06,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-09,Endex 101,471.30,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-09,Epex DAM,346.51,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-08,Endex 303,228.22,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-08,Endex 103,236.06,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-08,Endex 101,350.95,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-08,Epex DAM,448.13,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-07,Endex 303,228.22,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-07,Endex 103,236.06,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-07,Endex 101,225.05,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-07,Epex DAM,321.33,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-06,Endex 303,216.76,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-06,Endex 103,285.22,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-06,Endex 101,194.15,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-06,Epex DAM,219.10,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-05,Endex 303,216.76,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-05,Endex 103,285.22,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-05,Endex 101,220.79,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-05,Epex DAM,176.64,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-04,Endex 303,216.76,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-04,Endex 103,285.22,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-04,Endex 101,290.12,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-04,Epex DAM,186.59,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-03,Endex 303,226.43,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-03,Endex 103,293.87,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-03,Endex 101,193.49,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-03,Epex DAM,265.63,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-02,Endex 303,226.43,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-02,Endex 103,293.87,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-02,Endex 101,226.05,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-02,Epex DAM,162.64,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-01,Endex 303,226.43,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-01,Endex 103,293.87,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-01,Endex 101,295.70,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2022-01,Epex DAM,191.4,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-12,Endex 303,114.43,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-12,Epex DAM,245.44,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-11,Endex 303,114.43,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-11,Epex DAM,202.15,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-10,Endex 303,114.43,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-10,Epex DAM,165.36,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-09,Endex 303,64.2,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-09,Epex DAM,136.21,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-08,Endex 303,64.2,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-08,Epex DAM,79.47,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-07,Endex 303,64.2,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-07,Epex DAM,77.42,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-06,Endex 303,44.74,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-06,Epex DAM,74.44,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-05,Endex 303,44.74,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-05,Epex DAM,55.63,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-04,Endex 303,44.74,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-04,Epex DAM,56.99,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-03,Endex 303,45.80,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-03,Epex DAM,46.57,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-02,Endex 303,45.80,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-02,Epex DAM,48.57,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-01,Endex 303,45.80,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2021-01,Epex DAM,57.46,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-12,Endex 303,45.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-12,Epex DAM,47.38,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-11,Endex 303,45.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-11,Epex DAM,39.92,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-10,Endex 303,45.86,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-10,Epex DAM,39.42,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-09,Endex 303,28.69,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-09,Epex DAM,44.23,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-08,Endex 303,28.69,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-08,Epex DAM,35.54,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-07,Endex 303,28.69,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-07,Epex DAM,29.84,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-06,Endex 303,30.78,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-06,Epex DAM,25.56,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-05,Endex 303,30.78,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-05,Epex DAM,15.39,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-04,Endex 303,30.78,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,electricite,2020-04,Epex DAM,14.72,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,1089a45e86c25e47
+2026-09-15T04:53:26+00:00,gaz,2026-09,TTF 103 (Heren),45.0886,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-09,TTF 101 Heren,61.7581,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-09,ZTP 101,61.768,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-08,TTF 103 (Heren),45.0886,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-08,TTF 101 Heren,53.8967,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-08,ZTP 101,53.605,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-08,ZTP DAM,61.537,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-07,TTF 103 (Heren),45.0886,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-07,TTF 101 Heren,44.9886,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-07,ZTP 101,44.429,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-07,ZTP DAM,53.116,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-06,TTF 103 (Heren),52.1540,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-06,TTF 101 Heren,47.0434,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-06,ZTP 101,46.722,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-06,ZTP DAM,44.345,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-05,TTF 103 (Heren),52.1540,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-05,TTF 101 Heren,44.5900,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-05,ZTP 101,44.309,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-05,ZTP DAM,46.560,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-04,TTF 103 (Heren),52.1540,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-04,TTF 101 Heren,52.6017,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-04,ZTP 101,52.445,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-04,ZTP DAM,44.672,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-03,TTF 103 (Heren),27.4131,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-03,TTF 101 Heren,32.2481,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-03,ZTP 101,31.055,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-03,ZTP DAM,50.649,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-02,TTF 103 (Heren),27.4131,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-02,TTF 101 Heren,34.1863,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-02,ZTP 101,34.417,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-02,ZTP DAM,32.291,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-01,TTF 103 (Heren),27.4131,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-01,TTF 101 Heren,27.5726,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-01,ZTP 101,27.748,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2026-01,ZTP DAM,34.508,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-12,TTF 103 (Heren),32.9199,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-12,TTF 101 Heren,30.6931,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-12,ZTP 101,30.432,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-12,ZTP DAM,27.828,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-11,TTF 103 (Heren),32.9199,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-11,TTF 101 Heren,31.8886,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-11,ZTP 101,31.547,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-11,ZTP DAM,29.818,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-10,TTF 103 (Heren),32.9199,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-10,TTF 101 Heren,32.3557,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-10,ZTP 101,32.126,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-10,ZTP DAM,31.470,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-09,TTF 103 (Heren),36.9268,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-09,TTF 101 Heren,32.5819,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-09,ZTP 101,32.402,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-09,ZTP DAM,31.923,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-08,TTF 103 (Heren),36.9268,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-08,TTF 101 Heren,33.8929,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-08,ZTP 101,33.336,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-08,ZTP DAM,32.033,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-07,TTF 103 (Heren),36.9268,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-07,TTF 101 Heren,36.5286,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-07,ZTP 101,35.960,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-07,ZTP DAM,32.999,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-06,TTF 103 (Heren),41.6262,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-06,TTF 101 Heren,35.1200,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-06,ZTP 101,34.710,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-06,ZTP DAM,35.637,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-05,TTF 103 (Heren),41.6262,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-05,TTF 101 Heren,35.0438,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-05,ZTP 101,34.776,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-05,ZTP DAM,33.569,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-04,TTF 103 (Heren),41.6262,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-04,TTF 101 Heren,41.5810,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-04,ZTP 101,41.321,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-04,ZTP DAM,34.577,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-03,TTF 103 (Heren),44.9950,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-03,TTF 101 Heren,50.0456,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-03,ZTP 101,49.789,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-03,ZTP DAM,41.270,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-02,TTF 103 (Heren),44.9950,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-02,TTF 101 Heren,48.3443,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-02,ZTP 101,48.343,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-02,ZTP DAM,50.694,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-01,TTF 103 (Heren),44.9950,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-01,TTF 101 Heren,44.9481,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-01,ZTP 101,44.999,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2025-01,ZTP DAM,48.468,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-12,TTF 103 (Heren),37.3756,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-12,TTF 101 Heren,44.6042,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-12,ZTP 101,44.589,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-12,ZTP DAM,44.717,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-11,TTF 103 (Heren),37.3756,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-11,TTF 101 Heren,40.3614,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-11,ZTP 101,40.301,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-11,ZTP DAM,43.694,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-10,TTF 103 (Heren),37.3756,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-10,TTF 101 Heren,36.1631,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-10,ZTP 101,36.072,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-10,ZTP DAM,39.922,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-09,TTF 103 (Heren),34.8894,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-09,TTF 101 Heren,38.3893,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-09,ZTP 101,38.332,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-09,ZTP DAM,36.237,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-08,TTF 103 (Heren),34.8894,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-08,TTF 101 Heren,32.4832,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-08,ZTP 101,32.384,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-08,ZTP DAM,37.517,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-07,TTF 103 (Heren),34.8894,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-07,TTF 101 Heren,34.4156,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-07,ZTP 101,34.312,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-07,ZTP DAM,31.933,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-06,TTF 103 (Heren),26.8950,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-06,TTF 101 Heren,31.7726,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-06,ZTP 101,31.683,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-06,ZTP DAM,34.049,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-05,TTF 103 (Heren),26.8950,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-05,TTF 101 Heren,29.0298,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-05,ZTP 101,28.960,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-05,ZTP DAM,31.296,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-04,TTF 103 (Heren),26.8950,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-04,TTF 101 Heren,26.8244,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-04,ZTP 101,26.744,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-04,ZTP DAM,28.878,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-03,TTF 103 (Heren),36.3138,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-03,TTF 101 Heren,25.6738,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-03,ZTP 101,25.632,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-03,ZTP DAM,26.416,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-02,TTF 103 (Heren),36.3138,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-02,TTF 101 Heren,29.8676,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-02,ZTP 101,29.818,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-02,ZTP DAM,25.754,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-01,TTF 103 (Heren),36.3138,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-01,TTF 101 Heren,36.0263,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-01,ZTP 101,35.919,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2024-01,ZTP DAM,29.891,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-12,TTF 103 (Heren),43.3685,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-12,TTF 101 Heren,45.6807,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-12,ZTP 101,45.490,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-12,ZTP DAM,35.193,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-11,TTF 103 (Heren),43.3685,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-11,TTF 101 Heren,46.8364,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-11,ZTP 101,46.650,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-11,ZTP DAM,42.898,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-10,TTF 103 (Heren),43.3685,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-10,TTF 101 Heren,36.7446,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-10,ZTP 101,36.703,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-10,ZTP DAM,42.619,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-09,TTF 103 (Heren),33.4636,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-09,TTF 101 Heren,34.7136,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-09,ZTP 101,34.647,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-09,ZTP DAM,36.469,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-08,TTF 103 (Heren),33.4636,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-08,TTF 101 Heren,29.2131,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-08,ZTP 101,29.003,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-08,ZTP DAM,32.999,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-07,TTF 103 (Heren),33.4636,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-07,TTF 101 Heren,32.4597,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-07,ZTP 101,32.113,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-07,ZTP DAM,29.223,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-06,TTF 103 (Heren),44.2255,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-06,TTF 101 Heren,31.3019,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-06,ZTP 101,29.918,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-06,ZIG DAM,31.5767,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-06,ZTP DAM,31.243,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-05,TTF 103 (Heren),44.2255,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-05,TTF 101 Heren,41.8132,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-05,ZTP 101,40.697,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-05,ZIG DAM,29.8759,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-05,ZTP DAM,30.146,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-04,TTF 103 (Heren),44.2255,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-04,TTF 101 Heren,43.9234,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-04,ZTP 101,43.446,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-04,ZIG DAM,40.8277,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-04,ZTP DAM,41.479,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-03,TTF 103 (Heren),119.0763,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-03,TTF 101 Heren,52.2944,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-03,ZTP 101,51.590,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-03,ZIG DAM,44.4259,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-03,ZTP DAM,44.207,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-02,TTF 103 (Heren),119.0763,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-02,TTF 101 Heren,62.8464,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-02,ZTP 101,61.414,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-02,ZIG DAM,52.5857,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-02,ZTP DAM,53.202,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-01,TTF 103 (Heren),119.0763,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-01,TTF 101 Heren,117.8281,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-01,ZTP 101,115.877,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-01,ZIG DAM,60.8652,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2023-01,ZTP DAM,61.743,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-12,TTF 103 (Heren),212.3097,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-12,TTF 101 Heren,118.6767,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-12,ZTP 101,113.665,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-12,ZIG DAM,107.7684,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-12,ZTP DAM,110.687,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-11,TTF 103 (Heren),212.3097,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-11,TTF 101 Heren,132.4845,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-11,ZTP 101,122.959,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-11,ZIG DAM,84.9247,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-11,ZTP DAM,82.183,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-10,TTF 103 (Heren),212.3097,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-10,TTF 101 Heren,202.5085,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-10,ZTP 101,160.612,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-10,ZIG DAM,44.5406,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-10,ZTP DAM,48.799,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-09,TTF 103 (Heren),111.3806,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-09,TTF 101 Heren,231.9778,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-09,ZTP 101,199.680,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-09,ZIG DAM,115.2958,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-09,ZTP DAM,124.334,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-08,TTF 103 (Heren),111.3806,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-08,TTF 101 Heren,171.5500,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-08,ZTP 101,147.564,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-08,ZIG DAM,171.6221,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-08,ZTP DAM,171.202,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-07,TTF 103 (Heren),111.3806,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-07,TTF 101 Heren,109.9106,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-07,ZTP 101,103.114,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-07,ZIG DAM,122.8370,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-07,ZTP DAM,123.942,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-06,TTF 103 (Heren),127.9777,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-06,TTF 101 Heren,92.9494,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-06,ZTP 101,82.620,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-06,ZIG DAM,92.4114,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-06,ZTP DAM,93.094,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-05,TTF 103 (Heren),127.9777,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-05,TTF 101 Heren,100.6724,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-05,ZTP 101,91.351,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-05,ZIG DAM,75.8131,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-05,ZTP DAM,76.904,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-04,TTF 103 (Heren),127.9777,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-04,TTF 101 Heren,128.8402,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-04,ZTP 101,127.726,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-04,ZIG DAM,87.4230,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-04,ZTP DAM,88.502,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-03,TTF 103 (Heren),110.297,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-03,TTF 101 Heren,80.0606,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-03,ZTP 101,79.620,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-03,ZIG DAM,124.4113,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-03,ZTP DAM,124.309,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-02,TTF 103 (Heren),110.297,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-02,TTF 101 Heren,84.8163,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-02,ZTP 101,84.496,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-02,ZIG DAM,78.6046,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-02,ZTP DAM,78.500,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-01,TTF 103 (Heren),110.297,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-01,TTF 101 Heren,113.0571,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-01,ZIG DAM,81.0981,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2022-01,ZTP DAM,81.100,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-12,TTF 103 (Heren),65.7261,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-12,TTF 101 Heren,82.6835,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-12,ZIG DAM,108.7393,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-11,TTF 103 (Heren),65.7261,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-11,TTF 101 Heren,90.231,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-11,ZIG DAM,80.8978,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-10,TTF 103 (Heren),65.7261,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-10,TTF 101 Heren,65.4466,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-10,ZIG DAM,83.6464,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-09,TTF 103 (Heren),28.9642,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-09,TTF 101 Heren,44.5083,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-09,ZIG DAM,62.4752,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-08,TTF 103 (Heren),28.9642,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-08,TTF 101 Heren,35.9813,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-08,ZIG DAM,43.8722,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-07,TTF 103 (Heren),28.9642,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-07,TTF 101 Heren,29.1284,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-07,ZIG DAM,35.879,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-06,TTF 103 (Heren),17.4549,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-06,TTF 101 Heren,24.9757,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-06,ZIG DAM,28.7031,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-05,TTF 103 (Heren),17.4549,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-05,TTF 101 Heren,20.4394,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-05,ZIG DAM,24.6142,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-04,TTF 103 (Heren),17.4549,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-04,TTF 101 Heren,17.5266,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-04,ZIG DAM,20.0625,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-03,TTF 103 (Heren),16.1405,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-03,TTF 101 Heren,17.2906,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-03,ZIG DAM,17.2195,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-02,TTF 103 (Heren),16.1405,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-02,ZIG DAM,17.1448,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-01,TTF 103 (Heren),16.1405,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2021-01,ZIG DAM,20.6065,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-12,TTF 103 (Heren),12.6659,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-12,ZIG DAM,16.0309,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-11,TTF 103 (Heren),12.6659,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-11,ZIG DAM,13.5593,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-10,TTF 103 (Heren),12.6659,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-10,ZIG DAM,13.6536,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-09,TTF 103 (Heren),5.7386,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-09,ZIG DAM,10.9055,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-08,TTF 103 (Heren),5.7386,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-08,ZIG DAM,7.3931,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-07,TTF 103 (Heren),5.7386,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-07,ZIG DAM,4.6890,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-06,TTF 103 (Heren),8.3920,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-06,ZIG DAM,4.8685,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-05,TTF 103 (Heren),8.3920,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-05,ZIG DAM,4.3065,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-04,TTF 103 (Heren),8.3920,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-04,ZIG DAM,6.1434,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2020-T1,TTF 103 (Heren),14.3038,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2019-T4,TTF 103 (Heren),15.9107,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2019-T3,TTF 103 (Heren),11.4531,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2019-T2,TTF 103 (Heren),15.7071,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2019-T1,TTF 103 (Heren),23.8303,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2018-T4,TTF 103 (Heren),28.0719,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2018-T3,TTF 103 (Heren),21.7238,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2018-T2,TTF 103 (Heren),17.9583,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2018-T1,TTF 103 (Heren),20.3862,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2017-T4,TTF 103 (Heren),17.5232,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2017-T3,TTF 103 (Heren),14.9727,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2017-T2,TTF 103 (Heren),15.9196,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2017-T1,TTF 103 (Heren),17.4456,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2016-T4,TTF 103 (Heren),14.3068,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2016-T3,TTF 103 (Heren),14.5545,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2016-T2,TTF 103 (Heren),11.99708,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T04:53:26+00:00,gaz,2016-T1,TTF 103 (Heren),16.1071,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
+2026-09-15T21:10:30+00:00,gaz,2025-10,TTF DAM,31.9671,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2025-11,TTF DAM,30.5235,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2025-12,TTF DAM,27.6311,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2026-01,TTF DAM,34.3966,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2026-02,TTF DAM,32.9155,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2026-03,TTF DAM,52.4662,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2026-04,TTF DAM,45.3478,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2026-05,TTF DAM,47.1409,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2026-06,TTF DAM,44.6526,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2026-07,TTF DAM,53.7877,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-15T21:10:30+00:00,gaz,2026-08,TTF DAM,61.8074,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-21T16:10:59+00:00,electricite,2025-10,Epex DAM RLP,78.1200,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2025-10,Epex DAM SPP,66.1435,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2025-11,Epex DAM RLP,89.5414,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2025-11,Epex DAM SPP,78.9417,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2025-12,Epex DAM RLP,87.2933,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2025-12,Epex DAM SPP,86.8301,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-01,Epex DAM RLP,111.0387,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-01,Epex DAM SPP,114.1634,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-02,Epex DAM RLP,87.4453,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-02,Epex DAM SPP,74.5062,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-03,Epex DAM RLP,97.6441,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-03,Epex DAM SPP,53.1817,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-04,Epex DAM RLP,84.7212,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-04,Epex DAM SPP,27.9511,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-05,Epex DAM RLP,98.1078,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-05,Epex DAM SPP,42.3655,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-06,Epex DAM RLP,121.0581,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-06,Epex DAM SPP,70.8885,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-07,Epex DAM RLP,114.4462,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-07,Epex DAM SPP,62.6460,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-08,Epex DAM RLP,135.1114,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-21T16:10:59+00:00,electricite,2026-08,Epex DAM SPP,79.1084,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,

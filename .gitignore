@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+collecte/data/cache/
+collecte/data/snapshots/
+.DS_Store

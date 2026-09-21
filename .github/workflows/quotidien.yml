@@ -1,0 +1,76 @@
+name: Collecte quotidienne
+
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collecte
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Parametres d indexation Engie
+        id: engie
+        continue-on-error: true
+        run: python collecte/engie.py | tee -a rapport.json
+
+      - name: Day-ahead belge electricite
+        run: python collecte/epex.py collect | tee -a rapport.json
+
+      - name: Recoupement SMARD
+        continue-on-error: true
+        run: python collecte/smard.py controle | tee -a rapport.json
+
+      - name: Gaz belge au comptant
+        run: python collecte/gaz.py collect | tee -a rapport.json
+
+      - name: Gaz neerlandais au comptant
+        run: python collecte/ttf.py collect | tee -a rapport.json
+
+      - name: Publier les mois TTF complets
+        run: python collecte/ttf.py publier | tee -a rapport.json
+
+      - name: Cotations a terme
+        run: python collecte/terme.py collect | tee -a rapport.json
+
+      - name: Indices ponderes par profil
+        run: python collecte/indices_profil.py publier | tee -a rapport.json
+
+      - name: Reconstruire la base publiee
+        run: python scripts/construire.py | tee -a rapport.json
+
+      - name: Controler la coherence
+        run: python scripts/verifier.py | tee -a rapport.json
+
+      - name: Resume
+        run: |
+          echo '## Collecte du' $(date -u +%F) >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat rapport.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Versionner
+        run: |
+          rm -f rapport.json
+          git config user.name "collecte-bot"
+          git config user.email "collecte-bot@users.noreply.github.com"
+          git add collecte/data data
+          git diff --staged --quiet || git commit -m "indices: releve du $(date -u +%F)"
+          git push
+
+      - name: Signaler une anomalie de source
+        if: steps.engie.outcome == 'failure'
+        run: echo "::warning::la page Engie est devenue inintelligible, voir le resume"
