@@ -147,6 +147,43 @@ def cmd_collect():
     return 0
 
 
+def cmd_historique():
+    aujourd = datetime.now(BE).date()
+    debut = int(sys.argv[2]) if len(sys.argv) > 2 else 2020
+    existants = {}
+    if os.path.exists(JOURS):
+        for r in csv.DictReader(open(JOURS, encoding="utf-8")):
+            existants[r["jour"]] = r["moyenne"]
+    horodatage = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    nouveaux, annees = [], []
+    for an in range(debut, aujourd.year + 1):
+        jours, _ = moyennes_journalieres(f"{an}-01-01", f"{an}-12-31")
+        ajoutes = 0
+        for j, v in sorted(jours.items()):
+            if j > aujourd:
+                continue
+            valeur = f"{v:.4f}"
+            if existants.get(j.isoformat()) != valeur:
+                nouveaux.append({"jour": j.isoformat(), "moyenne": valeur,
+                                 "releve_le": horodatage})
+                existants[j.isoformat()] = valeur
+                ajoutes += 1
+        annees.append({"annee": an, "jours_ajoutes": ajoutes})
+        time.sleep(2)
+    if nouveaux:
+        neuf = not os.path.exists(JOURS)
+        os.makedirs(DATA, exist_ok=True)
+        with open(JOURS, "a", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=["jour", "moyenne", "releve_le"])
+            if neuf:
+                w.writeheader()
+            w.writerows(nouveaux)
+    print(json.dumps({"depuis": debut, "jours_ajoutes": len(nouveaux),
+                      "total_en_base": len(existants), "par_annee": annees},
+                     ensure_ascii=False, indent=2))
+    return 0
+
+
 def cmd_nowcast():
     aujourd = datetime.now(BE).date()
     mois = f"{aujourd.year}-{aujourd.month:02d}"
@@ -183,7 +220,8 @@ def cmd_nowcast():
     return 0
 
 
-COMMANDES = {"backtest": cmd_backtest, "collect": cmd_collect, "nowcast": cmd_nowcast}
+COMMANDES = {"backtest": cmd_backtest, "collect": cmd_collect,
+             "historique": cmd_historique, "nowcast": cmd_nowcast}
 
 if __name__ == "__main__":
     nom = sys.argv[1] if len(sys.argv) > 1 else "nowcast"

@@ -179,8 +179,17 @@ def main():
     if os.path.exists(chemin):
         contrats = len(json.load(open(chemin, encoding="utf-8")).get("contrats", []))
 
+    profondeur = {}
+    for l in lignes:
+        d = profondeur.setdefault(l["indice"], {"jours": 0, "premier": l["jour"],
+                                                "dernier": l["jour"]})
+        d["jours"] += 1
+        d["premier"] = min(d["premier"], l["jour"])
+        d["dernier"] = max(d["dernier"], l["jour"])
+
     meta = {"genere_le": horodatage,
             "indices": len(indices),
+            "series_quotidiennes": dict(sorted(profondeur.items())),
             "valeurs_mensuelles": sum(len(b["publie"]) for b in indices.values()),
             "valeurs_quotidiennes": len(lignes),
             "contrats": contrats,
