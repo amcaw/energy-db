@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-09-21T16:15:49+00:00",
- "source": "barometre des tarifs variables, extraction du 2026-09-21",
+ "genere_le": "2026-09-22T08:19:55+00:00",
+ "source": "barometre des tarifs variables, extraction du 2026-09-22",
  "prix": "prix_c_eur_kwh = (a * indice * rapport + b) * (1 + tva_pct / 100)",
  "contrats": [
   {
@@ -12056,7 +12056,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12069,7 +12069,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      14,87              17,33         12,92              12,92       "
     },
     {
@@ -12105,7 +12105,8 @@
      "tva_pct": 6.0,
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 1,1377"
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-electricite-wallonie-2026-04-basicfix-fixe",
@@ -12120,7 +12121,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12133,10 +12134,11 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      14,87              17,33         12,92              12,92       "
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-electricite-wallonie-2026-05-basicfix-fixe",
@@ -12151,7 +12153,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12164,10 +12166,11 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      14,87              17,33         12,92              12,92       "
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-electricite-wallonie-2026-03-basicflex",
@@ -12279,7 +12282,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12292,7 +12295,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                     19,51               20,83        18,27               18,27       "
     },
     {
@@ -12328,7 +12331,8 @@
      "tva_pct": 6.0,
      "ligne_source": "Heures creuses = 0,0499 x Belpex - 0,6392"
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-electricite-wallonie-2026-01-comfy-fixe",
@@ -12343,7 +12347,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12356,7 +12360,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      16,92               19,64        14,75               14,75      "
     },
     {
@@ -12393,6 +12397,7 @@
      "ligne_source": "Heures creuses = 0,0499 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -12461,7 +12466,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12474,10 +12479,11 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      17,47               20,32        15,17               15,17      "
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -12493,7 +12499,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12506,7 +12512,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      16,78               19,45        14,67               14,67      "
     },
     {
@@ -12543,6 +12549,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -12558,7 +12565,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12571,7 +12578,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      20,38               23,74        17,71               17,71      "
     },
     {
@@ -12608,6 +12615,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -12623,7 +12631,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12636,7 +12644,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      18,77                21,84        16,36               16,36     "
     },
     {
@@ -12673,6 +12681,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -12688,7 +12697,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12701,7 +12710,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      19,43                22,61        16,92               16,92     "
     },
     {
@@ -12738,6 +12747,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -12753,7 +12763,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12766,7 +12776,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      19,05                22,17        16,59               16,59     "
     },
     {
@@ -12803,6 +12813,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -12818,7 +12829,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12831,7 +12842,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      21,96                25,55        19,11               19,11     "
     },
     {
@@ -12868,6 +12879,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -12936,7 +12948,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12949,10 +12961,11 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      22,57               26,26         19,65               19,65     "
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -12968,7 +12981,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -12981,7 +12994,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      18,73               21,74         16,35               16,35     "
     },
     {
@@ -13018,6 +13031,7 @@
      "ligne_source": "Heures creuses = 0,0499 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -13086,7 +13100,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -13099,10 +13113,11 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      19,28                22,42        16,77               16,77     "
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -13118,7 +13133,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -13131,7 +13146,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      18,59                21,55        16,27               16,27     "
     },
     {
@@ -13168,6 +13183,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -13183,7 +13199,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -13196,7 +13212,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      22,19                25,84        19,31               19,31     "
     },
     {
@@ -13233,6 +13249,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -13248,7 +13265,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -13261,7 +13278,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      20,59                23,94        17,96               17,96     "
     },
     {
@@ -13298,6 +13315,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -13313,7 +13331,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -13326,7 +13344,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      21,24                24,71        18,52               18,52     "
     },
     {
@@ -13363,6 +13381,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -13378,7 +13397,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -13391,7 +13410,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      20,87                24,27        18,19               18,19     "
     },
     {
@@ -13428,6 +13447,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -13443,7 +13463,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -13456,7 +13476,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      23,77                27,65        20,71               20,71     "
     },
     {
@@ -13493,6 +13513,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -13561,7 +13582,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -13574,10 +13595,11 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      24,39               28,36         21,25               21,25     "
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -14466,7 +14488,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -14479,7 +14501,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                     15,38               17,83        13,41               13,41       "
     },
     {
@@ -14516,6 +14538,7 @@
      "ligne_source": "Heures creuses = 0,0499 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -14584,7 +14607,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -14597,10 +14620,11 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                     15,89               18,42         13,85              13,85       "
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -14616,7 +14640,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -14629,7 +14653,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                     15,17               17,58        13,27               13,27       "
     },
     {
@@ -14666,6 +14690,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -14681,7 +14706,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -14694,7 +14719,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      18,76              21,86         16,28               16,28      "
     },
     {
@@ -14731,6 +14756,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -14746,7 +14772,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -14759,7 +14785,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                     17,15               19,96        14,92               14,92       "
     },
     {
@@ -14796,6 +14822,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -14811,7 +14838,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -14824,7 +14851,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                     17,81               20,73         15,49              15,49       "
     },
     {
@@ -14861,6 +14888,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -14876,7 +14904,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -14889,7 +14917,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                      17,43               20,29        15,16               15,16      "
     },
     {
@@ -14926,6 +14954,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -14941,7 +14970,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -14954,7 +14983,7 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                     20,19               23,51        17,52               17,52       "
     },
     {
@@ -14991,6 +15020,7 @@
      "ligne_source": "Heures creuses = 0,0481 x Belpex - 0,6392"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -15059,7 +15089,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "Epex DAM",
@@ -15072,10 +15102,11 @@
      "indice_fiche": "",
      "serie": "Epex DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie fournie (c€/kWh)                     20,80               24,23        18,06               18,06       "
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 65.0
   },
   {
@@ -22737,7 +22768,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8520 - 13,39"
     }
    ],
@@ -22781,7 +22812,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,5290 - 4,12"
     }
    ],
@@ -22824,7 +22855,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8560 - 16,20"
     }
    ],
@@ -22867,7 +22898,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8560 - 16,20"
     }
    ],
@@ -23468,8 +23499,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "Epex RLP M",
    "serie": "Epex DAM RLP",
    "formules": [
@@ -23481,7 +23512,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "mono-horaire = Epex RLP M x 1,092 + 31,120"
     },
     {
@@ -23492,7 +23523,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures pleines = Epex RLP M x 1,311 + 31,120"
     },
     {
@@ -23503,7 +23534,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures creuses = Epex RLP M x 0,929 + 31,120"
     },
     {
@@ -23514,7 +23545,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "exclusif nuit = Epex RLP M x 1,013 + 31,120"
     },
     {
@@ -23525,7 +23556,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,5290 - 4,12"
     }
    ]
@@ -23543,8 +23574,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "Epex RLP M",
    "serie": "Epex DAM RLP",
    "formules": [
@@ -23556,7 +23587,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "mono-horaire = Epex RLP M x 1,057 + 33,280"
     },
     {
@@ -23567,7 +23598,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures pleines = Epex RLP M x 1,276 + 33,280"
     },
     {
@@ -23578,7 +23609,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures creuses = Epex RLP M x 0,894 + 33,280"
     },
     {
@@ -23589,7 +23620,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "exclusif nuit = Epex RLP M x 0,978 + 33,280"
     },
     {
@@ -23600,7 +23631,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8560 - 16,20"
     }
    ]
@@ -23618,8 +23649,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "Epex RLP M",
    "serie": "Epex DAM RLP",
    "formules": [
@@ -23631,7 +23662,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "mono-horaire = Epex RLP M x 1,057 + 33,280"
     },
     {
@@ -23642,7 +23673,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures pleines = Epex RLP M x 1,276 + 33,280"
     },
     {
@@ -23653,7 +23684,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures creuses = Epex RLP M x 0,894 + 33,280"
     },
     {
@@ -23664,7 +23695,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "exclusif nuit = Epex RLP M x 0,978 + 33,280"
     },
     {
@@ -23675,7 +23706,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8560 - 16,20"
     }
    ]
@@ -23846,7 +23877,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8520 - 13,39"
     }
    ],
@@ -23889,7 +23920,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,5290 - 4,12"
     }
    ],
@@ -23932,7 +23963,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8560 - 16,20"
     }
    ],
@@ -23975,7 +24006,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8560 - 16,20"
     }
    ],
@@ -24576,8 +24607,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "Epex RLP M",
    "serie": "Epex DAM RLP",
    "formules": [
@@ -24589,7 +24620,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "mono-horaire = Epex RLP M x 1,102 + 1,120"
     },
     {
@@ -24600,7 +24631,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures pleines = Epex RLP M x 1,321 + 1,120"
     },
     {
@@ -24611,7 +24642,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures creuses = Epex RLP M x 0,939 + 1,120"
     },
     {
@@ -24622,7 +24653,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "exclusif nuit = Epex RLP M x 1,023 + 1,120"
     },
     {
@@ -24633,7 +24664,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,5290 - 4,12"
     }
    ]
@@ -24651,8 +24682,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "Epex RLP M",
    "serie": "Epex DAM RLP",
    "formules": [
@@ -24664,7 +24695,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "mono-horaire = Epex RLP M x 1,067 + 4,280"
     },
     {
@@ -24675,7 +24706,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures pleines = Epex RLP M x 1,286 + 4,280"
     },
     {
@@ -24686,7 +24717,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures creuses = Epex RLP M x 0,904 + 4,280"
     },
     {
@@ -24697,7 +24728,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "exclusif nuit = Epex RLP M x 0,988 + 4,280"
     },
     {
@@ -24708,7 +24739,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8560 - 16,20"
     }
    ]
@@ -24726,8 +24757,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "Epex RLP M",
    "serie": "Epex DAM RLP",
    "formules": [
@@ -24739,7 +24770,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "mono-horaire = Epex RLP M x 1,067 + 4,280"
     },
     {
@@ -24750,7 +24781,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures pleines = Epex RLP M x 1,286 + 4,280"
     },
     {
@@ -24761,7 +24792,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures creuses = Epex RLP M x 0,904 + 4,280"
     },
     {
@@ -24772,7 +24803,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "exclusif nuit = Epex RLP M x 0,988 + 4,280"
     },
     {
@@ -24783,7 +24814,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8560 - 16,20"
     }
    ]
@@ -24801,8 +24832,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "Epex RLP M",
    "serie": "Epex DAM RLP",
    "formules": [
@@ -24814,7 +24845,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "mono-horaire = Epex RLP M x 1,145 + 3,650"
     },
     {
@@ -24825,7 +24856,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures pleines = Epex RLP M x 1,364 + 3,650"
     },
     {
@@ -24836,7 +24867,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "heures creuses = Epex RLP M x 0,982 + 3,650"
     },
     {
@@ -24847,7 +24878,7 @@
      "indice_fiche": "Epex RLP M",
      "serie": "Epex DAM RLP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "exclusif nuit = Epex RLP M x 1,066 + 3,650"
     },
     {
@@ -24858,7 +24889,7 @@
      "indice_fiche": "Epex SPP M",
      "serie": "Epex DAM SPP",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en €/MWh HTVA = Epex SPP M x 0,8520 - 11,89"
     }
    ]
@@ -34063,7 +34094,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -34076,10 +34107,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            5,47"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 20.0
   },
   {
@@ -34095,7 +34127,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -34108,10 +34140,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            5,47"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 20.0
   },
   {
@@ -34127,7 +34160,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -34140,10 +34173,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            5,47"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 20.0
   },
   {
@@ -34190,7 +34224,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -34203,10 +34237,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                                 6,95"
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-gaz-wallonie-2026-01-comfy-fixe",
@@ -35094,7 +35129,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -35107,10 +35142,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                                 5,36"
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-gaz-wallonie-2026-02-maxxfix-gaz-2-ans-fixe",
@@ -35125,7 +35161,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -35138,10 +35174,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                                 5,52"
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-gaz-wallonie-2026-03-maxxfix-gaz-2-ans-fixe",
@@ -35156,7 +35193,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -35169,10 +35206,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            5,54"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -35188,7 +35226,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -35201,10 +35239,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            8,09"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -35220,7 +35259,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -35233,10 +35272,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            6,88"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -35252,7 +35292,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -35265,10 +35305,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            7,20"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -35284,7 +35325,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -35297,10 +35338,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            6,55"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -35316,7 +35358,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -35329,10 +35371,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            8,38"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -35348,7 +35391,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -35361,10 +35404,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            9,02"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -39960,8 +40004,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "TTF RLP M",
    "serie": "TTF DAM",
    "formules": [
@@ -39973,7 +40017,7 @@
      "indice_fiche": "TTF RLP M",
      "serie": "TTF DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = TTF RLP M x 1,010 + 19,910"
     }
    ]
@@ -39991,8 +40035,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "TTF RLP M",
    "serie": "TTF DAM",
    "formules": [
@@ -40004,7 +40048,7 @@
      "indice_fiche": "TTF RLP M",
      "serie": "TTF DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = TTF RLP M x 1,010 + 19,910"
     }
    ]
@@ -40022,8 +40066,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -40035,7 +40079,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 19,910"
     }
    ]
@@ -40447,8 +40491,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -40460,7 +40504,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 2,160"
     }
    ]
@@ -40478,8 +40522,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -40491,7 +40535,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 2,160"
     }
    ]
@@ -40509,8 +40553,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -40522,7 +40566,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 2,160"
     }
    ]
@@ -40540,8 +40584,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -40553,7 +40597,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,000 + 3,160"
     }
    ]

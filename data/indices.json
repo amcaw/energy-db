@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-21T16:30:05+00:00",
+ "genere_le": "2026-09-22T08:20:29+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -614,8 +614,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 77.1522,
-    "jours_connus": 20,
+    "valeur": 77.0435,
+    "jours_connus": 21,
     "jours_total": 30,
     "definitif": false
    }
@@ -814,8 +814,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 77.2118,
-    "jours_connus": 20,
+    "valeur": 77.0775,
+    "jours_connus": 21,
     "jours_total": 30,
     "definitif": false
    }

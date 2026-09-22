@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-21T16:30:05+00:00",
+ "genere_le": "2026-09-22T08:20:29+00:00",
  "indices": 12,
  "series_quotidiennes": {
   "Epex DAM": {
@@ -8,18 +8,18 @@
    "dernier": "2026-09-22"
   },
   "TTF DAM": {
-   "jours": 371,
+   "jours": 372,
    "premier": "2025-09-15",
-   "dernier": "2026-09-20"
+   "dernier": "2026-09-21"
   },
   "ZTP DAM": {
-   "jours": 371,
+   "jours": 372,
    "premier": "2025-09-15",
-   "dernier": "2026-09-20"
+   "dernier": "2026-09-21"
   }
  },
  "valeurs_mensuelles": 615,
- "valeurs_quotidiennes": 3199,
+ "valeurs_quotidiennes": 3201,
  "contrats": 902,
  "fichiers": [
   "indices.json",

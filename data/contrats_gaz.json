@@ -1,6 +1,6 @@
 {
- "genere_le": "2026-09-21T16:15:49+00:00",
- "source": "barometre des tarifs variables, extraction du 2026-09-21",
+ "genere_le": "2026-09-22T08:19:55+00:00",
+ "source": "barometre des tarifs variables, extraction du 2026-09-22",
  "prix": "prix_c_eur_kwh = (a * indice * rapport + b) * (1 + tva_pct / 100)",
  "contrats": [
   {
@@ -4702,7 +4702,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -4715,10 +4715,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            5,47"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 20.0
   },
   {
@@ -4734,7 +4735,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -4747,10 +4748,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            5,47"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 20.0
   },
   {
@@ -4766,7 +4768,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -4779,10 +4781,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            5,47"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 20.0
   },
   {
@@ -4829,7 +4832,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -4842,10 +4845,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                                 6,95"
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-gaz-wallonie-2026-01-comfy-fixe",
@@ -5733,7 +5737,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -5746,10 +5750,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                                 5,36"
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-gaz-wallonie-2026-02-maxxfix-gaz-2-ans-fixe",
@@ -5764,7 +5769,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -5777,10 +5782,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                                 5,52"
     }
-   ]
+   ],
+   "base_tva": "TVAC"
   },
   {
    "cle": "luminus-gaz-wallonie-2026-03-maxxfix-gaz-2-ans-fixe",
@@ -5795,7 +5801,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -5808,10 +5814,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            5,54"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -5827,7 +5834,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -5840,10 +5847,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            8,09"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -5859,7 +5867,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -5872,10 +5880,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            6,88"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -5891,7 +5900,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -5904,10 +5913,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            7,20"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -5923,7 +5933,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -5936,10 +5946,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            6,55"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -5955,7 +5966,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -5968,10 +5979,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            8,38"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -5987,7 +5999,7 @@
    "lisible": true,
    "prix_fixe": true,
    "periodicite": "mensuelle",
-   "tva_pct": 6.0,
+   "tva_pct": 0.0,
    "tvac": true,
    "indice_fiche": "",
    "serie": "ZTP DAM",
@@ -6000,10 +6012,11 @@
      "indice_fiche": "",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 6.0,
+     "tva_pct": 0.0,
      "ligne_source": "Énergie (c€/kWh)                            9,02"
     }
    ],
+   "base_tva": "TVAC",
    "redevance_eur_an": 50.0
   },
   {
@@ -10599,8 +10612,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "TTF RLP M",
    "serie": "TTF DAM",
    "formules": [
@@ -10612,7 +10625,7 @@
      "indice_fiche": "TTF RLP M",
      "serie": "TTF DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = TTF RLP M x 1,010 + 19,910"
     }
    ]
@@ -10630,8 +10643,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "TTF RLP M",
    "serie": "TTF DAM",
    "formules": [
@@ -10643,7 +10656,7 @@
      "indice_fiche": "TTF RLP M",
      "serie": "TTF DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = TTF RLP M x 1,010 + 19,910"
     }
    ]
@@ -10661,8 +10674,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -10674,7 +10687,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 19,910"
     }
    ]
@@ -11086,8 +11099,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -11099,7 +11112,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 2,160"
     }
    ]
@@ -11117,8 +11130,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -11130,7 +11143,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 2,160"
     }
    ]
@@ -11148,8 +11161,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -11161,7 +11174,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 2,160"
     }
    ]
@@ -11179,8 +11192,8 @@
    "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
+   "tva_pct": 6.0,
+   "tvac": true,
    "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
@@ -11192,7 +11205,7 @@
      "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
-     "tva_pct": 0.0,
+     "tva_pct": 6.0,
      "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,000 + 3,160"
     }
    ]
