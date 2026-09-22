@@ -1,3 +1,4 @@
+import csv
 import json
 import os
 import re
@@ -8,6 +9,27 @@ RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SORTIE = os.path.join(RACINE, "data")
 DEFAUT = os.path.join(os.path.dirname(RACINE), "svelte_energy", "static", "donnees",
                       "barometre.json")
+MANIFESTE = os.path.join(os.path.dirname(RACINE), "svelte_energy", "fiches",
+                         "comparateur", "manifeste.csv")
+
+
+HORODATAGE_MEDIA = re.compile(r"/([0-9a-f]{8})[0-9a-f]*\.pdf")
+
+
+def parue_le(url):
+    m = HORODATAGE_MEDIA.search(url or "")
+    if not m:
+        return ""
+    horodatage = datetime.fromtimestamp(int(m.group(1), 16), timezone.utc)
+    return horodatage.date().isoformat()
+
+
+def publications():
+    if not os.path.exists(MANIFESTE):
+        return {}
+    with open(MANIFESTE, newline="", encoding="utf-8") as f:
+        return {r["fournisseur"] + "/" + r["fichier"]: r["url"]
+                for r in csv.DictReader(f) if r.get("url")}
 
 
 def slug(*bouts):
@@ -32,7 +54,7 @@ def formule(f):
     }
 
 
-def convertir(c):
+def convertir(c, urls=None):
     out = {
         "cle": slug(c["fournisseur"], c["energie"], c["region"], c["signature"],
                     c.get("produit_source") or c["produit"], c.get("type"), c.get("duree")),
@@ -59,6 +81,14 @@ def convertir(c):
         out["redevance_eur_an"] = c["redevance"]
     if c.get("muet"):
         out["raison_non_lue"] = c.get("raison", "")
+    if c.get("fiche"):
+        out["fiche"] = c["fiche"]
+        lien = (urls or {}).get(c["fiche"])
+        if lien:
+            out["fiche_url"] = lien
+            paru = parue_le(lien)
+            if paru:
+                out["fiche_parue_le"] = paru
     return out
 
 
@@ -75,7 +105,8 @@ def main(chemin=DEFAUT):
         return 1
     paquet = json.load(open(chemin, encoding="utf-8"))
     horodatage = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    contrats = [convertir(c) for c in paquet["contrats"]]
+    urls = publications()
+    contrats = [convertir(c, urls) for c in paquet["contrats"]]
     contrats.sort(key=lambda c: (c["energie"], c["fournisseur"], c["produit"],
                                  c["signature"]))
     vus, uniques = set(), []
@@ -101,6 +132,8 @@ def main(chemin=DEFAUT):
         "signatures": f"{min(c['signature'] for c in uniques)} -> "
                       f"{max(c['signature'] for c in uniques)}",
         "formules": sum(len(c["formules"]) for c in uniques),
+        "avec_lien_fiche": sum(1 for c in uniques if c.get("fiche_url")),
+        "gaz_avec_lien_fiche": sum(1 for c in gaz if c.get("fiche_url")),
     }, ensure_ascii=False, indent=1))
     return 0
 
