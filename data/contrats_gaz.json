@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-22T08:19:55+00:00",
+ "genere_le": "2026-09-22T10:13:02+00:00",
  "source": "barometre des tarifs variables, extraction du 2026-09-22",
  "prix": "prix_c_eur_kwh = (a * indice * rapport + b) * (1 + tva_pct / 100)",
  "contrats": [
@@ -10583,19 +10583,19 @@
    "periodicite": "mensuelle",
    "tva_pct": 6.0,
    "tvac": true,
-   "indice_fiche": "ZTP RLP",
-   "serie": "ZTP DAM",
+   "indice_fiche": "TTF RLP M",
+   "serie": "TTF DAM",
    "formules": [
     {
      "flux": "consommation",
      "usage": "unique",
      "a": 0.101,
      "b": 1.991,
-     "indice_fiche": "ZTP RLP",
-     "serie": "ZTP DAM",
+     "indice_fiche": "TTF RLP M",
+     "serie": "TTF DAM",
      "rapport": 1.0,
      "tva_pct": 6.0,
-     "ligne_source": "formule tarifaire est = ZTP RLP x 1,01 + 19,91"
+     "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = TTF RLP M x 1,010 + 19,910"
     }
    ]
   },
@@ -10645,19 +10645,19 @@
    "periodicite": "mensuelle",
    "tva_pct": 6.0,
    "tvac": true,
-   "indice_fiche": "TTF RLP M",
-   "serie": "TTF DAM",
+   "indice_fiche": "ZTP RLP M",
+   "serie": "ZTP DAM",
    "formules": [
     {
      "flux": "consommation",
      "usage": "unique",
      "a": 0.101,
      "b": 1.991,
-     "indice_fiche": "TTF RLP M",
-     "serie": "TTF DAM",
+     "indice_fiche": "ZTP RLP M",
+     "serie": "ZTP DAM",
      "rapport": 1.0,
      "tva_pct": 6.0,
-     "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = TTF RLP M x 1,010 + 19,910"
+     "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 19,910"
     }
    ]
   },
@@ -11070,7 +11070,7 @@
    "periodicite": "mensuelle",
    "tva_pct": 6.0,
    "tvac": true,
-   "indice_fiche": "ZTP RLP",
+   "indice_fiche": "ZTP RLP M",
    "serie": "ZTP DAM",
    "formules": [
     {
@@ -11078,11 +11078,11 @@
      "usage": "unique",
      "a": 0.101,
      "b": 0.21600000000000003,
-     "indice_fiche": "ZTP RLP",
+     "indice_fiche": "ZTP RLP M",
      "serie": "ZTP DAM",
      "rapport": 1.0,
      "tva_pct": 6.0,
-     "ligne_source": "formule tarifaire est = ZTP RLP x 1,01 + 2,16"
+     "ligne_source": "formule de prix est la suivante, en EUR/MWh HTVA = ZTP RLP M x 1,010 + 2,160"
     }
    ]
   },
