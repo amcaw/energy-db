@@ -1,8 +1,41 @@
 {
- "genere_le": "2026-09-22T12:01:21+00:00",
- "source": "barometre des tarifs variables, extraction du 2026-09-22",
+ "genere_le": "2026-09-24T11:05:31+00:00",
+ "source": "barometre des tarifs variables, extraction du 2026-09-24",
  "prix": "prix_c_eur_kwh = (a * indice * rapport + b) * (1 + tva_pct / 100)",
  "contrats": [
+  {
+   "cle": "bolt-gaz-wallonie-2026-09-bolt-variable-variable",
+   "fournisseur": "bolt",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "Bolt Variable",
+   "produit_affiche": "Bolt Variable",
+   "type": "variable",
+   "duree": "",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "MWh TTF",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.1049,
+     "b": 1.01,
+     "indice_fiche": "MWh TTF",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "Tariefformule = MWh TTF x 1,049 + 10,10"
+    }
+   ],
+   "fiche": "bolt/gaz/particulier_wallonie_2026-09_Bolt-Variable_variable.pdf",
+   "fiche_url": "https://files.boltenergie.be/pricelists/var/bolt_res_ng_nl_13.pdf"
+  },
   {
    "cle": "bolt-gaz-wallonie-2026-01-gaz-fixed-fixe",
    "fournisseur": "bolt",
@@ -247,14 +280,14 @@
    "fiche_parue_le": "2026-09-15"
   },
   {
-   "cle": "ecofix-gaz-wallonie-2026-08-flexy-gaz",
-   "fournisseur": "ecofix",
+   "cle": "bolt-gaz-wallonie-2026-09-plenty-fixe-fixe",
+   "fournisseur": "bolt",
    "energie": "gaz",
    "region": "wallonie",
-   "signature": "2026-08",
-   "produit": "Flexy Gaz",
-   "produit_affiche": "Flexy Gaz",
-   "type": "",
+   "signature": "2026-09",
+   "produit": "Plenty Fixe",
+   "produit_affiche": "Plenty Fixe",
+   "type": "fixe",
    "duree": "",
    "lisible": false,
    "prix_fixe": false,
@@ -265,6 +298,72 @@
    "serie": "ZTP DAM",
    "formules": [],
    "raison_non_lue": "Contrat à prix fixe dont le prix n'a pas pu être lu dans la fiche.",
+   "fiche": "bolt/gaz/particulier_wallonie_2026-09_Plenty-Fixe_fixe_1an.pdf",
+   "fiche_url": "https://files.boltenergie.be/pricelists/fix/plenty_fix_res_ng_fr_202609.pdf"
+  },
+  {
+   "cle": "bolt-gaz-wallonie-2026-09-plenty-variable-variable",
+   "fournisseur": "bolt",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "Plenty Variable",
+   "produit_affiche": "Plenty Variable",
+   "type": "variable",
+   "duree": "",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "MWh TTF",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.1049,
+     "b": 1.01,
+     "indice_fiche": "MWh TTF",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "Formule tarifaire = MWh TTF x 1,049 + 10,10"
+    }
+   ],
+   "fiche": "bolt/gaz/particulier_wallonie_2026-09_Plenty-Variable_variable.pdf",
+   "fiche_url": "https://files.boltenergie.be/pricelists/var/plenty_res_ng_fr_13.pdf"
+  },
+  {
+   "cle": "ecofix-gaz-wallonie-2026-08-flexy-gaz",
+   "fournisseur": "ecofix",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-08",
+   "produit": "Flexy Gaz",
+   "produit_affiche": "Flexy Gaz",
+   "type": "",
+   "duree": "",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "TTF-RLP-M",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.101,
+     "b": 0.52,
+     "indice_fiche": "TTF-RLP-M",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "btw) = 0,1010 x TTF-RLP-M) + 0,5200"
+    }
+   ],
    "fiche": "ecofix/gaz/particulier_wallonie_2026-08_Flexy-Gaz.pdf",
    "fiche_url": "https://www.comparateur-energie.be/uploads/media/6a7166c0a6f5b.pdf",
    "fiche_parue_le": "2026-08-04"
@@ -279,15 +378,26 @@
    "produit_affiche": "Flexy Gaz",
    "type": "",
    "duree": "",
-   "lisible": false,
+   "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
-   "indice_fiche": "",
-   "serie": "ZTP DAM",
-   "formules": [],
-   "raison_non_lue": "Contrat à prix fixe dont le prix n'a pas pu être lu dans la fiche.",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "TTF-RLP-M",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.101,
+     "b": 0.52,
+     "indice_fiche": "TTF-RLP-M",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "btw) = 0,1010 x TTF-RLP-M) + 0,5200"
+    }
+   ],
    "fiche": "ecofix/gaz/particulier_wallonie_2026-09_Flexy-Gaz.pdf",
    "fiche_url": "https://www.comparateur-energie.be/uploads/media/6a96511fd73c4.pdf",
    "fiche_parue_le": "2026-09-01"
@@ -302,15 +412,26 @@
    "produit_affiche": "Flexy Online Gaz",
    "type": "",
    "duree": "",
-   "lisible": false,
+   "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
-   "indice_fiche": "",
-   "serie": "ZTP DAM",
-   "formules": [],
-   "raison_non_lue": "Contrat à prix fixe dont le prix n'a pas pu être lu dans la fiche.",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "TTF-RLP-M",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.101,
+     "b": 0.22,
+     "indice_fiche": "TTF-RLP-M",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "btw) = 0,1010 x TTF-RLP-M) + 0,2200"
+    }
+   ],
    "fiche": "ecofix/gaz/particulier_wallonie_2026-08_Flexy-Online-Gaz.pdf",
    "fiche_url": "https://www.comparateur-energie.be/uploads/media/6a7166c78f36a.pdf",
    "fiche_parue_le": "2026-08-04"
@@ -325,15 +446,26 @@
    "produit_affiche": "Flexy Online Gaz",
    "type": "",
    "duree": "",
-   "lisible": false,
+   "lisible": true,
    "prix_fixe": false,
    "periodicite": "mensuelle",
-   "tva_pct": 0.0,
-   "tvac": false,
-   "indice_fiche": "",
-   "serie": "ZTP DAM",
-   "formules": [],
-   "raison_non_lue": "Contrat à prix fixe dont le prix n'a pas pu être lu dans la fiche.",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "TTF-RLP-M",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.101,
+     "b": 0.22,
+     "indice_fiche": "TTF-RLP-M",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "btw) = 0,1010 x TTF-RLP-M) + 0,2200"
+    }
+   ],
    "fiche": "ecofix/gaz/particulier_wallonie_2026-09_Flexy-Online-Gaz.pdf",
    "fiche_url": "https://www.comparateur-energie.be/uploads/media/6a9651233846f.pdf",
    "fiche_parue_le": "2026-09-01"
@@ -652,6 +784,39 @@
    "fiche": "eneco/gaz/particulier_wallonie_2026-09_Eneco-Gaz-Naturel_fixe.pdf",
    "fiche_url": "https://www.comparateur-energie.be/uploads/media/6a964eb77ef31.pdf",
    "fiche_parue_le": "2026-09-01"
+  },
+  {
+   "cle": "eneco-gaz-wallonie-2026-09-eneco-gaz-naturel-flex-one-variable-1an",
+   "fournisseur": "eneco",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "Eneco Gaz Naturel Flex One",
+   "produit_affiche": "Eneco Gaz Naturel Flex One",
+   "type": "variable",
+   "duree": "1an",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "TTFDAW-RLP-M",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.1,
+     "b": 0.437,
+     "indice_fiche": "TTFDAW-RLP-M",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "Tarif mensuel = 0,1 X TTFDAW-RLP-M + 0,437"
+    }
+   ],
+   "fiche": "eneco/gaz/particulier_wallonie_2026-09_Eneco-Gaz-Naturel-Flex-One_variable_1an.pdf",
+   "fiche_url": "https://cdn.eneco.be/downloads/fr/general/tk/BC_032_012609_FR_ENECO_GAS_FLEX_ONE.pdf"
   },
   {
    "cle": "eneco-gaz-wallonie-2026-01-gaz-naturel-flex",
@@ -5266,6 +5431,28 @@
    "fiche_parue_le": "2026-04-30"
   },
   {
+   "cle": "luminus-gaz-wallonie-2026-09-basicfix-online-fixe",
+   "fournisseur": "luminus",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "BasicFix Online",
+   "produit_affiche": "BasicFix Online",
+   "type": "fixe",
+   "duree": "",
+   "lisible": false,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 0.0,
+   "tvac": false,
+   "indice_fiche": "",
+   "serie": "ZTP DAM",
+   "formules": [],
+   "raison_non_lue": "Contrat à prix fixe dont le prix n'a pas pu être lu dans la fiche.",
+   "fiche": "luminus/gaz/particulier_wallonie_2026-09_BasicFix-Online_fixe_2an.pdf",
+   "fiche_url": "https://www.luminus.be/api-next/get-pricelist?documentSlug=basicfix&energyType=gas&language=fr&tabValue=Wallonia"
+  },
+  {
    "cle": "luminus-gaz-wallonie-2026-03-basicflex-gaz",
    "fournisseur": "luminus",
    "energie": "gaz",
@@ -5298,6 +5485,39 @@
    "fiche": "luminus/gaz/particulier_wallonie_2026-03_BasicFlex-Gaz.pdf",
    "fiche_url": "https://www.comparateur-energie.be/uploads/media/69c10e9d6875d.pdf",
    "fiche_parue_le": "2026-03-23"
+  },
+  {
+   "cle": "luminus-gaz-wallonie-2026-09-basicflex-online-variable",
+   "fournisseur": "luminus",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "BasicFlex Online",
+   "produit_affiche": "BasicFlex Online",
+   "type": "variable",
+   "duree": "",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "TTF DAH RLP M",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.1001,
+     "b": 0.5609,
+     "indice_fiche": "TTF DAH RLP M",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "Formule tarifaire pour le coût de l'énergie = 0,1001 x TTF DAH RLP M + 0,5609"
+    }
+   ],
+   "fiche": "luminus/gaz/particulier_wallonie_2026-09_BasicFlex-Online_variable.pdf",
+   "fiche_url": "https://www.luminus.be/api-next/get-pricelist?documentSlug=basicflex&energyType=gas&language=fr&tabValue=Wallonia"
   },
   {
    "cle": "luminus-gaz-bruxelles-2026-01-comfy-fixe",
@@ -5659,7 +5879,7 @@
    "fiche_parue_le": "2026-09-04"
   },
   {
-   "cle": "luminus-gaz-wallonie-2026-01-comfy-fixe-628",
+   "cle": "luminus-gaz-wallonie-2026-01-comfy-fixe-656",
    "fournisseur": "luminus",
    "energie": "gaz",
    "region": "wallonie",
@@ -5695,7 +5915,7 @@
    "fiche_parue_le": "2026-01-19"
   },
   {
-   "cle": "luminus-gaz-wallonie-2026-02-comfy-fixe-629",
+   "cle": "luminus-gaz-wallonie-2026-02-comfy-fixe-657",
    "fournisseur": "luminus",
    "energie": "gaz",
    "region": "wallonie",
@@ -5731,7 +5951,7 @@
    "fiche_parue_le": "2026-02-03"
   },
   {
-   "cle": "luminus-gaz-wallonie-2026-03-comfy-fixe-630",
+   "cle": "luminus-gaz-wallonie-2026-03-comfy-fixe-658",
    "fournisseur": "luminus",
    "energie": "gaz",
    "region": "wallonie",
@@ -5767,7 +5987,7 @@
    "fiche_parue_le": "2026-03-06"
   },
   {
-   "cle": "luminus-gaz-wallonie-2026-04-comfy-fixe-631",
+   "cle": "luminus-gaz-wallonie-2026-04-comfy-fixe-659",
    "fournisseur": "luminus",
    "energie": "gaz",
    "region": "wallonie",
@@ -5803,7 +6023,7 @@
    "fiche_parue_le": "2026-04-03"
   },
   {
-   "cle": "luminus-gaz-wallonie-2026-05-comfy-fixe-632",
+   "cle": "luminus-gaz-wallonie-2026-05-comfy-fixe-660",
    "fournisseur": "luminus",
    "energie": "gaz",
    "region": "wallonie",
@@ -5839,7 +6059,7 @@
    "fiche_parue_le": "2026-05-07"
   },
   {
-   "cle": "luminus-gaz-wallonie-2026-06-comfy-fixe-633",
+   "cle": "luminus-gaz-wallonie-2026-06-comfy-fixe-661",
    "fournisseur": "luminus",
    "energie": "gaz",
    "region": "wallonie",
@@ -5875,7 +6095,7 @@
    "fiche_parue_le": "2026-06-03"
   },
   {
-   "cle": "luminus-gaz-wallonie-2026-07-comfy-fixe-634",
+   "cle": "luminus-gaz-wallonie-2026-07-comfy-fixe-662",
    "fournisseur": "luminus",
    "energie": "gaz",
    "region": "wallonie",
@@ -5911,7 +6131,7 @@
    "fiche_parue_le": "2026-07-03"
   },
   {
-   "cle": "luminus-gaz-wallonie-2026-08-comfy-fixe-635",
+   "cle": "luminus-gaz-wallonie-2026-08-comfy-fixe-663",
    "fournisseur": "luminus",
    "energie": "gaz",
    "region": "wallonie",
@@ -5947,7 +6167,7 @@
    "fiche_parue_le": "2026-08-05"
   },
   {
-   "cle": "luminus-gaz-wallonie-2026-09-comfy-fixe-636",
+   "cle": "luminus-gaz-wallonie-2026-09-comfy-fixe-664",
    "fournisseur": "luminus",
    "energie": "gaz",
    "region": "wallonie",
@@ -6287,6 +6507,39 @@
    "fiche": "luminus/gaz/particulier_wallonie_2026-09_ComfyFlex.pdf",
    "fiche_url": "https://www.comparateur-energie.be/uploads/media/6a9ad312e219a.pdf",
    "fiche_parue_le": "2026-09-04"
+  },
+  {
+   "cle": "luminus-gaz-wallonie-2026-09-comfyflex-variable-1an",
+   "fournisseur": "luminus",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "ComfyFlex+",
+   "produit_affiche": "ComfyFlex+",
+   "type": "variable",
+   "duree": "1an",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "trimestrielle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "TTF DAHW",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.1004,
+     "b": 2.3954,
+     "indice_fiche": "TTF DAHW",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "0,1004 x TTF DAHW + 0,0000 x TTF 1-0-3 + 2,3954"
+    }
+   ],
+   "fiche": "luminus/gaz/particulier_wallonie_2026-09_ComfyFlex-_variable_1an.pdf",
+   "fiche_url": "https://www.luminus.be/api-next/get-pricelist?documentSlug=comfyflex-plus&energyType=gas&language=fr&tabValue=Wallonia"
   },
   {
    "cle": "luminus-gaz-wallonie-2026-01-maxxfix-gaz-2-ans-fixe",
@@ -8844,6 +9097,61 @@
    "fiche_parue_le": "2026-04-30"
   },
   {
+   "cle": "mega-gaz-wallonie-2026-09-offre-speciale-testachats-fix-fixe",
+   "fournisseur": "mega",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "Offre spéciale Testachats - FIX",
+   "produit_affiche": "Offre spéciale Testachats - FIX",
+   "type": "fixe",
+   "duree": "",
+   "lisible": false,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 0.0,
+   "tvac": false,
+   "indice_fiche": "",
+   "serie": "ZTP DAM",
+   "formules": [],
+   "raison_non_lue": "Contrat à prix fixe dont le prix n'a pas pu être lu dans la fiche.",
+   "fiche": "mega/gaz/particulier_wallonie_2026-09_Offre-sp-ciale-Testachats-FIX_fixe.pdf",
+   "fiche_url": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-TA0526_0109-Fix.pdf"
+  },
+  {
+   "cle": "mega-gaz-wallonie-2026-09-offre-speciale-testachats-var-variable",
+   "fournisseur": "mega",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "Offre spéciale Testachats - VAR",
+   "produit_affiche": "Offre spéciale Testachats - VAR",
+   "type": "variable",
+   "duree": "",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "ZTP",
+   "serie": "ZTP DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.10500000000000001,
+     "b": 0.9,
+     "indice_fiche": "ZTP",
+     "serie": "ZTP DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "formule tarifaire pour le gaz est la suivante (HTVA) = ZTP x 1,05 + 0,9"
+    }
+   ],
+   "fiche": "mega/gaz/particulier_wallonie_2026-09_Offre-sp-ciale-Testachats-VAR_variable.pdf",
+   "fiche_url": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-TA0526-Var.pdf"
+  },
+  {
    "cle": "mega-gaz-bruxelles-2026-01-online-fixed-gaz-fixe",
    "fournisseur": "mega",
    "energie": "gaz",
@@ -9808,6 +10116,61 @@
    "fiche": "mega/gaz/particulier_wallonie_2026-09_Online-Flex.pdf",
    "fiche_url": "https://www.comparateur-energie.be/uploads/media/6a964fca248c4.pdf",
    "fiche_parue_le": "2026-09-01"
+  },
+  {
+   "cle": "mega-gaz-wallonie-2026-09-prepaid-fixed-fixe",
+   "fournisseur": "mega",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "Prepaid Fixed",
+   "produit_affiche": "Prepaid Fixed",
+   "type": "fixe",
+   "duree": "",
+   "lisible": false,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 0.0,
+   "tvac": false,
+   "indice_fiche": "",
+   "serie": "ZTP DAM",
+   "formules": [],
+   "raison_non_lue": "Contrat à prix fixe dont le prix n'a pas pu être lu dans la fiche.",
+   "fiche": "mega/gaz/particulier_wallonie_2026-09_Prepaid-Fixed_fixe.pdf",
+   "fiche_url": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Prepaid0109-Fix.pdf"
+  },
+  {
+   "cle": "mega-gaz-wallonie-2026-09-prepaid-flex-variable",
+   "fournisseur": "mega",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "Prepaid Flex",
+   "produit_affiche": "Prepaid Flex",
+   "type": "variable",
+   "duree": "",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "ZTP",
+   "serie": "ZTP DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.10800000000000001,
+     "b": 0.2,
+     "indice_fiche": "ZTP",
+     "serie": "ZTP DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "formule tarifaire pour le gaz est la suivante (HTVA) = ZTP x 1,08 + 0,20"
+    }
+   ],
+   "fiche": "mega/gaz/particulier_wallonie_2026-09_Prepaid-Flex_variable.pdf",
+   "fiche_url": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Prepaid.pdf"
   },
   {
    "cle": "mega-gaz-bruxelles-2026-01-smart-fixed-fixe",
@@ -12341,6 +12704,39 @@
    "fiche_parue_le": "2026-04-30"
   },
   {
+   "cle": "octa-gaz-wallonie-2026-09-smart-variable-variable-1an",
+   "fournisseur": "octa",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "Smart Variable",
+   "produit_affiche": "Smart Variable",
+   "type": "variable",
+   "duree": "1an",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "ZTP RLP M",
+   "serie": "ZTP DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.11499999999999999,
+     "b": 1.0,
+     "indice_fiche": "ZTP RLP M",
+     "serie": "ZTP DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "formule tarifaire est = ZTP RLP M x 1,15+ 10"
+    }
+   ],
+   "fiche": "octa/gaz/particulier_wallonie_2026-09_Smart-Variable_variable_1an.pdf",
+   "fiche_url": "https://files.octaplus.be/tariffs/G_OCTA_SMARTVARIABLE_RE_WL_FR.pdf?_ga=2.86392669.453097928.1717492506-1438632901.1670394591"
+  },
+  {
    "cle": "octa-gaz-wallonie-2026-04-tarif-smart-variable",
    "fournisseur": "octa",
    "energie": "gaz",
@@ -13364,6 +13760,39 @@
    "fiche_parue_le": "2026-09-02"
   },
   {
+   "cle": "total-gaz-wallonie-2026-09-impact-variable",
+   "fournisseur": "total",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "Impact",
+   "produit_affiche": "Impact",
+   "type": "variable",
+   "duree": "",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "TTF_M_RLP",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.1007,
+     "b": 0.704,
+     "indice_fiche": "TTF_M_RLP",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "Tarif mensuel = 0.1007 x TTF_M_RLP + 0.704"
+    }
+   ],
+   "fiche": "total/gaz/particulier_wallonie_2026-09_Impact_variable.pdf",
+   "fiche_url": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/IMPACT_GAS_WAL_FR.pdf"
+  },
+  {
    "cle": "total-gaz-bruxelles-2026-01-mycomfort-fix-fixe",
    "fournisseur": "total",
    "energie": "gaz",
@@ -13574,6 +14003,28 @@
    "fiche_parue_le": "2026-03-03"
   },
   {
+   "cle": "total-gaz-wallonie-2026-09-mycomfort-fixe-fixe",
+   "fournisseur": "total",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "myComfort Fixe",
+   "produit_affiche": "myComfort Fixe",
+   "type": "fixe",
+   "duree": "",
+   "lisible": false,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 0.0,
+   "tvac": false,
+   "indice_fiche": "",
+   "serie": "ZTP DAM",
+   "formules": [],
+   "raison_non_lue": "Contrat à prix fixe dont le prix n'a pas pu être lu dans la fiche.",
+   "fiche": "total/gaz/particulier_wallonie_2026-09_myComfort-Fixe_fixe_1an.pdf",
+   "fiche_url": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYCOMFORT-FIXED_GAS_WAL_FR.pdf"
+  },
+  {
    "cle": "total-gaz-bruxelles-2026-01-mycomfort-variable-variable",
    "fournisseur": "total",
    "energie": "gaz",
@@ -13776,6 +14227,39 @@
    "fiche": "total/gaz/particulier_wallonie_2026-03_Carte-tarifaire-TotalEnergies-myComfort_variable.pdf",
    "fiche_url": "https://www.comparateur-energie.be/uploads/media/69a6e3ddcacb5.pdf",
    "fiche_parue_le": "2026-03-03"
+  },
+  {
+   "cle": "total-gaz-wallonie-2026-09-mycomfort-variable-variable",
+   "fournisseur": "total",
+   "energie": "gaz",
+   "region": "wallonie",
+   "signature": "2026-09",
+   "produit": "myComfort Variable",
+   "produit_affiche": "myComfort Variable",
+   "type": "variable",
+   "duree": "",
+   "lisible": true,
+   "prix_fixe": false,
+   "periodicite": "mensuelle",
+   "tva_pct": 6.0,
+   "tvac": true,
+   "indice_fiche": "TTF_M_RLP",
+   "serie": "TTF DAM",
+   "formules": [
+    {
+     "flux": "consommation",
+     "usage": "unique",
+     "a": 0.1007,
+     "b": 0.704,
+     "indice_fiche": "TTF_M_RLP",
+     "serie": "TTF DAM",
+     "rapport": 1.0,
+     "tva_pct": 6.0,
+     "ligne_source": "Tarif mensuel = 0.1007 x TTF_M_RLP + 0.704"
+    }
+   ],
+   "fiche": "total/gaz/particulier_wallonie_2026-09_myComfort-Variable_variable.pdf",
+   "fiche_url": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYCOMFORT_GAS_WAL_FR.pdf"
   },
   {
    "cle": "total-gaz-bruxelles-2026-01-myessential-fix-fixe",
