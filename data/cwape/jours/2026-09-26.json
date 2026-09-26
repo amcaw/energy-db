@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T10:09:21+00:00",
+ "releve_le": "2026-09-26T10:38:31+00:00",
  "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
  "localite": "1300 Wavre (Limal)",
  "offres": [
@@ -15,12 +15,8 @@
    "fin": null,
    "formule": "TTF * 1,0490+ 10,100",
    "parametre": "62,44234",
-   "conditions": [
-    "Mandatory online subscritpion to the contract"
-   ],
    "fiche": "https://files.boltenergie.be/pricelists/var/bolt_res_ng_nl_13.pdf",
    "conditions_generales": "https://www.boltenergie.be/fr/termes-et-conditions",
-   "services_payants": null,
    "redevance": 107.88,
    "prix_kwh": 8.013814
   },
@@ -35,13 +31,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Obligation to own a cooperative share",
-    "Mandatory online subscritpion to the contract"
-   ],
    "fiche": "https://files.boltenergie.be/pricelists/fix/plenty_fix_res_ng_fr_202609.pdf",
    "conditions_generales": "https://www.boltenergie.be/fr/termes-et-conditions",
-   "services_payants": null,
    "redevance": 47.88,
    "prix_kwh": 8.0136
   },
@@ -56,13 +47,8 @@
    "fin": null,
    "formule": "TTF * 1,0490 + 10,100",
    "parametre": "62,44234",
-   "conditions": [
-    "Mandatory online subscritpion to the contract",
-    "Obligation to own a cooperative share"
-   ],
    "fiche": "https://files.boltenergie.be/pricelists/var/plenty_res_ng_fr_13.pdf",
    "conditions_generales": "https://www.boltenergie.be/fr/termes-et-conditions",
-   "services_payants": null,
    "redevance": 47.88,
    "prix_kwh": 8.013814
   },
@@ -77,12 +63,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Invoicing of the fixed fee: the entire fee is invoiced in the first year of the contract, then on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://cdn.eneco.be/downloads/fr/general/tk/BC_032_012609_FR_ENECO_GAS_FIX.pdf",
    "conditions_generales": "https://cdn.eneco.be/downloads/fr/general/vw/conditions-g%C3%A9n%C3%A9rales.pdf",
-   "services_payants": null,
    "redevance": 65.0,
    "prix_kwh": 9.125213
   },
@@ -97,12 +79,8 @@
    "fin": null,
    "formule": "(0,1 x TTFDAW-RLP-M + 1,074) x 1,06",
    "parametre": "TTFDAW-RLP-M (62,4423)",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://cdn.eneco.be/downloads/fr/general/tk/BC_032_012609_FR_ENECO_GAS_FLEX.pdf",
    "conditions_generales": "https://cdn.eneco.be/downloads/fr/general/vw/conditions-g%C3%A9n%C3%A9rales.pdf",
-   "services_payants": null,
    "redevance": 65.0,
    "prix_kwh": 7.757328
   },
@@ -117,12 +95,8 @@
    "fin": null,
    "formule": "0,1 x TTFDAW-RLP-M + 0,789",
    "parametre": "TTFDAW-RLP-M (62,4423)",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://cdn.eneco.be/downloads/fr/general/tk/BC_032_012609_FR_ENECO_GAS_FLEX_ONE.pdf",
    "conditions_generales": "https://cdn.eneco.be/downloads/fr/general/vw/conditions-g%C3%A9n%C3%A9rales.pdf",
-   "services_payants": null,
    "redevance": 65.0,
    "prix_kwh": 7.5048
   },
@@ -137,14 +111,8 @@
    "fin": null,
    "formule": "0,3485 + (0,1020 x ZTPDAM HEREN)",
    "parametre": "62,16915",
-   "conditions": [
-    "Mandatory online subscritpion to the contract",
-    "Obligation to manage invoices online",
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=G_BASIC_ONLINE_R_GREY_C_I_24_W_F&monthOffset=0&segment=R&language=F",
    "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
-   "services_payants": null,
    "redevance": 20.0022,
    "prix_kwh": 7.0914
   },
@@ -159,14 +127,8 @@
    "fin": null,
    "formule": "0,6005 + (0,1020 x ZTPDAM HEREN)",
    "parametre": "62,16915",
-   "conditions": [
-    "Mandatory online subscritpion to the contract",
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply.",
-    "Obligation to manage invoices online"
-   ],
    "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=G_DIRECT_ONLINE_R_GREY_C_I_12_W_F&monthOffset=0&segment=R&language=F",
    "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
-   "services_payants": "Vous pouvez souscrire en option à un de ces 2 services payants : Home Assistance (7,75€/mois) ou Home Assistance+ (9,00€/mois). Pour plus d'informations, voir conditions sur notre site Web.",
    "redevance": 29.998,
    "prix_kwh": 7.35852
   },
@@ -181,13 +143,8 @@
    "fin": null,
    "formule": "0,9335 + (0,1020 x ZTPDAM HEREN)",
    "parametre": "62,16915",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply.",
-    "Smart App (with reward for your smart charging)"
-   ],
    "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=G_EMPOWER_R_GREY_C_I_00_W_D&monthOffset=0&segment=R&language=D",
    "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
-   "services_payants": "Vous pouvez souscrire en option à un de ces 2 services payants : Home Assistance (7,75€/mois) ou Home Assistance+ (9,00€/mois). Pour plus d'informations, voir conditions sur notre site Web.",
    "redevance": 50.0002,
    "prix_kwh": 7.7115
   },
@@ -202,13 +159,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Invoicing for the fixed fee: pro-rated based on the number of days delivered",
-    "Smart App (with reward for your smart charging)"
-   ],
    "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=G_EMPOWER_R_GREY_C_F_00_W_F&monthOffset=0&segment=R&language=F",
    "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
-   "services_payants": "Vous pouvez souscrire en option à un de ces 2 services payants : Home Assistance (7,75€/mois) ou Home Assistance+ (9,00€/mois). Pour plus d'informations, voir conditions sur notre site Web.",
    "redevance": 59.996,
    "prix_kwh": 7.9394
   },
@@ -223,10 +175,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [],
    "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=G_EASY_R_GREY_C_F_12_W_F&monthOffset=0&segment=R&language=F",
    "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
-   "services_payants": "Vous pouvez souscrire en option à un de ces 2 services payants : Home Assistance (7,75€/mois) ou Home Assistance+ (9,00€/mois). Pour plus d'informations, voir conditions sur notre site Web.",
    "redevance": 59.996,
    "prix_kwh": 7.9394
   },
@@ -241,13 +191,8 @@
    "fin": null,
    "formule": "1,4055 + (0,1020 x ZTP101)",
    "parametre": "62,27278",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply.",
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=G_EASY_R_GREY_C_I_12_W_F&monthOffset=0&segment=R&language=F",
    "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
-   "services_payants": "Vous pouvez souscrire en option à un de ces 2 services payants : Home Assistance (7,75€/mois) ou Home Assistance+ (9,00€/mois). Pour plus d'informations, voir conditions sur notre site Web.",
    "redevance": 55.0034,
    "prix_kwh": 8.22242
   },
@@ -262,12 +207,8 @@
    "fin": null,
    "formule": "0,9335 + (0,1020 x ZTPDAM HEREN)",
    "parametre": "62,16915",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://www.engie.be/api/engie/be/ms/pricing/v1/public/pricesAndConditionsPDF?document=G_FLOW_R_GREY_C_I_24_W_F&monthOffset=0&segment=R&language=F",
    "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
-   "services_payants": "Vous pouvez souscrire en option à un de ces 2 services payants : Pro Assistance (7,75€/mois) ou Pro Assistance+ (9,00€/mois). Pour plus d'informations, voir conditions sur notre site Web.",
    "redevance": 50.0002,
    "prix_kwh": 7.7115
   },
@@ -282,12 +223,8 @@
    "fin": null,
    "formule": "(0,1010*TTF-RLP-M) + 0,5200",
    "parametre": "TTF-RLP-M 62,44 €",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://portal.ecofixgp.be/docs/prices/current/WAL_GAS_Ecofix_Flexy_FR.pdf",
    "conditions_generales": "https://www.ecofixgp.be/fr/algemene-voorwaarden",
-   "services_payants": null,
    "redevance": 59.996,
    "prix_kwh": 7.2398
   },
@@ -302,12 +239,8 @@
    "fin": null,
    "formule": "(0,1010*TTF-RLP-M) + 0,2200",
    "parametre": "TTF-RLP-M 62,44 €",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://portal.ecofixgp.be/docs/prices/current/WAL_GAS_Ecofix_Flexy_Online_FR.pdf",
    "conditions_generales": "https://www.ecofixgp.be/fr/algemene-voorwaarden",
-   "services_payants": null,
    "redevance": 9.9958,
    "prix_kwh": 6.9218
   },
@@ -322,14 +255,8 @@
    "fin": null,
    "formule": "1.02 x ZTP-RLP-M + 4,5 EUR/MWh",
    "parametre": "62,20917",
-   "conditions": [
-    "Mandatory online subscritpion to the contract",
-    "Obligation to manage invoices online",
-    "The fixed fee is charged per year started"
-   ],
    "fiche": "https://www.energyvision.be/sites/default/files/2026-08/EV-0926-GSG-WAL-fr.pdf",
    "conditions_generales": "https://www.energyvision.be/fr-be/conditions",
-   "services_payants": null,
    "redevance": 50.0,
    "prix_kwh": 7.199997
   },
@@ -344,14 +271,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Obligation to manage invoices online",
-    "Mandatory online subscritpion to the contract",
-    "The fixed fee is charged per year started"
-   ],
    "fiche": "https://www.energyvision.be/sites/default/files/2026-09/EV-0926-GS1JVG-WAL-fr.pdf",
    "conditions_generales": "https://www.energyvision.be/fr-be/conditions",
-   "services_payants": null,
    "redevance": 75.0,
    "prix_kwh": 7.9606
   },
@@ -366,10 +287,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [],
    "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=basicfix&energyType=gas&language=fr&tabValue=Wallonia",
    "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
-   "services_payants": null,
    "redevance": 20.0,
    "prix_kwh": 7.675057
   },
@@ -384,10 +303,8 @@
    "fin": null,
    "formule": "0,10011 x TTF DAH RLP M + 0,5609",
    "parametre": "62,44234",
-   "conditions": [],
    "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=basicflex&energyType=gas&language=fr&tabValue=Wallonia",
    "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
-   "services_payants": null,
    "redevance": 20.0,
    "prix_kwh": 7.22072
   },
@@ -402,12 +319,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Invoicing of the fixed fee: the entire fee is invoiced in the first year of the contract, then on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=comfy&energyType=gas&language=fr&tabValue=Wallonia",
    "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
-   "services_payants": null,
    "redevance": 50.0,
    "prix_kwh": 9.604289
   },
@@ -422,12 +335,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Invoicing of the fixed fee: the entire fee is invoiced in the first year of the contract, then on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=comfy-plus&energyType=gas&language=fr&tabValue=Wallonia",
    "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
-   "services_payants": null,
    "redevance": 50.0,
    "prix_kwh": 10.028289
   },
@@ -442,12 +351,8 @@
    "fin": null,
    "formule": "0,10042 x TTFDAHW + 0 x TTF 1-0-3 + 2,02043",
    "parametre": "62,08276",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=comfyflex&energyType=gas&language=fr&tabValue=Wallonia",
    "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
-   "services_payants": null,
    "redevance": 50.0,
    "prix_kwh": 8.750067
   },
@@ -462,12 +367,8 @@
    "fin": null,
    "formule": "0,10042 x TTFDAHW + 0 x TTF 1-0-3 + 2,39543",
    "parametre": "62,08276",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=comfyflex-plus&energyType=gas&language=fr&tabValue=Wallonia",
    "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
-   "services_payants": null,
    "redevance": 50.0,
    "prix_kwh": 9.147567
   },
@@ -482,12 +383,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Invoicing of the fixed fee: the entire fee is invoiced in the first year of the contract, then on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=maxxfix&energyType=gas&language=fr&tabValue=Wallonia",
    "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
-   "services_payants": null,
    "redevance": 50.0,
    "prix_kwh": 9.018713
   },
@@ -502,12 +399,8 @@
    "fin": null,
    "formule": "0,10011 x TTF DAH M + 1,56502",
    "parametre": "62,40077",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=maxxflex&energyType=gas&language=fr&tabValue=Wallonia",
    "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
-   "services_payants": null,
    "redevance": 50.0,
    "prix_kwh": 8.280678
   },
@@ -522,13 +415,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "The fixed fee is charged per year started",
-    "Ristourne jusqu’à 848 € TVAC après 12 mois au tarif Cosy Fixed : 1,007 c€/kWh sur la consommation nette de gaz + 74,2 € sur la redevance fixe (31,8 € + 42,4 € si domiciliation). Voir conditions sur la carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Cosy0109-Fixed.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 143.1,
    "prix_kwh": 8.08356
   },
@@ -543,13 +431,8 @@
    "fin": null,
    "formule": "(HTVA): ZTP x 1,08 + 1,15 c€/kWh",
    "parametre": "62.16915",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply.",
-    "Ristourne jusqu’à 848 € TVAC après 12 mois au tarif Cosy Flex avec domiciliation : 2,491 c€/kWh sur la consommation nette de gaz + 137,8 € sur la redevance fixe. Conditions sur la carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Cosy0109.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 106.0,
    "prix_kwh": 8.336124
   },
@@ -564,14 +447,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Obligation to manage invoices online",
-    "The fixed fee is charged per year started",
-    "Ristourne après 12 mois au tarif Offpeak Fixed : 63,6 € sur la redevance fixe (58,3 € + 5,3 € si domiciliation). Conditions sur la carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Offpeak-Bi0109-Fix.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 74.2,
    "prix_kwh": 8.13338
   },
@@ -586,14 +463,8 @@
    "fin": null,
    "formule": "(HTVA): TTF x 1,08 + 0,5 c€/kWh",
    "parametre": "62.40077",
-   "conditions": [
-    "Obligation to manage invoices online",
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply.",
-    "Ristourne après 12 mois au tarif Offpeak Fixed : 63,6 € sur la redevance fixe (58,3 € + 5,3 € si domiciliation). Conditions sur la carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Offpeak-Bi-Var.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 74.2,
    "prix_kwh": 7.67364
   },
@@ -608,14 +479,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Prices valid only within the scope of a group purchase",
-    "The fixed fee is charged per year started",
-    "Ristourne jusqu’à 848 € TVAC après 12 mois au tarif Testachats : 1,06 c€/kWh sur la consommation nette de gaz+ 90,1€ sur la redevance fixe. Voir carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-TA0526_0109-Fix.pdf",
    "conditions_generales": "https://www.mega.be/fr/energie/conditions",
-   "services_payants": null,
    "redevance": 58.3,
    "prix_kwh": 8.66338
   },
@@ -630,14 +495,8 @@
    "fin": null,
    "formule": "(HTVA): ZTP x 1,05 + 0,9 c€/kWh",
    "parametre": "62.16915",
-   "conditions": [
-    "Invoicing for the fixed fee: pro-rated based on the number of days delivered",
-    "Prices valid only within the scope of a group purchase",
-    "Ristourne jusqu’à 848 € TVAC après 12 mois au tarif Testachats : 1,06 c€/kWh sur la consommation nette de gaz + 90,1€ sur la redevance fixe. Voir carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-TA0526-Var.pdf",
    "conditions_generales": "https://www.mega.be/fr/energie/conditions",
-   "services_payants": null,
    "redevance": 58.3,
    "prix_kwh": 7.873426
   },
@@ -652,14 +511,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Obligation to manage invoices online",
-    "The fixed fee is charged per year started",
-    "Ristourne jusqu’à 848 € TVAC après 12 mois au tarif Online Fixed : 1,219 c€/kWh sur la consommation nette de gaz + 79,5 € sur la redevance fixe (74,2 € + 5,3 € si domiciliation). Conditions sur la carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Online0109-Fixed.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 58.3,
    "prix_kwh": 8.50438
   },
@@ -674,15 +527,8 @@
    "fin": null,
    "formule": "(HTVA): ZTP x 1,08 + 0,85 c€/kWh",
    "parametre": "62.16915",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply.",
-    "Obligation to manage invoices online",
-    "Mandatory online subscritpion to the contract",
-    "Ristourne jusqu’à 848 € TVAC après 12 mois au tarif Online Flex : 1,219 c€/kWh sur la consommation nette de gaz + 42,4 € sur la redevance fixe (37,1 € + 5,3 € si domiciliation). Conditions sur la carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Online0109.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 21.2,
    "prix_kwh": 8.018124
   },
@@ -697,14 +543,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "The fixed fee is charged per year started",
-    "Obligation to manage invoices online",
-    "Mandatory three-month advance payment"
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Prepaid0109-Fix.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 47.7,
    "prix_kwh": 7.81538
   },
@@ -719,16 +559,8 @@
    "fin": null,
    "formule": "(HTVA) : ZTP x 1,08 + 0,2 c€/kWh",
    "parametre": "62.16915",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply.",
-    "Obligation to manage invoices online",
-    "Mandatory online subscritpion to the contract",
-    "Mandatory three-month advance payment",
-    "Annual instalment mandatory"
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Prepaid.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 42.4,
    "prix_kwh": 7.329124
   },
@@ -743,14 +575,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "The fixed fee is charged per year started",
-    "Obligation to manage invoices online",
-    "Ristourne jusqu’à 848 € TVAC après 12 mois au tarif Smart : 2,173 c€/kWh sur la consommation nette de gaz + 121,9 € sur la redevance fixe. Offre valable uniquement avec domiciliation. Non cumulable. Conditions sur la carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Smart0109-Fixed.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 111.3,
    "prix_kwh": 8.08356
   },
@@ -765,14 +591,8 @@
    "fin": null,
    "formule": "(HTVA): ZTP x 1,08 + 1,15 c€/kWh",
    "parametre": "62.16915",
-   "conditions": [
-    "Obligation to manage invoices online",
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply.",
-    "Ristourne jusqu’à 848 € TVAC après 12 mois au tarif Smart Flex : 1,643 c€/kWh sur la consommation nette de gaz + 100,7 € sur la redevance fixe. Conditions sur la carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Smart0109.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 68.9,
    "prix_kwh": 8.336124
   },
@@ -787,14 +607,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Obligation to manage invoices online",
-    "The fixed fee is charged per year started",
-    "Ristourne jusqu’à 848 € TVAC après 12 mois au tarif Zen Fixed : 0,636 c€/kWh sur la consommation nette de gaz + 79,5 € sur la redevance fixe (74,2 € + 5,3 € si domiciliation). Conditions sur la carte tarifaire."
-   ],
    "fiche": "https://my.mega.be/resources/tarif/Mega-FR-NG-B2C-WL-092026-Zen0109-Fix.pdf",
    "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
-   "services_payants": null,
    "redevance": 111.3,
    "prix_kwh": 7.92456
   },
@@ -809,12 +623,8 @@
    "fin": "2026-09-30",
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Offre limitée - Voir les conditions spéciales de l'offre sur la carte tarifaire"
-   ],
    "fiche": "https://files.octaplus.be/tariffs/G_OCTA_ECOFIXED_RE_WL_FR.pdf",
    "conditions_generales": null,
-   "services_payants": null,
    "redevance": 129.9984,
    "prix_kwh": 9.454384
   },
@@ -829,10 +639,8 @@
    "fin": "2026-09-30",
    "formule": "ZTP RLP * 1.01 + 19.91",
    "parametre": "ZTP RLP 62.21€",
-   "conditions": [],
    "fiche": "https://files.octaplus.be/tariffs/G_OCTA_ECOFLUX_RE_WL_FR.pdf?_ga=2.86392669.453097928.1717492506-1438632901.1670394591",
    "conditions_generales": "https://octa.cdn.prismic.io/octa/15f458b5-49ad-4392-a125-4a8d27858f31_cgv+conso+fr.pdf",
-   "services_payants": null,
    "redevance": 129.9984,
    "prix_kwh": 8.770574
   },
@@ -847,13 +655,8 @@
    "fin": "2026-09-30",
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Offre limitée - Voir les conditions spéciales de l'offre sur la carte tarifaire",
-    "Souscrivez un contrat Fixed et recevez 30 € TVAC après 12 mois de consommation continue au tarif Fixed d’Octa+, via une note de crédit unique. Offre non cumulable avec d’autres promotions"
-   ],
    "fiche": "https://files.octaplus.be/tariffs/G_OCTA_Fixed_RE_WL_FR.pdf",
    "conditions_generales": null,
-   "services_payants": null,
    "redevance": 64.9992,
    "prix_kwh": 8.248437
   },
@@ -868,12 +671,8 @@
    "fin": "2026-09-30",
    "formule": "ZTP RLP * 1,01+ 2.16 €/MWh",
    "parametre": "ZTP RLP 62.21€",
-   "conditions": [
-    "Souscrivez un contrat Flux et recevez 84,80 € TVAC après 12 mois de consommation continue au tarif Flux d’Octa+, via une note de crédit unique. Offre non cumulable avec d’autres promotions"
-   ],
    "fiche": null,
    "conditions_generales": null,
-   "services_payants": null,
    "redevance": 64.9992,
    "prix_kwh": 6.889074
   },
@@ -888,10 +687,8 @@
    "fin": null,
    "formule": "ZTP RLP * 1,15+ 10 €/MWh",
    "parametre": "ZTP RLP 62.21€",
-   "conditions": [],
    "fiche": "https://files.octaplus.be/tariffs/G_OCTA_SMARTVARIABLE_RE_WL_FR.pdf?_ga=2.86392669.453097928.1717492506-1438632901.1670394591",
    "conditions_generales": "https://octa.cdn.prismic.io/octa/15f458b5-49ad-4392-a125-4a8d27858f31_cgv+conso+fr.pdf",
-   "services_payants": null,
    "redevance": 159.9996,
    "prix_kwh": 8.643298
   },
@@ -906,12 +703,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "The social tariff is an all in price, network costs and surcharges are included. Prosumers with social tariff do not pay any extra prosumer tariff, as distribution costs are included. It is dedicated to protected consumers (see FAQ)."
-   ],
    "fiche": null,
    "conditions_generales": null,
-   "services_payants": null,
    "redevance": 0.0,
    "prix_kwh": 5.78548
   },
@@ -926,12 +719,8 @@
    "fin": null,
    "formule": "0.1007 * TTF_M_RLP + 0.704",
    "parametre": "62,442 €",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/IMPACT_GAS_WAL_FR.pdf",
    "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
-   "services_payants": null,
    "redevance": 100.0004,
    "prix_kwh": 7.411414
   },
@@ -946,12 +735,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Invoicing of the fixed fee: the entire fee is invoiced in the first year of the contract, then on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYCOMFORT-FIXED_GAS_WAL_FR.pdf",
    "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
-   "services_payants": null,
    "redevance": 90.0046,
    "prix_kwh": 8.45244
   },
@@ -966,12 +751,8 @@
    "fin": null,
    "formule": "0.1007 * TTF_M_RLP + 0.704",
    "parametre": "62,442 €",
-   "conditions": [
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYCOMFORT_GAS_WAL_FR.pdf",
    "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
-   "services_payants": null,
    "redevance": 90.0046,
    "prix_kwh": 7.411414
   },
@@ -986,14 +767,8 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "conditions": [
-    "Mandatory online subscritpion to the contract",
-    "Obligation to manage invoices online",
-    "Invoicing of the fixed fee: the entire fee is invoiced in the first year of the contract, then on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYESSENTIAL-FIXED_GAS_WAL_FR.pdf",
    "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
-   "services_payants": null,
    "redevance": 35.0012,
    "prix_kwh": 8.34644
   },
@@ -1008,14 +783,8 @@
    "fin": null,
    "formule": "0.1009 * TTF_M_RLP + 0.604",
    "parametre": "62,442 €",
-   "conditions": [
-    "Mandatory online subscritpion to the contract",
-    "Obligation to manage invoices online",
-    "If the contract is terminated within the first six months, a fixed fee equivalent to 6 months' supply will be invoiced. If the contract is terminated after 6 months, the fee will be invoiced on a pro rata basis according to the number of days of supply."
-   ],
    "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYESSENTIAL_GAS_WAL_FR.pdf",
    "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
-   "services_payants": null,
    "redevance": 35.0012,
    "prix_kwh": 7.318664
   }

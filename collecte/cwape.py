@@ -28,7 +28,7 @@ CONSOMMATIONS = [5000, 20000]
 TOLERANCE_KWH = 0.0005
 TOLERANCE_REDEVANCE = 0.01
 PAUSE = 0.4
-DETAILS = ["en_ligne", "debut", "fin", "formule", "parametre", "conditions", "fiche", "conditions_generales", "services_payants"]
+DETAILS = ["en_ligne", "debut", "fin", "formule", "parametre", "fiche", "conditions_generales"]
 
 
 def appel(chemin, corps, essais=5):
@@ -93,10 +93,8 @@ def lire_offres(lignes, kwh):
             "fin": date_jour(produit.get("endAt")),
             "formule": texte(produit.get("priceFormula")),
             "parametre": texte(produit.get("indexingParameter")),
-            "conditions": [c for c in (texte(x) for x in ligne.get("providerProductConditions") or []) if c],
             "fiche": en_francais(produit, "sheetPageUrl"),
             "conditions_generales": en_francais(produit, "termsAndConditionsUrl"),
-            "services_payants": en_francais(produit, "additionalServiceDescription"),
             "redevance": 0.0, "prix_kwh": 0.0,
         })
         if ligne["invoiceItem"]["billingBase"] == "fixed":
