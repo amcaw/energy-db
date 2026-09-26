@@ -15,21 +15,9 @@ def charger(nom):
     return json.load(open(chemin, encoding="utf-8"))
 
 
-def valeur(indices, serie, mois):
-    s = indices.get(serie)
-    if not s:
-        return None
-    if mois in s["publie"]:
-        return s["publie"][mois]
-    e = s.get("estime")
-    return e["valeur"] if e and e["mois"] == mois else None
-
-
 def main():
     indices = charger("indices.json")["indices"]
-    paquet = charger("contrats.json")
-    contrats = paquet["contrats"]
-    gaz = charger("contrats_gaz.json")["contrats"]
+    cwape = charger("cwape_gaz.json")
     ennuis = Counter()
     details = []
 
@@ -38,50 +26,28 @@ def main():
         if len(details) < 12:
             details.append(f"{quoi} : {detail}")
 
-    doublons = [c for c, n in Counter(c["cle"] for c in contrats).items() if n > 1]
-    for c in doublons:
-        noter("cle en double", c)
-
-    if len(gaz) != sum(1 for c in contrats if c["energie"] == "gaz"):
-        noter("contrats_gaz desynchronise", f"{len(gaz)} contre le filtre sur contrats.json")
-
-    dernier = {}
     for nom, s in indices.items():
-        dernier[nom] = s.get("estime", {}).get("mois") or s["dernier_mois"]
         if not s["publie"]:
             noter("indice sans valeur", nom)
 
-    for c in contrats:
-        if not c["lisible"]:
-            if not c.get("raison_non_lue"):
-                noter("contrat non lu sans motif", c["cle"])
+    offres = cwape.get("offres_actuelles", [])
+    if len(offres) < 20:
+        noter("trop peu d offres CWaPE", len(offres))
+    for o in offres:
+        if o["fournisseur"] == "Tarif social":
             continue
-        conso = [f for f in c["formules"] if f["flux"] == "consommation"]
-        if not conso:
-            noter("contrat lisible sans formule de consommation", c["cle"])
-            continue
-        for f in c["formules"]:
-            if f["serie"] not in indices:
-                noter("serie inconnue", f"{c['cle']} -> {f['serie']!r}")
-                continue
-            mois = dernier[f["serie"]]
-            v = valeur(indices, f["serie"], mois)
-            if v is None:
-                noter("pas de valeur d indice", f"{c['cle']} {f['serie']} {mois}")
-                continue
-            if f["flux"] != "consommation":
-                continue
-            p = (f["a"] * v * f["rapport"] + f["b"]) * (1 + f["tva_pct"] / 100)
-            bas, haut = BORNES.get(c["energie"], (0.2, 60.0))
-            if not bas <= p <= haut:
-                noter("prix invraisemblable",
-                      f"{c['cle']} {f['usage']} {mois} -> {p:.2f} c/kWh")
+        if not BORNES["gaz"][0] <= o["prix_kwh"] <= BORNES["gaz"][1]:
+            noter("prix CWaPE invraisemblable", f"{o['fournisseur']} {o['produit']} -> {o['prix_kwh']:.2f} c/kWh")
+        if not 0 <= o["redevance"] <= 400:
+            noter("redevance CWaPE invraisemblable", f"{o['fournisseur']} {o['produit']} -> {o['redevance']:.2f}")
+    if not cwape.get("mois"):
+        noter("historique CWaPE vide", "")
 
     print(json.dumps({
-        "contrats": len(contrats),
-        "lisibles": sum(1 for c in contrats if c["lisible"]),
-        "formules": sum(len(c["formules"]) for c in contrats),
         "indices": len(indices),
+        "offres_cwape": len(offres),
+        "mois_cwape": len(cwape.get("mois", [])),
+        "releve_cwape": cwape.get("releve_le"),
         "ennuis": dict(ennuis),
         "detail": details,
     }, ensure_ascii=False, indent=1))

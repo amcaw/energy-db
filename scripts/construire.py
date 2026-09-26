@@ -174,10 +174,10 @@ def main():
         w.writeheader()
         w.writerows(sorted(lignes, key=lambda x: (x["indice"], x["jour"])))
 
-    contrats = 0
-    chemin = os.path.join(SORTIE, "contrats.json")
+    offres = 0
+    chemin = os.path.join(SORTIE, "cwape_gaz.json")
     if os.path.exists(chemin):
-        contrats = len(json.load(open(chemin, encoding="utf-8")).get("contrats", []))
+        offres = len(json.load(open(chemin, encoding="utf-8")).get("offres_actuelles", []))
 
     profondeur = {}
     for l in lignes:
@@ -192,9 +192,8 @@ def main():
             "series_quotidiennes": dict(sorted(profondeur.items())),
             "valeurs_mensuelles": sum(len(b["publie"]) for b in indices.values()),
             "valeurs_quotidiennes": len(lignes),
-            "contrats": contrats,
-            "fichiers": ["indices.json", "indices_jours.csv", "contrats.json",
-                         "contrats_gaz.json", "meta.json"]}
+            "offres_cwape_gaz": offres,
+            "fichiers": ["indices.json", "indices_jours.csv", "cwape_gaz.json", "meta.json"]}
     with open(os.path.join(SORTIE, "meta.json"), "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=1)
 

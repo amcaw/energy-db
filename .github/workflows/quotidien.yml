@@ -49,6 +49,11 @@ jobs:
       - name: Indices ponderes par profil
         run: python collecte/indices_profil.py publier | tee -a rapport.json
 
+      - name: Tarifs du comparateur CWaPE
+        id: cwape
+        continue-on-error: true
+        run: python collecte/cwape.py tarifs | tee -a rapport.json
+
       - name: Reconstruire la base publiee
         run: python scripts/construire.py | tee -a rapport.json
 
@@ -68,9 +73,13 @@ jobs:
           git config user.name "collecte-bot"
           git config user.email "collecte-bot@users.noreply.github.com"
           git add collecte/data data
-          git diff --staged --quiet || git commit -m "indices: releve du $(date -u +%F)"
+          git diff --staged --quiet || git commit -m "releve du $(date -u +%F)"
           git push
 
       - name: Signaler une anomalie de source
         if: steps.engie.outcome == 'failure'
         run: echo "::warning::la page Engie est devenue inintelligible, voir le resume"
+
+      - name: Signaler un echec de la collecte CWaPE
+        if: steps.cwape.outcome == 'failure'
+        run: echo "::warning::la collecte CWaPE a echoue ou les prix ne sont plus lineaires, voir le resume"
