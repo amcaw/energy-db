@@ -1,25 +1,25 @@
 {
- "genere_le": "2026-09-26T09:27:22+00:00",
+ "genere_le": "2026-09-26T10:09:21+00:00",
  "indices": 12,
  "series_quotidiennes": {
   "Epex DAM": {
-   "jours": 2460,
+   "jours": 2461,
    "premier": "2020-01-01",
-   "dernier": "2026-09-25"
+   "dernier": "2026-09-26"
   },
   "TTF DAM": {
-   "jours": 375,
+   "jours": 376,
    "premier": "2025-09-15",
-   "dernier": "2026-09-24"
+   "dernier": "2026-09-25"
   },
   "ZTP DAM": {
-   "jours": 375,
+   "jours": 376,
    "premier": "2025-09-15",
-   "dernier": "2026-09-24"
+   "dernier": "2026-09-25"
   }
  },
  "valeurs_mensuelles": 615,
- "valeurs_quotidiennes": 3210,
+ "valeurs_quotidiennes": 3213,
  "offres_cwape_gaz": 49,
  "fichiers": [
   "indices.json",
