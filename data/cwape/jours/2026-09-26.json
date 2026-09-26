@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T19:49:05+00:00",
+ "releve_le": "2026-09-26T19:53:36+00:00",
  "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
  "localite": "1300 Wavre (Limal)",
  "kwh_reference": 20000,
@@ -23,7 +23,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "approche",
-    "raison": "la formule cite TTF DAM, mais le parametre VREG est celui de TTF DAM RLP Heren"
+    "raison": "la formule cite TTF DAM, mais le paramètre du comparateur est celui de TTF DAM RLP Heren"
    },
    "decodage": {
     "coefficient": 1.049,
@@ -71,7 +71,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "approche",
-    "raison": "la formule cite TTF DAM, mais le parametre VREG est celui de TTF DAM RLP Heren"
+    "raison": "la formule cite TTF DAM, mais le paramètre du comparateur est celui de TTF DAM RLP Heren"
    },
    "decodage": {
     "coefficient": 1.049,
@@ -119,7 +119,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "exact",
-    "raison": "valeur publiee par le fournisseur (Luminus, Eneco)"
+    "raison": "valeur publiée par le fournisseur (Luminus, Eneco)"
    },
    "decodage": {
     "coefficient": 0.1,
@@ -149,7 +149,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "exact",
-    "raison": "valeur publiee par le fournisseur (Luminus, Eneco)"
+    "raison": "valeur publiée par le fournisseur (Luminus, Eneco)"
    },
    "decodage": null
   },
@@ -171,7 +171,7 @@
    "rattachement": {
     "indice": "ZTP DAM",
     "statut": "exact",
-    "raison": "valeur publiee par Engie"
+    "raison": "valeur publiée par Engie"
    },
    "decodage": {
     "coefficient": 0.102,
@@ -201,7 +201,7 @@
    "rattachement": {
     "indice": "ZTP DAM",
     "statut": "exact",
-    "raison": "valeur publiee par Engie"
+    "raison": "valeur publiée par Engie"
    },
    "decodage": {
     "coefficient": 0.102,
@@ -231,7 +231,7 @@
    "rattachement": {
     "indice": "ZTP DAM",
     "statut": "exact",
-    "raison": "valeur publiee par Engie"
+    "raison": "valeur publiée par Engie"
    },
    "decodage": {
     "coefficient": 0.102,
@@ -297,7 +297,7 @@
    "rattachement": {
     "indice": "ZTP 101",
     "statut": "exact",
-    "raison": "valeur publiee par Engie"
+    "raison": "valeur publiée par Engie"
    },
    "decodage": {
     "coefficient": 0.102,
@@ -327,7 +327,7 @@
    "rattachement": {
     "indice": "ZTP DAM",
     "statut": "exact",
-    "raison": "valeur publiee par Engie"
+    "raison": "valeur publiée par Engie"
    },
    "decodage": {
     "coefficient": 0.102,
@@ -357,7 +357,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "approche",
-    "raison": "source de cotation du fournisseur non verifiee"
+    "raison": "source de cotation du fournisseur non vérifiée"
    },
    "decodage": {
     "coefficient": 0.101,
@@ -387,7 +387,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "approche",
-    "raison": "source de cotation du fournisseur non verifiee"
+    "raison": "source de cotation du fournisseur non vérifiée"
    },
    "decodage": {
     "coefficient": 0.101,
@@ -417,7 +417,7 @@
    "rattachement": {
     "indice": "ZTP DAM",
     "statut": "approche",
-    "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
    },
    "decodage": {
     "coefficient": 1.02,
@@ -483,7 +483,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "exact",
-    "raison": "valeur publiee par le fournisseur (Luminus, Eneco)"
+    "raison": "valeur publiée par le fournisseur (Luminus, Eneco)"
    },
    "decodage": {
     "coefficient": 0.10011,
@@ -549,7 +549,7 @@
    "rattachement": {
     "indice": "TTF DAM Heren",
     "statut": "approche",
-    "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
    },
    "decodage": {
     "coefficient": 0.10042,
@@ -579,7 +579,7 @@
    "rattachement": {
     "indice": "TTF DAM Heren",
     "statut": "approche",
-    "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
    },
    "decodage": {
     "coefficient": 0.10042,
@@ -627,7 +627,7 @@
    "rattachement": {
     "indice": "TTF DAM Heren",
     "statut": "exact",
-    "raison": "valeur publiee par Luminus"
+    "raison": "valeur publiée par Luminus"
    },
    "decodage": {
     "coefficient": 0.10011,
@@ -675,7 +675,7 @@
    "rattachement": {
     "indice": "ZTP DAM EGSI",
     "statut": "exact",
-    "raison": "EGSI par jour de livraison, verifie contre Mega"
+    "raison": "EGSI par jour de livraison, vérifié contre Mega"
    },
    "decodage": {
     "coefficient": 1.08,
@@ -723,7 +723,7 @@
    "rattachement": {
     "indice": "TTF DAM",
     "statut": "exact",
-    "raison": "EGSI par jour de livraison, verifie contre Mega"
+    "raison": "EGSI par jour de livraison, vérifié contre Mega"
    },
    "decodage": {
     "coefficient": 1.08,
@@ -771,7 +771,7 @@
    "rattachement": {
     "indice": "ZTP DAM EGSI",
     "statut": "exact",
-    "raison": "EGSI par jour de livraison, verifie contre Mega"
+    "raison": "EGSI par jour de livraison, vérifié contre Mega"
    },
    "decodage": {
     "coefficient": 1.05,
@@ -819,7 +819,7 @@
    "rattachement": {
     "indice": "ZTP DAM EGSI",
     "statut": "exact",
-    "raison": "EGSI par jour de livraison, verifie contre Mega"
+    "raison": "EGSI par jour de livraison, vérifié contre Mega"
    },
    "decodage": {
     "coefficient": 1.08,
@@ -867,7 +867,7 @@
    "rattachement": {
     "indice": "ZTP DAM EGSI",
     "statut": "exact",
-    "raison": "EGSI par jour de livraison, verifie contre Mega"
+    "raison": "EGSI par jour de livraison, vérifié contre Mega"
    },
    "decodage": {
     "coefficient": 1.08,
@@ -915,7 +915,7 @@
    "rattachement": {
     "indice": "ZTP DAM EGSI",
     "statut": "exact",
-    "raison": "EGSI par jour de livraison, verifie contre Mega"
+    "raison": "EGSI par jour de livraison, vérifié contre Mega"
    },
    "decodage": {
     "coefficient": 1.08,
@@ -981,7 +981,7 @@
    "rattachement": {
     "indice": "ZTP DAM",
     "statut": "approche",
-    "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
    },
    "decodage": {
     "coefficient": 1.01,
@@ -1029,7 +1029,7 @@
    "rattachement": {
     "indice": "ZTP DAM",
     "statut": "approche",
-    "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
    },
    "decodage": {
     "coefficient": 1.01,
@@ -1059,7 +1059,7 @@
    "rattachement": {
     "indice": "ZTP DAM",
     "statut": "approche",
-    "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
    },
    "decodage": {
     "coefficient": 1.15,
@@ -1107,7 +1107,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "approche",
-    "raison": "source de cotation du fournisseur non verifiee"
+    "raison": "source de cotation du fournisseur non vérifiée"
    },
    "decodage": {
     "coefficient": 0.1007,
@@ -1155,7 +1155,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "approche",
-    "raison": "source de cotation du fournisseur non verifiee"
+    "raison": "source de cotation du fournisseur non vérifiée"
    },
    "decodage": {
     "coefficient": 0.1007,
@@ -1203,7 +1203,7 @@
    "rattachement": {
     "indice": "TTF DAM RLP Heren",
     "statut": "approche",
-    "raison": "source de cotation du fournisseur non verifiee"
+    "raison": "source de cotation du fournisseur non vérifiée"
    },
    "decodage": {
     "coefficient": 0.1009,

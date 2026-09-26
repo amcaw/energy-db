@@ -64,24 +64,24 @@ NOMBRE = r"(\d+(?:[.,]\d+)?)"
 UNITE = r"(c\s*€\s*/\s*kWh|€\s*/\s*MWh|EUR\s*/\s*MWh)?"
 REGLES_RATTACHEMENT = {
     "electricite": [
-        (r"BELIX", None, "inconnu", "indice propre au fournisseur, non publie"),
+        (r"BELIX", None, "inconnu", "indice propre au fournisseur, non publié"),
         (r"RLP", "Epex DAM RLP", "exact",
-         "verifie contre le Belpex RLP M publie par Luminus"),
-        (r"ENDEX101", "Endex 101", "exact", "valeur publiee par Engie"),
-        (r"EPEX|BELPEX", "Epex DAM", "exact", "verifie contre Engie, Luminus et Mega"),
+         "vérifié contre le Belpex RLP M publié par Luminus"),
+        (r"ENDEX101", "Endex 101", "exact", "valeur publiée par Engie"),
+        (r"EPEX|BELPEX", "Epex DAM", "exact", "vérifié contre Engie, Luminus et Mega"),
     ],
     "gaz": [
-        (r"ZTPDAMHEREN", "ZTP DAM", "exact", "valeur publiee par Engie"),
-        (r"ZTP101", "ZTP 101", "exact", "valeur publiee par Engie"),
+        (r"ZTPDAMHEREN", "ZTP DAM", "exact", "valeur publiée par Engie"),
+        (r"ZTP101", "ZTP 101", "exact", "valeur publiée par Engie"),
         (r"TTFDAWRLPM|TTFDAHRLPM", "TTF DAM RLP Heren", "exact",
-         "valeur publiee par le fournisseur (Luminus, Eneco)"),
-        (r"TTFDAHM", "TTF DAM Heren", "exact", "valeur publiee par Luminus"),
-        (r"TTFDAHW", "TTF DAM Heren", "approche", "moyenne trimestrielle, la serie est mensuelle"),
+         "valeur publiée par le fournisseur (Luminus, Eneco)"),
+        (r"TTFDAHM", "TTF DAM Heren", "exact", "valeur publiée par Luminus"),
+        (r"TTFDAHW", "TTF DAM Heren", "approche", "le fournisseur prend une moyenne trimestrielle, la série est mensuelle"),
         (r"ZTP.*RLP|ZTPS41", "ZTP DAM", "approche",
-         "ZTP pondere par le profil, la serie ne l'est pas"),
-        (r"TTF.*RLP", "TTF DAM RLP Heren", "approche", "source de cotation du fournisseur non verifiee"),
-        (r"ZTP", "ZTP DAM", "approche", "source de cotation du fournisseur non verifiee"),
-        (r"TTF", "TTF DAM", "approche", "source de cotation du fournisseur non verifiee"),
+         "le fournisseur prend un ZTP pondéré par le profil de consommation, la série ne l’est pas"),
+        (r"TTF.*RLP", "TTF DAM RLP Heren", "approche", "source de cotation du fournisseur non vérifiée"),
+        (r"ZTP", "ZTP DAM", "approche", "source de cotation du fournisseur non vérifiée"),
+        (r"TTF", "TTF DAM", "approche", "source de cotation du fournisseur non vérifiée"),
     ],
 }
 DETAILS_ELECTRICITE = ["certificats_verts", "tranches"]
@@ -146,7 +146,7 @@ def rattacher(energie, fournisseur, formule, parametre):
             if fournisseur.upper() == "MEGA" and serie in ("TTF DAM", "ZTP DAM"):
                 egsi = "TTF DAM" if serie == "TTF DAM" else "ZTP DAM EGSI"
                 return {"indice": egsi, "statut": "exact",
-                        "raison": "EGSI par jour de livraison, verifie contre Mega"}
+                        "raison": "EGSI par jour de livraison, vérifié contre Mega"}
             return {"indice": serie, "statut": statut, "raison": raison}
     return {"indice": None, "statut": "inconnu", "raison": "indice non reconnu dans la formule"}
 
@@ -229,12 +229,12 @@ def controler_parametres(offres, energie):
             continue
         if v in serie_de:
             o["rattachement"] = {"indice": serie_de[v], "statut": "approche",
-                                 "raison": f"la formule cite {r['indice']}, mais le parametre VREG "
+                                 "raison": f"la formule cite {r['indice']}, mais le paramètre du comparateur "
                                            f"est celui de {serie_de[v]}"}
         else:
             o["rattachement"] = {**r, "statut": "approche",
-                                 "raison": "parametre VREG different de la moyenne mensuelle "
-                                           "(periodicite ou ponderation differente)"}
+                                 "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle "
+                                           "(périodicité ou pondération différente)"}
 
 
 def date_jour(valeur):
