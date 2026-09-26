@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -27,6 +28,7 @@ CONSOMMATIONS = [5000, 20000]
 TOLERANCE_KWH = 0.0005
 TOLERANCE_REDEVANCE = 0.01
 PAUSE = 0.4
+DETAILS = ["en_ligne", "debut", "fin", "formule", "parametre", "conditions", "fiche", "conditions_generales", "services_payants"]
 
 
 def appel(chemin, corps, essais=5):
@@ -63,6 +65,19 @@ def simuler(kwh):
     return (reponse.get("gas") or {}).get("providerProduct", [])
 
 
+def texte(valeur):
+    return re.sub(r"\s+", " ", valeur or "").strip() or None
+
+
+def en_francais(produit, champ):
+    traduit = ((produit.get("translations") or {}).get("FR") or {}).get(champ)
+    return texte(traduit) or texte(produit.get(champ))
+
+
+def date_jour(valeur):
+    return valeur[:10] if valeur else None
+
+
 def lire_offres(lignes, kwh):
     offres = {}
     for ligne in lignes:
@@ -73,6 +88,15 @@ def lire_offres(lignes, kwh):
             "produit": produit["name"].strip(),
             "type": "fixe" if produit.get("billingBase") == "fixed" else "variable",
             "duree": produit.get("contractDuration"),
+            "en_ligne": bool(produit.get("isOnline")),
+            "debut": date_jour(produit.get("startAt")),
+            "fin": date_jour(produit.get("endAt")),
+            "formule": texte(produit.get("priceFormula")),
+            "parametre": texte(produit.get("indexingParameter")),
+            "conditions": [c for c in (texte(x) for x in ligne.get("providerProductConditions") or []) if c],
+            "fiche": en_francais(produit, "sheetPageUrl"),
+            "conditions_generales": en_francais(produit, "termsAndConditionsUrl"),
+            "services_payants": en_francais(produit, "additionalServiceDescription"),
             "redevance": 0.0, "prix_kwh": 0.0,
         })
         if ligne["invoiceItem"]["billingBase"] == "fixed":
@@ -114,7 +138,8 @@ def cmd_tarifs():
     construire()
     print(json.dumps({"date": jour["date"], "offres": len(offres),
                       "fixes": sum(o["type"] == "fixe" for o in offres),
-                      "variables": sum(o["type"] == "variable" for o in offres)}, ensure_ascii=False))
+                      "variables": sum(o["type"] == "variable" for o in offres)},
+                     ensure_ascii=False))
     return 0
 
 
@@ -129,7 +154,8 @@ def construire():
         for o in j["offres"]:
             h = historique.setdefault(str(o["id"]), {"mois": {}})
             h.update(fournisseur=o["fournisseur"], produit=o["produit"], type=o["type"], duree=o["duree"])
-            h["mois"][mois] = {"prix_kwh": o["prix_kwh"], "redevance": o["redevance"], "releve_le": j["date"]}
+            h["mois"][mois] = {"prix_kwh": o["prix_kwh"], "redevance": o["redevance"], "releve_le": j["date"],
+                               **{k: o.get(k) for k in DETAILS}}
     actuel = jours[-1]
     paquet = {
         "genere_le": datetime.now(timezone.utc).isoformat(timespec="seconds"),
