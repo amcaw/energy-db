@@ -17,7 +17,7 @@ def charger(nom):
 
 def main():
     indices = charger("indices.json")["indices"]
-    cwape = charger("cwape_gaz.json")
+    comparateurs = {"CWaPE": (charger("cwape_gaz.json"), 20), "Brugel": (charger("brugel_gaz.json"), 8)}
     ennuis = Counter()
     details = []
 
@@ -30,24 +30,24 @@ def main():
         if not s["publie"]:
             noter("indice sans valeur", nom)
 
-    offres = cwape.get("offres_actuelles", [])
-    if len(offres) < 20:
-        noter("trop peu d offres CWaPE", len(offres))
-    for o in offres:
-        if o["fournisseur"] == "Tarif social":
-            continue
-        if not BORNES["gaz"][0] <= o["prix_kwh"] <= BORNES["gaz"][1]:
-            noter("prix CWaPE invraisemblable", f"{o['fournisseur']} {o['produit']} -> {o['prix_kwh']:.2f} c/kWh")
-        if not 0 <= o["redevance"] <= 400:
-            noter("redevance CWaPE invraisemblable", f"{o['fournisseur']} {o['produit']} -> {o['redevance']:.2f}")
-    if not cwape.get("mois"):
-        noter("historique CWaPE vide", "")
+    for nom, (paquet, minimum) in comparateurs.items():
+        offres = paquet.get("offres_actuelles", [])
+        if len(offres) < minimum:
+            noter(f"trop peu d offres {nom}", len(offres))
+        for o in offres:
+            if o["fournisseur"].lower() == "tarif social":
+                continue
+            if not BORNES["gaz"][0] <= o["prix_kwh"] <= BORNES["gaz"][1]:
+                noter(f"prix {nom} invraisemblable", f"{o['fournisseur']} {o['produit']} -> {o['prix_kwh']:.2f} c/kWh")
+            if not 0 <= o["redevance"] <= 400:
+                noter(f"redevance {nom} invraisemblable", f"{o['fournisseur']} {o['produit']} -> {o['redevance']:.2f}")
+        if not paquet.get("mois"):
+            noter(f"historique {nom} vide", "")
 
     print(json.dumps({
         "indices": len(indices),
-        "offres_cwape": len(offres),
-        "mois_cwape": len(cwape.get("mois", [])),
-        "releve_cwape": cwape.get("releve_le"),
+        "comparateurs": {nom: {"offres": len(p.get("offres_actuelles", [])), "mois": len(p.get("mois", [])),
+                               "releve": p.get("releve_le")} for nom, (p, _) in comparateurs.items()},
         "ennuis": dict(ennuis),
         "detail": details,
     }, ensure_ascii=False, indent=1))
