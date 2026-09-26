@@ -96,7 +96,10 @@ PARTICULARITES = {
     ("BRUSOL", "gaz"): "la variante de Brusol (EnergyVision) s'écarte de 0,3 €/MWh au plus de celle "
                        "d'Octa+, sur laquelle la série est vérifiée",
 }
-DETAILS_ELECTRICITE = ["certificats_verts", "tranches"]
+DETAILS_ELECTRICITE = ["certificats_verts", "tranches", "bihoraire"]
+BIHORAIRE = {"jour": 3600, "nuit": 3900}
+COMPTEURS_BIHORAIRE = {"jour": 3, "nuit": 4}
+ECHELLES_BIHORAIRE = [0.5, 1]
 
 
 def appel(region, chemin, corps, essais=5):
@@ -120,15 +123,18 @@ def appel(region, chemin, corps, essais=5):
             attente *= 2
 
 
-def simuler(region, energie, kwh):
+def simuler(region, energie, kwh, repartition=None):
     gaz = energie == "gaz"
+    compteurs = ([{"counterType": COMPTEURS_BIHORAIRE[plage], "consumption": valeur}
+                  for plage, valeur in repartition.items()] if repartition
+                 else [{"counterType": 1, "consumption": kwh}])
     corps = {
         "isElectricitySimulation": not gaz, "isGasSimulation": gaz,
         "consumerType": "resident", "isProsumer": False,
         "postalCode": f"/postal_codes/{region['localite']}",
         "isGasConsumptionUnknown": False, "gasConsumption": kwh if gaz else None,
         "isElectricityConsumptionUnknown": False,
-        "electricityConsumptionsPerCounterType": [] if gaz else [{"counterType": 1, "consumption": kwh}],
+        "electricityConsumptionsPerCounterType": [] if gaz else compteurs,
         "prosumerConsumptionsPerCounterType": [],
         "computeNetForProsumer": False, "hasElectricitySmartCounter": False,
         "isInjectionSeparated": False, "hasCompensation": False,
@@ -327,6 +333,68 @@ def jours_de(region, energie):
     return os.path.join(DATA, region["dossier"], ENERGIES[energie]["jours"])
 
 
+def prix_par_compteur(prix):
+    out = {}
+    for p in prix if isinstance(prix, list) else []:
+        compteur = p.get("counterType")
+        ident = compteur.get("id") if isinstance(compteur, dict) else compteur
+        out[ident] = out.get(ident, 0) + (p.get("price") or 0)
+    return out
+
+
+def lire_bihoraire(lignes, repartition):
+    total = sum(repartition.values())
+    offres = {}
+    for ligne in lignes:
+        produit = ligne["providerProduct"]
+        if produit.get("isForSmartCounter"):
+            continue
+        o = offres.setdefault(produit["id"], {"redevance": 0.0, "jour": 0.0, "nuit": 0.0,
+                                              "certificats_verts": 0.0, "complet": True})
+        item = ligne["invoiceItem"]
+        if item["billingBase"] == "fixed":
+            o["redevance"] += montant(ligne["price"])
+        elif "Green certificates" in (item.get("invoiceCategoryNestedName") or ""):
+            o["certificats_verts"] += montant(ligne["price"]) / total * 100
+        else:
+            par = prix_par_compteur(ligne["price"])
+            if item.get("billingType") not in (None, "unique") or not par:
+                o["complet"] = False
+                continue
+            for plage, compteur in COMPTEURS_BIHORAIRE.items():
+                if compteur not in par:
+                    o["complet"] = False
+                else:
+                    o[plage] += par[compteur] / repartition[plage] * 100
+    return {i: {"prix_jour": round(o["jour"], 6), "prix_nuit": round(o["nuit"], 6),
+                "redevance": round(o["redevance"], 4),
+                "certificats_verts": round(o["certificats_verts"], 6)}
+            for i, o in offres.items() if o["complet"] and o["jour"] and o["nuit"]}
+
+
+def ajouter_bihoraire(region, offres):
+    releves = []
+    for echelle in ECHELLES_BIHORAIRE:
+        repartition = {k: v * echelle for k, v in BIHORAIRE.items()}
+        releves.append(lire_bihoraire(simuler(region, "electricite", None, repartition), repartition))
+    stables = {}
+    for i, b in releves[-1].items():
+        a = releves[0].get(i)
+        if a and all(abs(a[k] - b[k]) <= (TOLERANCE_REDEVANCE if k == "redevance" else TOLERANCE_KWH)
+                     for k in b):
+            stables[i] = b
+    for o in offres:
+        b = stables.get(o["id"])
+        if not b:
+            o["bihoraire"] = None
+            continue
+        if o["type"] == "variable":
+            b["decodage_jour"] = decoder_formule(o["formule"], o["parametre"], b["prix_jour"])
+            b["decodage_nuit"] = decoder_formule(o["formule"], o["parametre"], b["prix_nuit"])
+        o["bihoraire"] = {**b, "repartition": BIHORAIRE}
+    return len(stables)
+
+
 def relever(cle, energie):
     region = REGIONS[cle]
     config = ENERGIES[energie]
@@ -336,6 +404,7 @@ def relever(cle, energie):
         return {"region": cle, "energie": energie, "erreur": "prix incohérents entre consommations",
                 "offres": problemes}
     offres = releves[-1]
+    bihoraires = ajouter_bihoraire(region, offres) if energie == "electricite" else None
     maintenant = datetime.now(timezone.utc)
     jour = {"date": maintenant.date().isoformat(), "releve_le": maintenant.isoformat(timespec="seconds"),
             "source": region["source"], "localite": region["localite_nom"],
@@ -346,7 +415,8 @@ def relever(cle, energie):
     construire(cle, energie)
     return {"region": cle, "energie": energie, "date": jour["date"], "offres": len(offres),
             "fixes": sum(o["type"] == "fixe" for o in offres),
-            "variables": sum(o["type"] == "variable" for o in offres)}
+            "variables": sum(o["type"] == "variable" for o in offres),
+            **({"bihoraire": bihoraires} if bihoraires is not None else {})}
 
 
 def construire(cle, energie):

@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T20:06:02+00:00",
+ "releve_le": "2026-09-26T20:36:19+00:00",
  "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
  "localite": "1300 Wavre (Limal)",
  "kwh_reference": 3500,
@@ -35,6 +35,34 @@
     "pente_ckwh": 0.1168,
     "constante_ckwh_htva": 1.69,
     "parametre_vreg": 133.99053
+   },
+   "bihoraire": {
+    "prix_jour": 18.3805,
+    "prix_nuit": 18.3805,
+    "redevance": 107.88,
+    "certificats_verts": 3.0316,
+    "decodage_jour": {
+     "coefficient": 1.168,
+     "unite_terme": "€/MWh",
+     "constante": 16.9,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1168,
+     "constante_ckwh_htva": 1.69,
+     "parametre_vreg": 133.99053
+    },
+    "decodage_nuit": {
+     "coefficient": 1.168,
+     "unite_terme": "€/MWh",
+     "constante": 16.9,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1168,
+     "constante_ckwh_htva": 1.69,
+     "parametre_vreg": 133.99053
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -55,7 +83,17 @@
    "certificats_verts": 3.0316,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 19.61,
+    "prix_nuit": 19.61,
+    "redevance": 47.88,
+    "certificats_verts": 3.0316,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 361,
@@ -87,6 +125,34 @@
     "pente_ckwh": 0.1168,
     "constante_ckwh_htva": 1.69,
     "parametre_vreg": 133.99053
+   },
+   "bihoraire": {
+    "prix_jour": 18.3805,
+    "prix_nuit": 18.3805,
+    "redevance": 47.88,
+    "certificats_verts": 3.0316,
+    "decodage_jour": {
+     "coefficient": 1.168,
+     "unite_terme": "€/MWh",
+     "constante": 16.9,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1168,
+     "constante_ckwh_htva": 1.69,
+     "parametre_vreg": 133.99053
+    },
+    "decodage_nuit": {
+     "coefficient": 1.168,
+     "unite_terme": "€/MWh",
+     "constante": 16.9,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1168,
+     "constante_ckwh_htva": 1.69,
+     "parametre_vreg": 133.99053
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -119,6 +185,34 @@
     "pente_ckwh": 0.075,
     "constante_ckwh_htva": 5.0,
     "parametre_vreg": 128.55028
+   },
+   "bihoraire": {
+    "prix_jour": 16.882408,
+    "prix_nuit": 14.157148,
+    "redevance": 53.0,
+    "certificats_verts": 2.968,
+    "decodage_jour": {
+     "coefficient": 0.085,
+     "unite_terme": "c€/kWh",
+     "constante": 5.0,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.085,
+     "constante_ckwh_htva": 5.0,
+     "parametre_vreg": 128.55028
+    },
+    "decodage_nuit": {
+     "coefficient": 0.065,
+     "unite_terme": "c€/kWh",
+     "constante": 5.0,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.065,
+     "constante_ckwh_htva": 5.0,
+     "parametre_vreg": 128.55028
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -139,7 +233,17 @@
    "certificats_verts": 3.220683,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 22.915589,
+    "prix_nuit": 18.303148,
+    "redevance": 65.0,
+    "certificats_verts": 3.220683,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 504,
@@ -171,6 +275,34 @@
     "pente_ckwh": 0.102,
     "constante_ckwh_htva": 1.462,
     "parametre_vreg": 133.9905
+   },
+   "bihoraire": {
+    "prix_jour": 16.036772,
+    "prix_nuit": 16.036772,
+    "redevance": 65.0,
+    "certificats_verts": 3.220683,
+    "decodage_jour": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 1.462,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 1.462,
+     "parametre_vreg": 133.9905
+    },
+    "decodage_nuit": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 1.462,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 1.462,
+     "parametre_vreg": 133.9905
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -203,6 +335,34 @@
     "pente_ckwh": 0.102,
     "constante_ckwh_htva": 3.001,
     "parametre_vreg": 133.9905
+   },
+   "bihoraire": {
+    "prix_jour": 17.66808,
+    "prix_nuit": 17.66808,
+    "redevance": 65.0,
+    "certificats_verts": 3.220683,
+    "decodage_jour": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 3.001,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 3.001,
+     "parametre_vreg": 133.9905
+    },
+    "decodage_nuit": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 3.001,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 3.001,
+     "parametre_vreg": 133.9905
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -235,6 +395,34 @@
     "pente_ckwh": 0.1178,
     "constante_ckwh_htva": 1.2845,
     "parametre_vreg": 128.55028
+   },
+   "bihoraire": {
+    "prix_jour": 19.6206,
+    "prix_nuit": 14.4425,
+    "redevance": 20.0022,
+    "certificats_verts": 3.0952,
+    "decodage_jour": {
+     "coefficient": 0.134,
+     "unite_terme": "c€/kWh",
+     "constante": 1.2845,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.134,
+     "constante_ckwh_htva": 1.2845,
+     "parametre_vreg": 128.55028
+    },
+    "decodage_nuit": {
+     "coefficient": 0.096,
+     "unite_terme": "c€/kWh",
+     "constante": 1.2845,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.096,
+     "constante_ckwh_htva": 1.2845,
+     "parametre_vreg": 128.55028
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -267,6 +455,34 @@
     "pente_ckwh": 0.1177,
     "constante_ckwh_htva": 1.8432,
     "parametre_vreg": 128.55028
+   },
+   "bihoraire": {
+    "prix_jour": 19.98312,
+    "prix_nuit": 15.17284,
+    "redevance": 29.998,
+    "certificats_verts": 3.0952,
+    "decodage_jour": {
+     "coefficient": 0.1327,
+     "unite_terme": "c€/kWh",
+     "constante": 1.7932,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1327,
+     "constante_ckwh_htva": 1.7932,
+     "parametre_vreg": 128.55028
+    },
+    "decodage_nuit": {
+     "coefficient": 0.097,
+     "unite_terme": "c€/kWh",
+     "constante": 1.8442,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.097,
+     "constante_ckwh_htva": 1.8442,
+     "parametre_vreg": 128.55028
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -299,6 +515,34 @@
     "pente_ckwh": 0.1179,
     "constante_ckwh_htva": 2.5143,
     "parametre_vreg": 128.23038
+   },
+   "bihoraire": {
+    "prix_jour": 20.62018,
+    "prix_nuit": 15.85654,
+    "redevance": 64.9992,
+    "certificats_verts": 3.0952,
+    "decodage_jour": {
+     "coefficient": 0.1328,
+     "unite_terme": "c€/kWh",
+     "constante": 2.4243,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1328,
+     "constante_ckwh_htva": 2.4243,
+     "parametre_vreg": 128.23038
+    },
+    "decodage_nuit": {
+     "coefficient": 0.097,
+     "unite_terme": "c€/kWh",
+     "constante": 2.5203,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.097,
+     "constante_ckwh_htva": 2.5203,
+     "parametre_vreg": 128.23038
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -319,7 +563,17 @@
    "certificats_verts": 3.0952,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 20.66258,
+    "prix_nuit": 16.01342,
+    "redevance": 68.9954,
+    "certificats_verts": 3.0952,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 366,
@@ -351,6 +605,34 @@
     "pente_ckwh": 0.1177,
     "constante_ckwh_htva": 1.6712,
     "parametre_vreg": 128.55028
+   },
+   "bihoraire": {
+    "prix_jour": 20.2248,
+    "prix_nuit": 14.23262,
+    "redevance": 90.0046,
+    "certificats_verts": 3.0952,
+    "decodage_jour": {
+     "coefficient": 0.1327,
+     "unite_terme": "c€/kWh",
+     "constante": 2.0212,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1327,
+     "constante_ckwh_htva": 2.0212,
+     "parametre_vreg": 128.55028
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0951,
+     "unite_terme": "c€/kWh",
+     "constante": 1.2015,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0951,
+     "constante_ckwh_htva": 1.2015,
+     "parametre_vreg": 128.55028
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -371,7 +653,17 @@
    "certificats_verts": 3.0952,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 20.35624,
+    "prix_nuit": 14.0609,
+    "redevance": 90.0046,
+    "certificats_verts": 3.0952,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 5,
@@ -403,6 +695,34 @@
     "pente_ckwh": 0.1178,
     "constante_ckwh_htva": 1.8863,
     "parametre_vreg": 128.55028
+   },
+   "bihoraire": {
+    "prix_jour": 20.30748,
+    "prix_nuit": 15.052,
+    "redevance": 58.9996,
+    "certificats_verts": 3.0952,
+    "decodage_jour": {
+     "coefficient": 0.134,
+     "unite_terme": "c€/kWh",
+     "constante": 1.9323,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.134,
+     "constante_ckwh_htva": 1.9323,
+     "parametre_vreg": 128.55028
+    },
+    "decodage_nuit": {
+     "coefficient": 0.096,
+     "unite_terme": "c€/kWh",
+     "constante": 1.8593,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.096,
+     "constante_ckwh_htva": 1.8593,
+     "parametre_vreg": 128.55028
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -435,6 +755,34 @@
     "pente_ckwh": 0.102,
     "constante_ckwh_htva": 1.2,
     "parametre_vreg": 133.99
+   },
+   "bihoraire": {
+    "prix_jour": 15.7622,
+    "prix_nuit": 15.7622,
+    "redevance": 59.996,
+    "certificats_verts": 3.0528,
+    "decodage_jour": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 1.2,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 1.2,
+     "parametre_vreg": 133.99
+    },
+    "decodage_nuit": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 1.2,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 1.2,
+     "parametre_vreg": 133.99
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -467,6 +815,34 @@
     "pente_ckwh": 0.101,
     "constante_ckwh_htva": 0.74,
     "parametre_vreg": 133.99
+   },
+   "bihoraire": {
+    "prix_jour": 15.1262,
+    "prix_nuit": 15.1262,
+    "redevance": 9.9958,
+    "certificats_verts": 3.0528,
+    "decodage_jour": {
+     "coefficient": 0.101,
+     "unite_terme": "c€/kWh",
+     "constante": 0.74,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.101,
+     "constante_ckwh_htva": 0.74,
+     "parametre_vreg": 133.99
+    },
+    "decodage_nuit": {
+     "coefficient": 0.101,
+     "unite_terme": "c€/kWh",
+     "constante": 0.74,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.101,
+     "constante_ckwh_htva": 0.74,
+     "parametre_vreg": 133.99
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -487,7 +863,17 @@
    "certificats_verts": 2.9998,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 13.57,
+    "prix_nuit": 13.57,
+    "redevance": 75.0,
+    "certificats_verts": 2.9998,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 452,
@@ -511,7 +897,8 @@
     "statut": "approche",
     "raison": "EnergyVision pondère avec le profil des seuls gestionnaires flamands, la série avec celui de tous les gestionnaires belges"
    },
-   "decodage": null
+   "decodage": null,
+   "bihoraire": null
   },
   {
    "id": 221,
@@ -531,7 +918,17 @@
    "certificats_verts": 3.030243,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 22.667824,
+    "prix_nuit": 16.400627,
+    "redevance": 25.0,
+    "certificats_verts": 3.030243,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 217,
@@ -563,6 +960,34 @@
     "pente_ckwh": 0.10432,
     "constante_ckwh_htva": 1.45193,
     "parametre_vreg": 133.99053
+   },
+   "bihoraire": {
+    "prix_jour": 19.637496,
+    "prix_nuit": 14.393443,
+    "redevance": 25.0,
+    "certificats_verts": 3.030243,
+    "decodage_jour": {
+     "coefficient": 0.12632,
+     "unite_terme": "c€/kWh",
+     "constante": 1.60026,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.12632,
+     "constante_ckwh_htva": 1.60026,
+     "parametre_vreg": 133.99053
+    },
+    "decodage_nuit": {
+     "coefficient": 0.09132,
+     "unite_terme": "c€/kWh",
+     "constante": 1.3427,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.09132,
+     "constante_ckwh_htva": 1.3427,
+     "parametre_vreg": 133.99053
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -583,7 +1008,17 @@
    "certificats_verts": 3.030243,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 26.261595,
+    "prix_nuit": 19.648457,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 21,
@@ -603,7 +1038,17 @@
    "certificats_verts": 3.030243,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 28.362155,
+    "prix_nuit": 21.248993,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 22,
@@ -635,6 +1080,34 @@
     "pente_ckwh": 0.10988,
     "constante_ckwh_htva": 5.00407,
     "parametre_vreg": 128.06479
+   },
+   "bihoraire": {
+    "prix_jour": 23.482063,
+    "prix_nuit": 17.640107,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "decodage_jour": {
+     "coefficient": 0.12928,
+     "unite_terme": "c€/kWh",
+     "constante": 5.59667,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.12928,
+     "constante_ckwh_htva": 5.59667,
+     "parametre_vreg": 128.06479
+    },
+    "decodage_nuit": {
+     "coefficient": 0.09428,
+     "unite_terme": "c€/kWh",
+     "constante": 4.56766,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.09428,
+     "constante_ckwh_htva": 4.56766,
+     "parametre_vreg": 128.06479
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -667,6 +1140,34 @@
     "pente_ckwh": 0.10988,
     "constante_ckwh_htva": 6.62407,
     "parametre_vreg": 128.06479
+   },
+   "bihoraire": {
+    "prix_jour": 25.472065,
+    "prix_nuit": 19.156405,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "decodage_jour": {
+     "coefficient": 0.12928,
+     "unite_terme": "c€/kWh",
+     "constante": 7.47403,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.12928,
+     "constante_ckwh_htva": 7.47403,
+     "parametre_vreg": 128.06479
+    },
+    "decodage_nuit": {
+     "coefficient": 0.09428,
+     "unite_terme": "c€/kWh",
+     "constante": 5.99813,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.09428,
+     "constante_ckwh_htva": 5.99813,
+     "parametre_vreg": 128.06479
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -687,7 +1188,17 @@
    "certificats_verts": 3.030243,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 24.229438,
+    "prix_nuit": 18.063418,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 249,
@@ -719,6 +1230,34 @@
     "pente_ckwh": 0.10973,
     "constante_ckwh_htva": 3.61489,
     "parametre_vreg": 128.55028
+   },
+   "bihoraire": {
+    "prix_jour": 21.853787,
+    "prix_nuit": 16.344288,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "decodage_jour": {
+     "coefficient": 0.12913,
+     "unite_terme": "c€/kWh",
+     "constante": 4.01708,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.12913,
+     "constante_ckwh_htva": 4.01708,
+     "parametre_vreg": 128.55028
+    },
+    "decodage_nuit": {
+     "coefficient": 0.09413,
+     "unite_terme": "c€/kWh",
+     "constante": 3.3187,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.09413,
+     "constante_ckwh_htva": 3.3187,
+     "parametre_vreg": 128.55028
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -739,7 +1278,17 @@
    "certificats_verts": 3.13654,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 23.62422,
+    "prix_nuit": 18.59134,
+    "redevance": 143.1,
+    "certificats_verts": 3.13654,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 145,
@@ -771,6 +1320,34 @@
     "pente_ckwh": 0.11095,
     "constante_ckwh_htva": 3.35,
     "parametre_vreg": 133.99053
+   },
+   "bihoraire": {
+    "prix_jour": 22.405477,
+    "prix_nuit": 16.901816,
+    "redevance": 106.0,
+    "certificats_verts": 3.13654,
+    "decodage_jour": {
+     "coefficient": 1.3275,
+     "unite_terme": "€/MWh",
+     "constante": 3.35,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.13275,
+     "constante_ckwh_htva": 3.35,
+     "parametre_vreg": 133.99053
+    },
+    "decodage_nuit": {
+     "coefficient": 0.94,
+     "unite_terme": "€/MWh",
+     "constante": 3.35,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.094,
+     "constante_ckwh_htva": 3.35,
+     "parametre_vreg": 133.99053
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -791,7 +1368,17 @@
    "certificats_verts": 3.13654,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 23.66238,
+    "prix_nuit": 16.2127,
+    "redevance": 74.2,
+    "certificats_verts": 3.13654,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 447,
@@ -815,7 +1402,35 @@
     "statut": "exact",
     "raison": "vérifié contre le Belpex RLP M publié par Luminus"
    },
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 21.875477,
+    "prix_nuit": 14.251816,
+    "redevance": 74.2,
+    "certificats_verts": 3.13654,
+    "decodage_jour": {
+     "coefficient": 1.328,
+     "unite_terme": "€/MWh",
+     "constante": 2.85,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1328,
+     "constante_ckwh_htva": 2.85,
+     "parametre_vreg": 133.99053
+    },
+    "decodage_nuit": {
+     "coefficient": 0.94,
+     "unite_terme": "€/MWh",
+     "constante": 0.85,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.094,
+     "constante_ckwh_htva": 0.85,
+     "parametre_vreg": 133.99053
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 330,
@@ -835,7 +1450,17 @@
    "certificats_verts": 3.13654,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 24.45738,
+    "prix_nuit": 19.1277,
+    "redevance": 58.3,
+    "certificats_verts": 3.13654,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 334,
@@ -867,6 +1492,34 @@
     "pente_ckwh": 0.109,
     "constante_ckwh_htva": 3.45,
     "parametre_vreg": 128.55028
+   },
+   "bihoraire": {
+    "prix_jour": 18.509699,
+    "prix_nuit": 18.509699,
+    "redevance": 58.3,
+    "certificats_verts": 3.13654,
+    "decodage_jour": {
+     "coefficient": 1.09,
+     "unite_terme": "€/MWh",
+     "constante": 3.45,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.109,
+     "constante_ckwh_htva": 3.45,
+     "parametre_vreg": 128.55028
+    },
+    "decodage_nuit": {
+     "coefficient": 1.09,
+     "unite_terme": "€/MWh",
+     "constante": 3.45,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.109,
+     "constante_ckwh_htva": 3.45,
+     "parametre_vreg": 128.55028
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -887,7 +1540,17 @@
    "certificats_verts": 3.13654,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 23.39738,
+    "prix_nuit": 18.0677,
+    "redevance": 58.3,
+    "certificats_verts": 3.13654,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 148,
@@ -911,7 +1574,19 @@
     "statut": "exact",
     "raison": "vérifié contre le Belpex RLP M publié par Luminus"
    },
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 21.345477,
+    "prix_nuit": 15.841816,
+    "redevance": 21.2,
+    "certificats_verts": 3.13654,
+    "decodage_jour": null,
+    "decodage_nuit": null,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 326,
@@ -931,7 +1606,17 @@
    "certificats_verts": 3.13654,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 21.43638,
+    "prix_nuit": 16.1067,
+    "redevance": 47.7,
+    "certificats_verts": 3.13654,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 206,
@@ -963,6 +1648,34 @@
     "pente_ckwh": 0.11095,
     "constante_ckwh_htva": 0.4,
     "parametre_vreg": 133.99053
+   },
+   "bihoraire": {
+    "prix_jour": 19.278477,
+    "prix_nuit": 13.774816,
+    "redevance": 42.4,
+    "certificats_verts": 3.13654,
+    "decodage_jour": {
+     "coefficient": 1.3275,
+     "unite_terme": "€/MWh",
+     "constante": 0.4,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.13275,
+     "constante_ckwh_htva": 0.4,
+     "parametre_vreg": 133.99053
+    },
+    "decodage_nuit": {
+     "coefficient": 0.94,
+     "unite_terme": "€/MWh",
+     "constante": 0.4,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.094,
+     "constante_ckwh_htva": 0.4,
+     "parametre_vreg": 133.99053
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -983,7 +1696,17 @@
    "certificats_verts": 3.13654,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 23.62422,
+    "prix_nuit": 18.59134,
+    "redevance": 111.3,
+    "certificats_verts": 3.13654,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 149,
@@ -1015,6 +1738,34 @@
     "pente_ckwh": 0.11095,
     "constante_ckwh_htva": 3.35,
     "parametre_vreg": 133.99053
+   },
+   "bihoraire": {
+    "prix_jour": 22.405477,
+    "prix_nuit": 16.901816,
+    "redevance": 68.9,
+    "certificats_verts": 3.13654,
+    "decodage_jour": {
+     "coefficient": 1.3275,
+     "unite_terme": "€/MWh",
+     "constante": 3.35,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.13275,
+     "constante_ckwh_htva": 3.35,
+     "parametre_vreg": 133.99053
+    },
+    "decodage_nuit": {
+     "coefficient": 0.94,
+     "unite_terme": "€/MWh",
+     "constante": 3.35,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.094,
+     "constante_ckwh_htva": 3.35,
+     "parametre_vreg": 133.99053
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -1035,7 +1786,17 @@
    "certificats_verts": 3.13654,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 23.20022,
+    "prix_nuit": 18.16734,
+    "redevance": 111.3,
+    "certificats_verts": 3.13654,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 181,
@@ -1055,7 +1816,17 @@
    "certificats_verts": 3.0952,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 24.036137,
+    "prix_nuit": 18.346392,
+    "redevance": 130.0,
+    "certificats_verts": 3.0952,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 435,
@@ -1087,6 +1858,34 @@
     "pente_ckwh": 0.1057,
     "constante_ckwh_htva": 3.328,
     "parametre_vreg": 133.99
+   },
+   "bihoraire": {
+    "prix_jour": 21.650703,
+    "prix_nuit": 16.225159,
+    "redevance": 129.9984,
+    "certificats_verts": 3.0952,
+    "decodage_jour": {
+     "coefficient": 1.276,
+     "unite_terme": "€/MWh",
+     "constante": 33.28,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1276,
+     "constante_ckwh_htva": 3.328,
+     "parametre_vreg": 133.99
+    },
+    "decodage_nuit": {
+     "coefficient": 0.894,
+     "unite_terme": "€/MWh",
+     "constante": 33.28,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.0894,
+     "constante_ckwh_htva": 3.328,
+     "parametre_vreg": 133.99
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -1107,7 +1906,17 @@
    "certificats_verts": 3.0952,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 21.598137,
+    "prix_nuit": 15.908392,
+    "redevance": 64.9992,
+    "certificats_verts": 3.0952,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 373,
@@ -1139,6 +1948,34 @@
     "pente_ckwh": 0.1067,
     "constante_ckwh_htva": 0.428,
     "parametre_vreg": 133.99
+   },
+   "bihoraire": {
+    "prix_jour": 18.718733,
+    "prix_nuit": 13.293189,
+    "redevance": 64.9992,
+    "certificats_verts": 3.0952,
+    "decodage_jour": {
+     "coefficient": 1.286,
+     "unite_terme": "€/MWh",
+     "constante": 4.28,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1286,
+     "constante_ckwh_htva": 0.428,
+     "parametre_vreg": 133.99
+    },
+    "decodage_nuit": {
+     "coefficient": 0.904,
+     "unite_terme": "€/MWh",
+     "constante": 4.28,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.0904,
+     "constante_ckwh_htva": 0.428,
+     "parametre_vreg": 133.99
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -1171,6 +2008,34 @@
     "pente_ckwh": 0.115,
     "constante_ckwh_htva": 1.0,
     "parametre_vreg": 133.99
+   },
+   "bihoraire": {
+    "prix_jour": 19.381865,
+    "prix_nuit": 15.419229,
+    "redevance": 64.9992,
+    "certificats_verts": 3.0952,
+    "decodage_jour": {
+     "coefficient": 1.29,
+     "unite_terme": "€/MWh",
+     "constante": 10.0,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.129,
+     "constante_ckwh_htva": 1.0,
+     "parametre_vreg": 133.99
+    },
+    "decodage_nuit": {
+     "coefficient": 1.011,
+     "unite_terme": "€/MWh",
+     "constante": 10.0,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1011,
+     "constante_ckwh_htva": 1.0,
+     "parametre_vreg": 133.99
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -1191,7 +2056,17 @@
    "certificats_verts": 0.0,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 26.9028,
+    "prix_nuit": 23.43342,
+    "redevance": 0.0,
+    "certificats_verts": 0.0,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 399,
@@ -1211,7 +2086,17 @@
    "certificats_verts": 3.319072,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 21.4915,
+    "prix_nuit": 18.723204,
+    "redevance": 90.0046,
+    "certificats_verts": 3.319072,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 397,
@@ -1235,7 +2120,19 @@
     "statut": "exact",
     "raison": "vérifié contre le Belpex RLP M publié par Luminus"
    },
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 19.775466,
+    "prix_nuit": 16.807042,
+    "redevance": 90.0046,
+    "certificats_verts": 3.319072,
+    "decodage_jour": null,
+    "decodage_nuit": null,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 401,
@@ -1267,6 +2164,34 @@
     "pente_ckwh": 0.1096,
     "constante_ckwh_htva": 1.8,
     "parametre_vreg": 133.99
+   },
+   "bihoraire": {
+    "prix_jour": 20.231266,
+    "prix_nuit": 15.566842,
+    "redevance": 90.0046,
+    "certificats_verts": 3.319072,
+    "decodage_jour": {
+     "coefficient": 0.1208,
+     "unite_terme": "c€/kWh",
+     "constante": 2.9,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1208,
+     "constante_ckwh_htva": 2.9,
+     "parametre_vreg": 133.99
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0999,
+     "unite_terme": "c€/kWh",
+     "constante": 1.3,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0999,
+     "constante_ckwh_htva": 1.3,
+     "parametre_vreg": 133.99
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   },
   {
@@ -1287,7 +2212,17 @@
    "certificats_verts": 3.319072,
    "tranches": false,
    "rattachement": null,
-   "decodage": null
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 20.71929,
+    "prix_nuit": 17.950994,
+    "redevance": 35.0012,
+    "certificats_verts": 3.319072,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
   },
   {
    "id": 402,
@@ -1319,6 +2254,34 @@
     "pente_ckwh": 0.1097,
     "constante_ckwh_htva": 1.72,
     "parametre_vreg": 133.99
+   },
+   "bihoraire": {
+    "prix_jour": 19.023078,
+    "prix_nuit": 16.012042,
+    "redevance": 35.0012,
+    "certificats_verts": 3.319072,
+    "decodage_jour": {
+     "coefficient": 0.1211,
+     "unite_terme": "c€/kWh",
+     "constante": 1.72,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1211,
+     "constante_ckwh_htva": 1.72,
+     "parametre_vreg": 133.99
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0999,
+     "unite_terme": "c€/kWh",
+     "constante": 1.72,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0999,
+     "constante_ckwh_htva": 1.72,
+     "parametre_vreg": 133.99
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
    }
   }
  ]
