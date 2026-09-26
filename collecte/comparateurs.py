@@ -40,6 +40,7 @@ CONSOMMATIONS = [5000, 20000]
 TOLERANCE_KWH = 0.0005
 TOLERANCE_REDEVANCE = 0.01
 PAUSE = 0.4
+PROFIL_MAX_KWH = 100000
 DETAILS = ["en_ligne", "debut", "fin", "formule", "parametre", "fiche", "conditions_generales"]
 
 
@@ -62,6 +63,25 @@ def appel(region, chemin, corps, essais=5):
                 raise
             time.sleep(attente)
             attente *= 2
+
+
+def lire(region, chemin):
+    requete = urllib.request.Request(region["api"] + chemin, headers={
+        "Accept": "application/ld+json", "Origin": region["application"], "User-Agent": USER_AGENT})
+    with urllib.request.urlopen(requete, timeout=60) as reponse:
+        return json.loads(reponse.read().decode("utf-8"))
+
+
+def profils(region):
+    retenus = []
+    for p in lire(region, "/typical_profiles").get("hydra:member", []):
+        if ("gas" not in (p.get("powerTypes") or []) or p.get("consumerType") != "resident"
+                or p.get("isForStatsOnly") or not p.get("gasConsumption")
+                or p["gasConsumption"] > PROFIL_MAX_KWH):
+            continue
+        libelle = ((p.get("translations") or {}).get("FR") or {}).get("label") or p.get("label")
+        retenus.append({"code": p.get("code"), "kwh": p["gasConsumption"], "libelle": texte(libelle)})
+    return sorted(retenus, key=lambda p: p["kwh"])
 
 
 def simuler(region, kwh):
@@ -148,7 +168,8 @@ def relever(cle):
     offres = releves[-1]
     maintenant = datetime.now(timezone.utc)
     jour = {"date": maintenant.date().isoformat(), "releve_le": maintenant.isoformat(timespec="seconds"),
-            "source": region["source"], "localite": region["localite_nom"], "offres": offres}
+            "source": region["source"], "localite": region["localite_nom"],
+            "profils": profils(region), "offres": offres}
     os.makedirs(jours_de(region), exist_ok=True)
     with open(os.path.join(jours_de(region), f"{jour['date']}.json"), "w", encoding="utf-8") as f:
         json.dump(jour, f, ensure_ascii=False, indent=1)
@@ -180,6 +201,7 @@ def construire(cle):
         "perimetre": PERIMETRE,
         "releve_le": actuel["date"],
         "unites": {"prix_kwh": "c EUR/kWh TVAC", "redevance": "EUR/an TVAC"},
+        "profils": actuel.get("profils") or [],
         "offres_actuelles": actuel["offres"],
         "mois": sorted(dernier_du_mois),
         "historique": historique,

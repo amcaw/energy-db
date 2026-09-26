@@ -1,8 +1,35 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T10:46:40+00:00",
+ "releve_le": "2026-09-26T10:51:57+00:00",
  "source": "Comparateur officiel de Brugel (Brusim, brusim.be), simulations publiques",
  "localite": "1000 Bruxelles",
+ "profils": [
+  {
+   "code": "D1",
+   "kwh": 2326,
+   "libelle": "Petite famille utilisant le gaz pour l'eau chaude et la cuisine uniquement"
+  },
+  {
+   "code": "D2",
+   "kwh": 4652,
+   "libelle": "Grande famille utilisant le gaz pour l'eau chaude et la cuisine uniquement"
+  },
+  {
+   "code": "median",
+   "kwh": 12728,
+   "libelle": "Petite famille utilisant le gaz notamment pour le chauffage"
+  },
+  {
+   "code": "D3a",
+   "kwh": 17000,
+   "libelle": "Moyenne famille utilisant le gaz notamment pour le chauffage"
+  },
+  {
+   "code": "D3b",
+   "kwh": 34890,
+   "libelle": "Grande famille utilisant le gaz notamment pour le chauffage"
+  }
+ ],
  "offres": [
   {
    "id": 140,
