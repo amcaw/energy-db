@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T19:53:36+00:00",
+ "releve_le": "2026-09-26T20:05:56+00:00",
  "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
  "localite": "1300 Wavre (Limal)",
  "kwh_reference": 20000,
@@ -355,9 +355,9 @@
    "redevance": 59.996,
    "prix_kwh": 7.2398,
    "rattachement": {
-    "indice": "TTF DAM RLP Heren",
-    "statut": "approche",
-    "raison": "source de cotation du fournisseur non vérifiée"
+    "indice": "TTF DAM RLP",
+    "statut": "exact",
+    "raison": "TTF EGSI pondéré par le profil, vérifié contre le TTF RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 0.101,
@@ -385,9 +385,9 @@
    "redevance": 9.9958,
    "prix_kwh": 6.9218,
    "rattachement": {
-    "indice": "TTF DAM RLP Heren",
-    "statut": "approche",
-    "raison": "source de cotation du fournisseur non vérifiée"
+    "indice": "TTF DAM RLP",
+    "statut": "exact",
+    "raison": "TTF EGSI pondéré par le profil, vérifié contre le TTF RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 0.101,
@@ -415,9 +415,9 @@
    "redevance": 50.0,
    "prix_kwh": 7.199997,
    "rattachement": {
-    "indice": "ZTP DAM",
+    "indice": "ZTP DAM RLP",
     "statut": "approche",
-    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+    "raison": "la variante d'EnergyVision s'écarte de 0,3 €/MWh au plus de celle d'Octa+, sur laquelle la série est vérifiée"
    },
    "decodage": {
     "coefficient": 1.02,
@@ -547,9 +547,9 @@
    "redevance": 50.0,
    "prix_kwh": 8.750067,
    "rattachement": {
-    "indice": "TTF DAM Heren",
-    "statut": "approche",
-    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+    "indice": "TTF DAM Heren trimestriel",
+    "statut": "exact",
+    "raison": "moyenne trimestrielle publiée par Luminus"
    },
    "decodage": {
     "coefficient": 0.10042,
@@ -577,9 +577,9 @@
    "redevance": 50.0,
    "prix_kwh": 9.147567,
    "rattachement": {
-    "indice": "TTF DAM Heren",
-    "statut": "approche",
-    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+    "indice": "TTF DAM Heren trimestriel",
+    "statut": "exact",
+    "raison": "moyenne trimestrielle publiée par Luminus"
    },
    "decodage": {
     "coefficient": 0.10042,
@@ -979,9 +979,9 @@
    "redevance": 129.9984,
    "prix_kwh": 8.770574,
    "rattachement": {
-    "indice": "ZTP DAM",
-    "statut": "approche",
-    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+    "indice": "ZTP DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le ZTP RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 1.01,
@@ -1027,9 +1027,9 @@
    "redevance": 64.9992,
    "prix_kwh": 6.889074,
    "rattachement": {
-    "indice": "ZTP DAM",
-    "statut": "approche",
-    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+    "indice": "ZTP DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le ZTP RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 1.01,
@@ -1057,9 +1057,9 @@
    "redevance": 159.9996,
    "prix_kwh": 8.643298,
    "rattachement": {
-    "indice": "ZTP DAM",
-    "statut": "approche",
-    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+    "indice": "ZTP DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le ZTP RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 1.15,
@@ -1105,9 +1105,9 @@
    "redevance": 100.0004,
    "prix_kwh": 7.411414,
    "rattachement": {
-    "indice": "TTF DAM RLP Heren",
-    "statut": "approche",
-    "raison": "source de cotation du fournisseur non vérifiée"
+    "indice": "TTF DAM RLP",
+    "statut": "exact",
+    "raison": "TTF EGSI pondéré par le profil, vérifié contre le TTF RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 0.1007,
@@ -1153,9 +1153,9 @@
    "redevance": 90.0046,
    "prix_kwh": 7.411414,
    "rattachement": {
-    "indice": "TTF DAM RLP Heren",
-    "statut": "approche",
-    "raison": "source de cotation du fournisseur non vérifiée"
+    "indice": "TTF DAM RLP",
+    "statut": "exact",
+    "raison": "TTF EGSI pondéré par le profil, vérifié contre le TTF RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 0.1007,
@@ -1201,9 +1201,9 @@
    "redevance": 35.0012,
    "prix_kwh": 7.318664,
    "rattachement": {
-    "indice": "TTF DAM RLP Heren",
-    "statut": "approche",
-    "raison": "source de cotation du fournisseur non vérifiée"
+    "indice": "TTF DAM RLP",
+    "statut": "exact",
+    "raison": "TTF EGSI pondéré par le profil, vérifié contre le TTF RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 0.1009,

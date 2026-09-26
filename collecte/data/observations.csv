@@ -689,3 +689,133 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-09-26T19:34:31+00:00,gaz,2026-06,ZTP DAM EGSI,44.4393,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
 2026-09-26T19:34:31+00:00,gaz,2026-07,ZTP DAM EGSI,53.2604,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
 2026-09-26T19:34:31+00:00,gaz,2026-08,ZTP DAM EGSI,61.7121,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T20:04:25+00:00,gaz,2025-10,ZTP DAM RLP,31.4618,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2025-11,ZTP DAM RLP,29.9587,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2025-12,ZTP DAM RLP,27.8060,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-01,ZTP DAM RLP,34.5436,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-02,ZTP DAM RLP,32.6983,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-03,ZTP DAM RLP,50.6560,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-04,ZTP DAM RLP,45.3535,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-05,ZTP DAM RLP,46.5343,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-06,ZTP DAM RLP,44.7829,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-07,ZTP DAM RLP,53.0644,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-08,ZTP DAM RLP,61.8960,EEX EGSI ZTP Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2025-10,TTF DAM RLP,32.0097,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2025-11,TTF DAM RLP,30.5187,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2025-12,TTF DAM RLP,27.6534,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-01,TTF DAM RLP,34.0535,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-02,TTF DAM RLP,33.2978,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-03,TTF DAM RLP,51.2791,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-04,TTF DAM RLP,45.9958,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-05,TTF DAM RLP,46.9308,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-06,TTF DAM RLP,45.0864,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-07,TTF DAM RLP,53.0954,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,gaz,2026-08,TTF DAM RLP,61.7261,EEX EGSI TTF Day + Weekend pondere par le profil gaz Synergrid,
+2026-09-26T20:04:25+00:00,electricite,2020-01,Epex DAM trimestriel,30.1137,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-02,Epex DAM trimestriel,30.1137,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-03,Epex DAM trimestriel,30.1137,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-04,Epex DAM trimestriel,18.5238,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-05,Epex DAM trimestriel,18.5238,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-06,Epex DAM trimestriel,18.5238,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-07,Epex DAM trimestriel,36.4541,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-08,Epex DAM trimestriel,36.4541,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-09,Epex DAM trimestriel,36.4541,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-10,Epex DAM trimestriel,42.2630,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-11,Epex DAM trimestriel,42.2630,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2020-12,Epex DAM trimestriel,42.2630,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-01,Epex DAM trimestriel,50.9420,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-02,Epex DAM trimestriel,50.9420,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-03,Epex DAM trimestriel,50.9420,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-04,Epex DAM trimestriel,62.2819,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-05,Epex DAM trimestriel,62.2819,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-06,Epex DAM trimestriel,62.2819,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-07,Epex DAM trimestriel,97.2784,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-08,Epex DAM trimestriel,97.2784,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-09,Epex DAM trimestriel,97.2784,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-10,Epex DAM trimestriel,204.3430,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-11,Epex DAM trimestriel,204.3430,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2021-12,Epex DAM trimestriel,204.3430,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-01,Epex DAM trimestriel,208.0198,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-02,Epex DAM trimestriel,208.0198,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-03,Epex DAM trimestriel,208.0198,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-04,Epex DAM trimestriel,193.9176,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-05,Epex DAM trimestriel,193.9176,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-06,Epex DAM trimestriel,193.9176,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-07,Epex DAM trimestriel,372.2666,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-08,Epex DAM trimestriel,372.2666,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-09,Epex DAM trimestriel,372.2666,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-10,Epex DAM trimestriel,202.6170,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-11,Epex DAM trimestriel,202.6170,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2022-12,Epex DAM trimestriel,202.6170,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-01,Epex DAM trimestriel,127.4008,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-02,Epex DAM trimestriel,127.4008,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-03,Epex DAM trimestriel,127.4008,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-04,Epex DAM trimestriel,92.8126,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-05,Epex DAM trimestriel,92.8126,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-06,Epex DAM trimestriel,92.8126,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-07,Epex DAM trimestriel,87.1435,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-08,Epex DAM trimestriel,87.1435,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-09,Epex DAM trimestriel,87.1435,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-10,Epex DAM trimestriel,82.3550,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-11,Epex DAM trimestriel,82.3550,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2023-12,Epex DAM trimestriel,82.3550,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-01,Epex DAM trimestriel,67.1988,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-02,Epex DAM trimestriel,67.1988,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-03,Epex DAM trimestriel,67.1988,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-04,Epex DAM trimestriel,54.4379,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-05,Epex DAM trimestriel,54.4379,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-06,Epex DAM trimestriel,54.4379,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-07,Epex DAM trimestriel,62.1988,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-08,Epex DAM trimestriel,62.1988,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-09,Epex DAM trimestriel,62.1988,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-10,Epex DAM trimestriel,97.2255,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-11,Epex DAM trimestriel,97.2255,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2024-12,Epex DAM trimestriel,97.2255,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-01,Epex DAM trimestriel,110.0113,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-02,Epex DAM trimestriel,110.0113,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-03,Epex DAM trimestriel,110.0113,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-04,Epex DAM trimestriel,66.5328,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-05,Epex DAM trimestriel,66.5328,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-06,Epex DAM trimestriel,66.5328,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-07,Epex DAM trimestriel,71.9751,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-08,Epex DAM trimestriel,71.9751,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-09,Epex DAM trimestriel,71.9751,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-10,Epex DAM trimestriel,82.1886,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-11,Epex DAM trimestriel,82.1886,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2025-12,Epex DAM trimestriel,82.1886,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2026-01,Epex DAM trimestriel,95.7514,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2026-02,Epex DAM trimestriel,95.7514,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2026-03,Epex DAM trimestriel,95.7514,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2026-04,Epex DAM trimestriel,94.2502,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2026-05,Epex DAM trimestriel,94.2502,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:04:25+00:00,electricite,2026-06,Epex DAM trimestriel,94.2502,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-09-26T20:05:28+00:00,gaz,2024-01,TTF DAM Heren trimestriel,27.4670,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-02,TTF DAM Heren trimestriel,27.4670,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-03,TTF DAM Heren trimestriel,27.4670,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-04,TTF DAM Heren trimestriel,31.5390,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-05,TTF DAM Heren trimestriel,31.5390,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-06,TTF DAM Heren trimestriel,31.5390,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-07,TTF DAM Heren trimestriel,35.3200,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-08,TTF DAM Heren trimestriel,35.3200,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-09,TTF DAM Heren trimestriel,35.3200,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-10,TTF DAM Heren trimestriel,42.8310,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-11,TTF DAM Heren trimestriel,42.8310,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2024-12,TTF DAM Heren trimestriel,42.8310,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-01,TTF DAM Heren trimestriel,46.8530,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-02,TTF DAM Heren trimestriel,46.8530,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-03,TTF DAM Heren trimestriel,46.8530,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-04,TTF DAM Heren trimestriel,35.3580,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-05,TTF DAM Heren trimestriel,35.3580,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-06,TTF DAM Heren trimestriel,35.3580,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-07,TTF DAM Heren trimestriel,32.4360,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-08,TTF DAM Heren trimestriel,32.4360,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-09,TTF DAM Heren trimestriel,32.4360,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-10,TTF DAM Heren trimestriel,30.0420,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-11,TTF DAM Heren trimestriel,30.0420,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2025-12,TTF DAM Heren trimestriel,30.0420,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2026-01,TTF DAM Heren trimestriel,39.6800,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2026-02,TTF DAM Heren trimestriel,39.6800,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2026-03,TTF DAM Heren trimestriel,39.6800,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2026-04,TTF DAM Heren trimestriel,45.6490,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2026-05,TTF DAM Heren trimestriel,45.6490,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-26T20:05:28+00:00,gaz,2026-06,TTF DAM Heren trimestriel,45.6490,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058

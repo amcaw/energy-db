@@ -26,6 +26,8 @@ PAGE_LUMINUS = "https://www.luminus.be/nl/prive/energie/indexatieparameters/"
 PDF_ENECO = "https://cdn.eneco.be/downloads/nl/b2c/acq/indexatieparameters-aardgas.pdf"
 INDICE_SIMPLE = "TTF DAM Heren"
 INDICE_RLP = "TTF DAM RLP Heren"
+INDICE_TRIMESTRE = "TTF DAM Heren trimestriel"
+SOURCE_TRIMESTRE = "Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)"
 SOURCE_SIMPLE = "Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)"
 SOURCE_RLP = "Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren"
 TOLERANCE_RECOUPEMENT = 0.02
@@ -79,7 +81,17 @@ def lire_luminus(texte):
     if not annees:
         raise RuntimeError("annees du tableau gaz Luminus introuvables")
     motif = re.compile(r"\b(" + "|".join(MOIS) + r")\b")
-    out = {"simple": {}, "rlp": {}}
+    out = {"simple": {}, "rlp": {}, "trimestre": {}}
+    for l in lignes[debut + 1:debut + 12]:
+        if "TTF 103" in l:
+            break
+        q = re.match(r"\s*Q([1-4])\s+((?:\d+,\d{3}\s+){1,2}\d+,\d{3}|\d+,\d{3})", l)
+        if not q:
+            continue
+        for annee, valeur in zip(annees, re.findall(r"\d+,\d{3}", q.group(2))):
+            premier = (int(q.group(1)) - 1) * 3 + 1
+            for m in range(premier, premier + 3):
+                out["trimestre"][f"{annee}-{m:02d}"] = nombre(valeur)
     for l in lignes[debut:debut + 25]:
         occurrences = list(motif.finditer(l))
         if len(occurrences) < 2:
@@ -137,7 +149,14 @@ def approximation():
     profil = profil_gaz(aujourd.year)
     poids = {j: profil[j] for j in connus if j in profil}
     rlp = (sum(connus[j] * poids[j] for j in poids) / sum(poids.values())) if len(poids) == len(connus) else None
+    premier = (aujourd.month - 1) // 3 * 3 + 1
+    trimestre = [f"{aujourd.year}-{m:02d}" for m in range(premier, premier + 3)]
+    jours_trimestre = {j: v for j, v in jours.items() if j[:7] in trimestre}
+    fin = date(aujourd.year + (premier == 10), (premier + 2) % 12 + 1, 1)
+    total_trimestre = (fin - date(aujourd.year, premier, 1)).days
     return {"mois": mois, "jours_connus": len(connus),
+            INDICE_TRIMESTRE: round(statistics.fmean(jours_trimestre.values()), 4) if jours_trimestre else None,
+            "trimestre": {"jours_connus": len(jours_trimestre), "jours_total": total_trimestre},
             INDICE_SIMPLE: round(statistics.fmean(connus.values()), 4),
             INDICE_RLP: round(rlp, 4) if rlp is not None else None,
             "base": "EEX EGSI TTF Day + Weekend, par jour de livraison",
@@ -154,7 +173,8 @@ def cmd_publier():
     horodatage = datetime.now(timezone.utc).isoformat(timespec="seconds")
     ajouts, desaccords = [], []
     for indice, valeurs, source in ((INDICE_SIMPLE, luminus["simple"], SOURCE_SIMPLE),
-                                    (INDICE_RLP, luminus["rlp"], SOURCE_RLP)):
+                                    (INDICE_RLP, luminus["rlp"], SOURCE_RLP),
+                                    (INDICE_TRIMESTRE, luminus["trimestre"], SOURCE_TRIMESTRE)):
         for mois, valeur in sorted(valeurs.items()):
             if indice == INDICE_RLP and mois in eneco and abs(eneco[mois] - valeur) > TOLERANCE_RECOUPEMENT:
                 desaccords.append({"mois": mois, "luminus": valeur, "eneco": eneco[mois]})

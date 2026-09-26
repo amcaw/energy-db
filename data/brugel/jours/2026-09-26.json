@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T19:53:48+00:00",
+ "releve_le": "2026-09-26T20:06:05+00:00",
  "source": "Comparateur officiel de Brugel (Brusim, brusim.be), simulations publiques",
  "localite": "1000 Bruxelles",
  "kwh_reference": 20000,
@@ -99,9 +99,9 @@
    "redevance": 50.0,
    "prix_kwh": 7.199997,
    "rattachement": {
-    "indice": "ZTP DAM",
+    "indice": "ZTP DAM RLP",
     "statut": "approche",
-    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+    "raison": "la variante de Brusol (EnergyVision) s'écarte de 0,3 €/MWh au plus de celle d'Octa+, sur laquelle la série est vérifiée"
    },
    "decodage": {
     "coefficient": 1.02,
@@ -303,9 +303,9 @@
    "redevance": 50.0,
    "prix_kwh": 8.874659,
    "rattachement": {
-    "indice": "TTF DAM Heren",
-    "statut": "approche",
-    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+    "indice": "TTF DAM Heren trimestriel",
+    "statut": "exact",
+    "raison": "moyenne trimestrielle publiée par Luminus"
    },
    "decodage": {
     "coefficient": 0.10011,
@@ -417,9 +417,9 @@
    "redevance": 90.0046,
    "prix_kwh": 8.170374,
    "rattachement": {
-    "indice": "TTF DAM RLP Heren",
-    "statut": "approche",
-    "raison": "source de cotation du fournisseur non vérifiée"
+    "indice": "TTF DAM RLP",
+    "statut": "exact",
+    "raison": "TTF EGSI pondéré par le profil, vérifié contre le TTF RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 0.1007,
@@ -465,9 +465,9 @@
    "redevance": 35.0012,
    "prix_kwh": 8.183624,
    "rattachement": {
-    "indice": "TTF DAM RLP Heren",
-    "statut": "approche",
-    "raison": "source de cotation du fournisseur non vérifiée"
+    "indice": "TTF DAM RLP",
+    "statut": "exact",
+    "raison": "TTF EGSI pondéré par le profil, vérifié contre le TTF RLP publié par Octa+"
    },
    "decodage": {
     "coefficient": 0.1009,

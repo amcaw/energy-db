@@ -14,6 +14,8 @@ SORTIE = os.path.join(RACINE, "data")
 OBS = os.path.join(DATA, "observations.csv")
 ENCOURS = [os.path.join(DATA, "indices_profil_encours.json"),
            os.path.join(DATA, "heren_encours.json")]
+ENCOURS_DERIVES = os.path.join(DATA, "indices_derives_encours.json")
+TRIMESTRIELS = {"Epex DAM trimestriel", "TTF DAM Heren trimestriel"}
 
 QUOTIDIEN = {"Epex DAM": "epex_jours.csv", "ZTP DAM": "ztp_jours.csv",
              "TTF DAM": "ttf_jours.csv", "ZTP DAM EGSI": "ztp_jours.csv"}
@@ -68,6 +70,27 @@ META = {
                      "note": "Moyenne des cotations EGSI du hub gazier belge, par jour de livraison. "
                              "Verifie contre le ZTP mensuel publie par Mega.",
                      "source": "EEX EGSI ZTP Day + Weekend"},
+    "ZTP DAM RLP": {"energie": "gaz", "role": "comptant",
+                    "libelle": "ZTP EGSI pondere par le profil gaz RLP", "unite": "EUR/MWh",
+                    "note": "Cotations EGSI du hub belge ponderees par le profil de consommation gaz "
+                            "Synergrid. Verifie contre le ZTP RLP publie par Octa+.",
+                    "source": "EEX EGSI ZTP + profil Synergrid RLP gaz"},
+    "TTF DAM RLP": {"energie": "gaz", "role": "comptant",
+                    "libelle": "TTF EGSI pondere par le profil gaz RLP", "unite": "EUR/MWh",
+                    "note": "Cotations EGSI du hub neerlandais ponderees par le profil de consommation "
+                            "gaz Synergrid. Verifie contre le TTF RLP publie par Octa+.",
+                    "source": "EEX EGSI TTF + profil Synergrid RLP gaz"},
+    "TTF DAM Heren trimestriel": {"energie": "gaz", "role": "comptant",
+                                  "libelle": "TTF Day Ahead Heren, moyenne trimestrielle",
+                                  "unite": "EUR/MWh",
+                                  "note": "Moyenne du trimestre de fourniture, meme valeur pour ses trois "
+                                          "mois. Trimestre en cours approche par l'EGSI.",
+                                  "source": "parametres d'indexation publies par Luminus (TTFDAHW)"},
+    "Epex DAM trimestriel": {"energie": "electricite", "role": "comptant",
+                             "libelle": "Epex SPOT Belgium, moyenne trimestrielle", "unite": "EUR/MWh",
+                             "note": "Moyenne des prix journaliers du trimestre de fourniture, meme valeur "
+                                     "pour ses trois mois. Verifie contre le Belpex trimestriel de Luminus.",
+                             "source": "energy-charts.info, recoupe avec Luminus"},
     "TTF DAM Heren": {"energie": "gaz", "role": "comptant",
                       "libelle": "TTF Day Ahead + Weekend, evaluation ICIS Heren", "unite": "EUR/MWh",
                       "note": "Moyenne mensuelle des evaluations Heren du TTF, par jour de livraison. "
@@ -89,7 +112,8 @@ META = {
                         "source": "parametres d'indexation publies par Engie"},
 }
 COMPTANT = {"Epex DAM", "Epex DAM RLP", "Epex DAM SPP", "ZTP DAM", "TTF DAM",
-            "TTF DAM Heren", "TTF DAM RLP Heren", "ZTP DAM EGSI"}
+            "TTF DAM Heren", "TTF DAM RLP Heren", "ZTP DAM EGSI", "ZTP DAM RLP",
+            "TTF DAM RLP", "TTF DAM Heren trimestriel", "Epex DAM trimestriel"}
 
 
 def jours_du_mois(m):
@@ -130,6 +154,13 @@ def quotidien(nom):
 
 
 def estime_profil(indice):
+    if os.path.exists(ENCOURS_DERIVES):
+        d = json.load(open(ENCOURS_DERIVES, encoding="utf-8"))
+        e = d.get("series", {}).get(indice)
+        if e:
+            return {"mois": e["mois"], "valeur": e["valeur"], "jours_connus": e["jours"],
+                    "jours_total": e["attendus"], "definitif": False,
+                    **({"periode": "trimestre"} if indice in TRIMESTRIELS else {})}
     for chemin in ENCOURS:
         if not os.path.exists(chemin):
             continue
@@ -139,6 +170,9 @@ def estime_profil(indice):
             continue
         estimation = {"mois": d["mois"], "valeur": v, "jours_connus": d["jours_connus"],
                       "jours_total": jours_du_mois(d["mois"]), "definitif": False}
+        if indice in TRIMESTRIELS and d.get("trimestre"):
+            estimation.update(jours_connus=d["trimestre"]["jours_connus"],
+                              jours_total=d["trimestre"]["jours_total"], periode="trimestre")
         if d.get("base"):
             estimation["approche"] = d["base"]
         return estimation

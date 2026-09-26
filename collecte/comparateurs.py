@@ -65,8 +65,9 @@ UNITE = r"(c\s*€\s*/\s*kWh|€\s*/\s*MWh|EUR\s*/\s*MWh)?"
 REGLES_RATTACHEMENT = {
     "electricite": [
         (r"BELIX", None, "inconnu", "indice propre au fournisseur, non publié"),
-        (r"RLP", "Epex DAM RLP", "exact",
-         "vérifié contre le Belpex RLP M publié par Luminus"),
+        (r"BELPEX0XENDEX103", "Epex DAM trimestriel", "exact",
+         "moyenne trimestrielle, vérifiée contre le Belpex trimestriel publié par Luminus"),
+        (r"RLP", "Epex DAM RLP", "exact", "vérifié contre le Belpex RLP M publié par Luminus"),
         (r"ENDEX101", "Endex 101", "exact", "valeur publiée par Engie"),
         (r"EPEX|BELPEX", "Epex DAM", "exact", "vérifié contre Engie, Luminus et Mega"),
     ],
@@ -76,13 +77,24 @@ REGLES_RATTACHEMENT = {
         (r"TTFDAWRLPM|TTFDAHRLPM", "TTF DAM RLP Heren", "exact",
          "valeur publiée par le fournisseur (Luminus, Eneco)"),
         (r"TTFDAHM", "TTF DAM Heren", "exact", "valeur publiée par Luminus"),
-        (r"TTFDAHW", "TTF DAM Heren", "approche", "le fournisseur prend une moyenne trimestrielle, la série est mensuelle"),
-        (r"ZTP.*RLP|ZTPS41", "ZTP DAM", "approche",
-         "le fournisseur prend un ZTP pondéré par le profil de consommation, la série ne l’est pas"),
-        (r"TTF.*RLP", "TTF DAM RLP Heren", "approche", "source de cotation du fournisseur non vérifiée"),
+        (r"TTFDAHW", "TTF DAM Heren trimestriel", "exact",
+         "moyenne trimestrielle publiée par Luminus"),
+        (r"ZTP.*RLP|ZTPS41", "ZTP DAM RLP", "exact", "vérifié contre le ZTP RLP publié par Octa+"),
+        (r"TTF.*RLP", "TTF DAM RLP", "exact",
+         "TTF EGSI pondéré par le profil, vérifié contre le TTF RLP publié par Octa+"),
         (r"ZTP", "ZTP DAM", "approche", "source de cotation du fournisseur non vérifiée"),
         (r"TTF", "TTF DAM", "approche", "source de cotation du fournisseur non vérifiée"),
     ],
+}
+PARTICULARITES = {
+    ("ENERGYVISION", "electricite"): "EnergyVision pondère avec le profil des seuls gestionnaires "
+                                     "flamands, la série avec celui de tous les gestionnaires belges",
+    ("BRUSOL", "electricite"): "Brusol (EnergyVision) pondère avec le profil des seuls gestionnaires "
+                               "flamands, la série avec celui de tous les gestionnaires belges",
+    ("ENERGYVISION", "gaz"): "la variante d'EnergyVision s'écarte de 0,3 €/MWh au plus de celle "
+                             "d'Octa+, sur laquelle la série est vérifiée",
+    ("BRUSOL", "gaz"): "la variante de Brusol (EnergyVision) s'écarte de 0,3 €/MWh au plus de celle "
+                       "d'Octa+, sur laquelle la série est vérifiée",
 }
 DETAILS_ELECTRICITE = ["certificats_verts", "tranches"]
 
@@ -147,6 +159,9 @@ def rattacher(energie, fournisseur, formule, parametre):
                 egsi = "TTF DAM" if serie == "TTF DAM" else "ZTP DAM EGSI"
                 return {"indice": egsi, "statut": "exact",
                         "raison": "EGSI par jour de livraison, vérifié contre Mega"}
+            particularite = PARTICULARITES.get((fournisseur.upper(), energie))
+            if particularite and statut == "exact" and "RLP" in serie:
+                return {"indice": serie, "statut": "approche", "raison": particularite}
             return {"indice": serie, "statut": statut, "raison": raison}
     return {"indice": None, "statut": "inconnu", "raison": "indice non reconnu dans la formule"}
 
