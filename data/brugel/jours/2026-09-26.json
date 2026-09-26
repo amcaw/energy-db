@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T19:35:03+00:00",
+ "releve_le": "2026-09-26T19:41:03+00:00",
  "source": "Comparateur officiel de Brugel (Brusim, brusim.be), simulations publiques",
  "localite": "1000 Bruxelles",
  "kwh_reference": 20000,
@@ -21,9 +21,9 @@
    "redevance": 107.88,
    "prix_kwh": 8.0136,
    "rattachement": {
-    "indice": "TTF DAM RLP Heren",
+    "indice": "TTF DAM",
     "statut": "approche",
-    "raison": "la formule cite TTF DAM, mais le parametre VREG est celui de TTF DAM RLP Heren"
+    "raison": "source de cotation du fournisseur non verifiee"
    }
   },
   {
@@ -59,9 +59,9 @@
    "redevance": 47.88,
    "prix_kwh": 8.0136,
    "rattachement": {
-    "indice": "TTF DAM RLP Heren",
+    "indice": "TTF DAM",
     "statut": "approche",
-    "raison": "la formule cite TTF DAM, mais le parametre VREG est celui de TTF DAM RLP Heren"
+    "raison": "source de cotation du fournisseur non verifiee"
    }
   },
   {
@@ -238,7 +238,7 @@
    "rattachement": {
     "indice": "TTF DAM Heren",
     "statut": "approche",
-    "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+    "raison": "moyenne trimestrielle, la serie est mensuelle"
    }
   },
   {
