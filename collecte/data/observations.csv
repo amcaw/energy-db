@@ -581,17 +581,6 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-09-15T04:53:26+00:00,gaz,2016-T3,TTF 103 (Heren),14.5545,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
 2026-09-15T04:53:26+00:00,gaz,2016-T2,TTF 103 (Heren),11.99708,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
 2026-09-15T04:53:26+00:00,gaz,2016-T1,TTF 103 (Heren),16.1071,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,2f0258adea343f47
-2026-09-15T21:10:30+00:00,gaz,2025-10,TTF DAM,31.9671,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2025-11,TTF DAM,30.5235,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2025-12,TTF DAM,27.6311,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2026-01,TTF DAM,34.3966,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2026-02,TTF DAM,32.9155,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2026-03,TTF DAM,52.4662,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2026-04,TTF DAM,45.3478,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2026-05,TTF DAM,47.1409,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2026-06,TTF DAM,44.6526,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2026-07,TTF DAM,53.7877,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
-2026-09-15T21:10:30+00:00,gaz,2026-08,TTF DAM,61.8074,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
 2026-09-21T16:10:59+00:00,electricite,2025-10,Epex DAM SPP,66.1435,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
 2026-09-21T16:10:59+00:00,electricite,2025-11,Epex DAM SPP,78.9417,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
 2026-09-21T16:10:59+00:00,electricite,2025-12,Epex DAM SPP,86.8301,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
@@ -614,3 +603,89 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-09-26T19:06:35+00:00,electricite,2026-06,Epex DAM RLP,120.7940,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
 2026-09-26T19:06:35+00:00,electricite,2026-07,Epex DAM RLP,114.2847,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
 2026-09-26T19:06:35+00:00,electricite,2026-08,Epex DAM RLP,134.9339,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-09-26T19:26:29+00:00,gaz,2025-10,TTF DAM,32.0050,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2025-11,TTF DAM,30.5711,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2025-12,TTF DAM,27.6544,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2026-01,TTF DAM,34.0100,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2026-02,TTF DAM,33.2244,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2026-03,TTF DAM,51.7856,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2026-04,TTF DAM,45.5635,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2026-05,TTF DAM,47.1361,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2026-06,TTF DAM,44.7438,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2026-07,TTF DAM,53.2896,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:26:29+00:00,gaz,2026-08,TTF DAM,61.5408,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-09-26T19:29:07+00:00,gaz,2024-01,TTF DAM Heren,29.9210,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-02,TTF DAM Heren,25.8570,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-03,TTF DAM Heren,26.5200,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-04,TTF DAM Heren,29.0070,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-05,TTF DAM Heren,31.4320,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-06,TTF DAM Heren,34.1830,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-07,TTF DAM Heren,32.1170,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-08,TTF DAM Heren,37.6030,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-09,TTF DAM Heren,36.2700,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-10,TTF DAM Heren,40.0530,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-11,TTF DAM Heren,43.7580,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-12,TTF DAM Heren,44.7110,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-01,TTF DAM Heren,48.4310,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-02,TTF DAM Heren,50.9400,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-03,TTF DAM Heren,41.5850,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-04,TTF DAM Heren,35.0920,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-05,TTF DAM Heren,34.7370,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-06,TTF DAM Heren,36.2670,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-07,TTF DAM Heren,33.2120,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-08,TTF DAM Heren,32.1390,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-09,TTF DAM Heren,31.9420,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-10,TTF DAM Heren,31.9730,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-11,TTF DAM Heren,30.4990,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-12,TTF DAM Heren,27.6690,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-01,TTF DAM Heren,34.1680,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-02,TTF DAM Heren,32.9960,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-03,TTF DAM Heren,51.2280,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-04,TTF DAM Heren,45.3830,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-05,TTF DAM Heren,46.8950,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-06,TTF DAM Heren,44.6280,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-07,TTF DAM Heren,53.2060,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-08,TTF DAM Heren,61.4380,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-01,TTF DAM RLP Heren,29.9070,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-02,TTF DAM RLP Heren,25.9320,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-03,TTF DAM RLP Heren,26.4500,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-04,TTF DAM RLP Heren,28.8010,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-05,TTF DAM RLP Heren,31.1270,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-06,TTF DAM RLP Heren,34.1830,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-07,TTF DAM RLP Heren,32.1260,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-08,TTF DAM RLP Heren,37.6140,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-09,TTF DAM RLP Heren,36.2790,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-10,TTF DAM RLP Heren,40.2940,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-11,TTF DAM RLP Heren,44.1660,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2024-12,TTF DAM RLP Heren,44.6520,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-01,TTF DAM RLP Heren,48.4270,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-02,TTF DAM RLP Heren,51.0980,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-03,TTF DAM RLP Heren,41.6890,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-04,TTF DAM RLP Heren,35.4900,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-05,TTF DAM RLP Heren,34.5210,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-06,TTF DAM RLP Heren,36.1670,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-07,TTF DAM RLP Heren,33.2250,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-08,TTF DAM RLP Heren,32.1540,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-09,TTF DAM RLP Heren,31.9880,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-10,TTF DAM RLP Heren,31.9520,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-11,TTF DAM RLP Heren,30.4550,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2025-12,TTF DAM RLP Heren,27.6660,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-01,TTF DAM RLP Heren,34.2170,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-02,TTF DAM RLP Heren,33.0720,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-03,TTF DAM RLP Heren,50.6890,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-04,TTF DAM RLP Heren,45.8170,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-05,TTF DAM RLP Heren,46.7040,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-06,TTF DAM RLP Heren,44.9490,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-07,TTF DAM RLP Heren,52.9910,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:29:07+00:00,gaz,2026-08,TTF DAM RLP Heren,61.6370,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",8e4f5fe9c53fb058
+2026-09-26T19:34:31+00:00,gaz,2025-10,ZTP DAM EGSI,31.5070,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2025-11,ZTP DAM EGSI,29.9478,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2025-12,ZTP DAM EGSI,27.8107,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2026-01,ZTP DAM EGSI,34.5001,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2026-02,ZTP DAM EGSI,32.6074,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2026-03,ZTP DAM EGSI,51.1569,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2026-04,ZTP DAM EGSI,44.8975,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2026-05,ZTP DAM EGSI,46.7537,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2026-06,ZTP DAM EGSI,44.4393,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2026-07,ZTP DAM EGSI,53.2604,"EEX EGSI ZTP Day + Weekend, par jour de livraison",
+2026-09-26T19:34:31+00:00,gaz,2026-08,ZTP DAM EGSI,61.7121,"EEX EGSI ZTP Day + Weekend, par jour de livraison",

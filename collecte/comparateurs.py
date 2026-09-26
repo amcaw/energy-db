@@ -56,7 +56,30 @@ ENERGIES = {
 TOLERANCE_KWH = 0.0005
 TOLERANCE_REDEVANCE = 0.01
 PAUSE = 0.4
-DETAILS = ["en_ligne", "debut", "fin", "formule", "parametre", "fiche", "conditions_generales"]
+DETAILS = ["en_ligne", "debut", "fin", "formule", "parametre", "fiche", "conditions_generales",
+           "rattachement"]
+REGLES_RATTACHEMENT = {
+    "electricite": [
+        (r"BELIX", None, "inconnu", "indice propre au fournisseur, non publie"),
+        (r"RLP", "Epex DAM RLP", "exact",
+         "verifie contre le Belpex RLP M publie par Luminus"),
+        (r"ENDEX101", "Endex 101", "exact", "valeur publiee par Engie"),
+        (r"EPEX|BELPEX", "Epex DAM", "exact", "verifie contre Engie, Luminus et Mega"),
+    ],
+    "gaz": [
+        (r"ZTPDAMHEREN", "ZTP DAM", "exact", "valeur publiee par Engie"),
+        (r"ZTP101", "ZTP 101", "exact", "valeur publiee par Engie"),
+        (r"TTFDAWRLPM|TTFDAHRLPM", "TTF DAM RLP Heren", "exact",
+         "valeur publiee par le fournisseur (Luminus, Eneco)"),
+        (r"TTFDAHM", "TTF DAM Heren", "exact", "valeur publiee par Luminus"),
+        (r"TTFDAHW", "TTF DAM Heren", "approche", "moyenne trimestrielle, la serie est mensuelle"),
+        (r"ZTP.*RLP|ZTPS41", "ZTP DAM", "approche",
+         "ZTP pondere par le profil, la serie ne l'est pas"),
+        (r"TTF.*RLP", "TTF DAM RLP Heren", "approche", "source de cotation du fournisseur non verifiee"),
+        (r"ZTP", "ZTP DAM", "approche", "source de cotation du fournisseur non verifiee"),
+        (r"TTF", "TTF DAM", "approche", "source de cotation du fournisseur non verifiee"),
+    ],
+}
 DETAILS_ELECTRICITE = ["certificats_verts", "tranches"]
 
 
@@ -110,6 +133,53 @@ def en_francais(produit, champ):
     return texte(traduit) or texte(produit.get(champ))
 
 
+def rattacher(energie, fournisseur, formule, parametre):
+    if not formule:
+        return None
+    texte = re.sub(r"[^A-Z0-9]", "", formule.upper())
+    for motif, serie, statut, raison in REGLES_RATTACHEMENT[energie]:
+        if re.search(motif, texte):
+            if fournisseur.upper() == "MEGA" and serie in ("TTF DAM", "ZTP DAM"):
+                egsi = "TTF DAM" if serie == "TTF DAM" else "ZTP DAM EGSI"
+                return {"indice": egsi, "statut": "exact",
+                        "raison": "EGSI par jour de livraison, verifie contre Mega"}
+            return {"indice": serie, "statut": statut, "raison": raison}
+    return {"indice": None, "statut": "inconnu", "raison": "indice non reconnu dans la formule"}
+
+
+def valeur_parametre(parametre):
+    trouve = re.search(r"\d+[.,]\d{2,}", parametre or "")
+    return round(float(trouve.group().replace(",", ".")), 2) if trouve else None
+
+
+REFERENCES_PARAMETRES = {"gaz": {}, "electricite": {}}
+
+
+def controler_parametres(offres, energie):
+    references = REFERENCES_PARAMETRES[energie]
+    for o in offres:
+        r = o.get("rattachement")
+        v = valeur_parametre(o.get("parametre"))
+        if r and r["statut"] == "exact" and r["indice"] and v is not None:
+            references.setdefault(r["indice"], {}).setdefault(v, 0)
+            references[r["indice"]][v] += 1
+    reference = {serie: max(comptes, key=comptes.get) for serie, comptes in references.items()}
+    serie_de = {v: serie for serie, v in reference.items()}
+    for o in offres:
+        r = o.get("rattachement")
+        v = valeur_parametre(o.get("parametre"))
+        if not r or not r["indice"] or v is None or reference.get(r["indice"]) in (None, v):
+            continue
+        if v in serie_de:
+            o["rattachement"] = {"indice": serie_de[v], "statut": "approche",
+                                 "raison": f"la formule cite {r['indice']}, mais le parametre VREG "
+                                           f"est celui de {serie_de[v]}"}
+        else:
+            o["rattachement"] = {**r, "statut": "approche",
+                                 "raison": "parametre VREG different de la moyenne mensuelle "
+                                           "(periodicite ou ponderation differente)"}
+
+
 def date_jour(valeur):
     return valeur[:10] if valeur else None
 
@@ -152,6 +222,10 @@ def lire_offres(lignes, kwh, energie):
             o["prix_kwh"] = round(o["prix_kwh"] + prix / kwh * 100, 6)
             if energie == "electricite" and item.get("billingType") not in (None, "unique"):
                 o["tranches"] = True
+    for o in offres.values():
+        o["rattachement"] = (rattacher(energie, o["fournisseur"], o["formule"], o["parametre"])
+                             if o["type"] == "variable" else None)
+    controler_parametres(offres.values(), energie)
     return sorted(offres.values(), key=lambda o: (o["fournisseur"], o["produit"], o["id"]))
 
 

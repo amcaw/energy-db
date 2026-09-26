@@ -37,11 +37,24 @@ jobs:
       - name: Gaz belge au comptant
         run: python collecte/gaz.py collect | tee -a rapport.json
 
+      - name: Publier les mois ZTP EGSI complets
+        run: python collecte/gaz.py publier | tee -a rapport.json
+
       - name: Gaz neerlandais au comptant
         run: python collecte/ttf.py collect | tee -a rapport.json
 
       - name: Publier les mois TTF complets
         run: python collecte/ttf.py publier | tee -a rapport.json
+
+      - name: Outil de lecture des PDF
+        continue-on-error: true
+        run: sudo apt-get install -y --no-install-recommends poppler-utils
+
+      - name: TTF Heren publie par Luminus et Eneco
+        id: heren
+        continue-on-error: true
+        shell: bash
+        run: python collecte/heren.py publier | tee -a rapport.json
 
       - name: Cotations a terme
         run: python collecte/terme.py collect | tee -a rapport.json
@@ -90,6 +103,10 @@ jobs:
       - name: Signaler un echec de la collecte CWaPE
         if: steps.cwape.outcome == 'failure'
         run: echo "::warning::la collecte CWaPE (gaz ou electricite) a echoue ou les prix ne sont plus lineaires, voir le resume"
+
+      - name: Signaler un echec du releve Heren
+        if: steps.heren.outcome == 'failure'
+        run: echo "::warning::le releve TTF Heren (PDF Luminus ou Eneco) a echoue ou les deux sources divergent, voir le resume"
 
       - name: Signaler un echec de la collecte Brugel
         if: steps.brugel.outcome == 'failure'

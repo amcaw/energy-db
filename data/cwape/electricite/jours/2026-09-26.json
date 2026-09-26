@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T11:00:31+00:00",
+ "releve_le": "2026-09-26T19:34:56+00:00",
  "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
  "localite": "1300 Wavre (Limal)",
  "kwh_reference": 3500,
@@ -21,7 +21,12 @@
    "redevance": 107.88,
    "prix_kwh": 18.3805,
    "certificats_verts": 3.0316,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "approche",
+    "raison": "la formule cite Epex DAM, mais le parametre VREG est celui de Epex DAM RLP"
+   }
   },
   {
    "id": 499,
@@ -39,7 +44,8 @@
    "redevance": 47.88,
    "prix_kwh": 19.61,
    "certificats_verts": 3.0316,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 361,
@@ -57,7 +63,12 @@
    "redevance": 47.88,
    "prix_kwh": 18.3805,
    "certificats_verts": 3.0316,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "approche",
+    "raison": "la formule cite Epex DAM, mais le parametre VREG est celui de Epex DAM RLP"
+   }
   },
   {
    "id": 59,
@@ -75,7 +86,12 @@
    "redevance": 53.0,
    "prix_kwh": 15.519778,
    "certificats_verts": 2.968,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": null,
+    "statut": "inconnu",
+    "raison": "indice propre au fournisseur, non publie"
+   }
   },
   {
    "id": 133,
@@ -93,7 +109,8 @@
    "redevance": 65.0,
    "prix_kwh": 20.444031,
    "certificats_verts": 3.220683,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 504,
@@ -111,7 +128,12 @@
    "redevance": 65.0,
    "prix_kwh": 16.036772,
    "certificats_verts": 3.220683,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 8,
@@ -129,7 +151,12 @@
    "redevance": 65.0,
    "prix_kwh": 17.66808,
    "certificats_verts": 3.220683,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 312,
@@ -147,7 +174,12 @@
    "redevance": 20.0022,
    "prix_kwh": 17.41368,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "verifie contre Engie, Luminus et Mega"
+   }
   },
   {
    "id": 7,
@@ -165,7 +197,12 @@
    "redevance": 29.998,
    "prix_kwh": 17.99244,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "verifie contre Engie, Luminus et Mega"
+   }
   },
   {
    "id": 3,
@@ -183,7 +220,12 @@
    "redevance": 64.9992,
    "prix_kwh": 18.69098,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Endex 101",
+    "statut": "exact",
+    "raison": "valeur publiee par Engie"
+   }
   },
   {
    "id": 1,
@@ -201,7 +243,8 @@
    "redevance": 68.9954,
    "prix_kwh": 18.69522,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 366,
@@ -219,7 +262,12 @@
    "redevance": 90.0046,
    "prix_kwh": 17.81012,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "verifie contre Engie, Luminus et Mega"
+   }
   },
   {
    "id": 368,
@@ -237,7 +285,8 @@
    "redevance": 90.0046,
    "prix_kwh": 17.83874,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 5,
@@ -255,7 +304,12 @@
    "redevance": 58.9996,
    "prix_kwh": 18.0518,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "verifie contre Engie, Luminus et Mega"
+   }
   },
   {
    "id": 381,
@@ -273,7 +327,12 @@
    "redevance": 59.996,
    "prix_kwh": 15.7622,
    "certificats_verts": 3.0528,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 383,
@@ -291,7 +350,12 @@
    "redevance": 9.9958,
    "prix_kwh": 15.1262,
    "certificats_verts": 3.0528,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 417,
@@ -309,7 +373,8 @@
    "redevance": 75.0,
    "prix_kwh": 13.57,
    "certificats_verts": 2.9998,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 452,
@@ -327,7 +392,12 @@
    "redevance": 0.0,
    "prix_kwh": 14.209149,
    "certificats_verts": 2.9998,
-   "tranches": true
+   "tranches": true,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 221,
@@ -345,7 +415,8 @@
    "redevance": 25.0,
    "prix_kwh": 19.179916,
    "certificats_verts": 3.030243,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 217,
@@ -363,7 +434,12 @@
    "redevance": 25.0,
    "prix_kwh": 16.355609,
    "certificats_verts": 3.030243,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 20,
@@ -381,7 +457,8 @@
    "redevance": 65.0,
    "prix_kwh": 22.574322,
    "certificats_verts": 3.030243,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 21,
@@ -399,7 +476,8 @@
    "redevance": 65.0,
    "prix_kwh": 24.386922,
    "certificats_verts": 3.030243,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 22,
@@ -417,7 +495,12 @@
    "redevance": 65.0,
    "prix_kwh": 20.22038,
    "certificats_verts": 3.030243,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "approche",
+    "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+   }
   },
   {
    "id": 23,
@@ -435,7 +518,12 @@
    "redevance": 65.0,
    "prix_kwh": 21.93758,
    "certificats_verts": 3.030243,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "approche",
+    "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+   }
   },
   {
    "id": 245,
@@ -453,7 +541,8 @@
    "redevance": 65.0,
    "prix_kwh": 20.79967,
    "certificats_verts": 3.030243,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 249,
@@ -471,7 +560,12 @@
    "redevance": 65.0,
    "prix_kwh": 18.783953,
    "certificats_verts": 3.030243,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "verifie contre Engie, Luminus et Mega"
+   }
   },
   {
    "id": 146,
@@ -489,7 +583,8 @@
    "redevance": 143.1,
    "prix_kwh": 20.65622,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 145,
@@ -507,7 +602,12 @@
    "redevance": 106.0,
    "prix_kwh": 19.309224,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 439,
@@ -525,7 +625,8 @@
    "redevance": 74.2,
    "prix_kwh": 19.46054,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 447,
@@ -543,7 +644,12 @@
    "redevance": 74.2,
    "prix_kwh": 17.719224,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 330,
@@ -561,7 +667,8 @@
    "redevance": 58.3,
    "prix_kwh": 21.31554,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 334,
@@ -579,7 +686,12 @@
    "redevance": 58.3,
    "prix_kwh": 18.509699,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "verifie contre Engie, Luminus et Mega"
+   }
   },
   {
    "id": 308,
@@ -597,7 +709,8 @@
    "redevance": 58.3,
    "prix_kwh": 20.25554,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 148,
@@ -615,7 +728,12 @@
    "redevance": 21.2,
    "prix_kwh": 18.249224,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 326,
@@ -633,7 +751,8 @@
    "redevance": 47.7,
    "prix_kwh": 18.29454,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 206,
@@ -651,7 +770,12 @@
    "redevance": 42.4,
    "prix_kwh": 16.182224,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 200,
@@ -669,7 +793,8 @@
    "redevance": 111.3,
    "prix_kwh": 20.65622,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 149,
@@ -687,7 +812,12 @@
    "redevance": 68.9,
    "prix_kwh": 19.309224,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 443,
@@ -705,7 +835,8 @@
    "redevance": 111.3,
    "prix_kwh": 20.23222,
    "certificats_verts": 3.13654,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 181,
@@ -723,7 +854,8 @@
    "redevance": 130.0,
    "prix_kwh": 20.770594,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 435,
@@ -741,7 +873,12 @@
    "redevance": 129.9984,
    "prix_kwh": 18.540247,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 140,
@@ -759,7 +896,8 @@
    "redevance": 64.9992,
    "prix_kwh": 18.332594,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 373,
@@ -777,7 +915,12 @@
    "redevance": 64.9992,
    "prix_kwh": 15.608277,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 17,
@@ -795,7 +938,12 @@
    "redevance": 64.9992,
    "prix_kwh": 17.393446,
    "certificats_verts": 3.0952,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 131,
@@ -813,7 +961,8 @@
    "redevance": 0.0,
    "prix_kwh": 25.03296,
    "certificats_verts": 0.0,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 399,
@@ -831,7 +980,8 @@
    "redevance": 90.0046,
    "prix_kwh": 20.007182,
    "certificats_verts": 3.319072,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 397,
@@ -849,7 +999,12 @@
    "redevance": 90.0046,
    "prix_kwh": 18.184724,
    "certificats_verts": 3.319072,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 401,
@@ -867,7 +1022,12 @@
    "redevance": 90.0046,
    "prix_kwh": 17.474524,
    "certificats_verts": 3.319072,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   },
   {
    "id": 404,
@@ -885,7 +1045,8 @@
    "redevance": 35.0012,
    "prix_kwh": 19.235078,
    "certificats_verts": 3.319072,
-   "tranches": false
+   "tranches": false,
+   "rattachement": null
   },
   {
    "id": 402,
@@ -903,7 +1064,12 @@
    "redevance": 35.0012,
    "prix_kwh": 17.403928,
    "certificats_verts": 3.319072,
-   "tranches": false
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   }
   }
  ]
 }

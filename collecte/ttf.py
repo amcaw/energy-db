@@ -8,7 +8,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date, datetime, timezone
+from datetime import timedelta, date, datetime, timezone
 from zoneinfo import ZoneInfo
 
 API = "https://api.eex-group.com/pub/market-data/chart/eod"
@@ -32,6 +32,10 @@ ENTETES = {
     "Referer": "https://eds.eex-group.com/",
     "User-Agent": "barometre-energie/1.0 (redaction)",
 }
+
+
+def jour_de_livraison(cotation):
+    return (date.fromisoformat(str(cotation)[:10]) + timedelta(days=1)).isoformat()
 
 
 def fetch(spec, debut, fin, essais=5):
@@ -62,7 +66,7 @@ def fetch(spec, debut, fin, essais=5):
             continue
         for ligne in serie.get("timeAndValue", []):
             if len(ligne) >= 2 and ligne[1] is not None:
-                out[ligne[0]] = float(ligne[1])
+                out[jour_de_livraison(ligne[0])] = float(ligne[1])
     return out
 
 

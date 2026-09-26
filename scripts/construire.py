@@ -12,10 +12,11 @@ sys.path.insert(0, os.path.join(RACINE, "collecte"))
 DATA = os.path.join(RACINE, "collecte", "data")
 SORTIE = os.path.join(RACINE, "data")
 OBS = os.path.join(DATA, "observations.csv")
-ENCOURS = os.path.join(DATA, "indices_profil_encours.json")
+ENCOURS = [os.path.join(DATA, "indices_profil_encours.json"),
+           os.path.join(DATA, "heren_encours.json")]
 
 QUOTIDIEN = {"Epex DAM": "epex_jours.csv", "ZTP DAM": "ztp_jours.csv",
-             "TTF DAM": "ttf_jours.csv"}
+             "TTF DAM": "ttf_jours.csv", "ZTP DAM EGSI": "ztp_jours.csv"}
 
 META = {
     "Epex DAM": {"energie": "electricite", "role": "comptant",
@@ -27,8 +28,9 @@ META = {
     "Epex DAM RLP": {"energie": "electricite", "role": "comptant",
                      "libelle": "Epex SPOT Belgium pondere par le profil de consommation RLP0N",
                      "unite": "EUR/MWh",
-                     "note": "Prix quart-horaires ponderes par le profil RLP0N, moyenne "
-                             "arithmetique de tous les gestionnaires de reseau belges.",
+                     "note": "Prix horaires ponderes par le profil RLP0N (somme horaire), moyenne "
+                             "arithmetique de tous les gestionnaires de reseau belges. Aligne sur le "
+                             "Belpex RLP M publie par Luminus.",
                      "source": "energy-charts.info + profil Synergrid RLP0N"},
     "Epex DAM SPP": {"energie": "electricite", "role": "comptant",
                      "libelle": "Epex SPOT Belgium pondere par le profil de production solaire SPP",
@@ -61,6 +63,22 @@ META = {
                 "libelle": "TTF EGSI Day Ahead + Weekend", "unite": "EUR/MWh",
                 "note": "Moyenne des cotations journalieres du hub gazier neerlandais.",
                 "source": "EEX EGSI TTF Day + Weekend"},
+    "ZTP DAM EGSI": {"energie": "gaz", "role": "comptant",
+                     "libelle": "ZTP EGSI Day Ahead + Weekend (EEX)", "unite": "EUR/MWh",
+                     "note": "Moyenne des cotations EGSI du hub gazier belge, par jour de livraison. "
+                             "Verifie contre le ZTP mensuel publie par Mega.",
+                     "source": "EEX EGSI ZTP Day + Weekend"},
+    "TTF DAM Heren": {"energie": "gaz", "role": "comptant",
+                      "libelle": "TTF Day Ahead + Weekend, evaluation ICIS Heren", "unite": "EUR/MWh",
+                      "note": "Moyenne mensuelle des evaluations Heren du TTF, par jour de livraison. "
+                              "Mois en cours approche par l'EGSI (EEX).",
+                      "source": "parametres d'indexation publies par Luminus (TTFDAHM)"},
+    "TTF DAM RLP Heren": {"energie": "gaz", "role": "comptant",
+                          "libelle": "TTF Day Ahead Heren pondere par le profil gaz RLP",
+                          "unite": "EUR/MWh",
+                          "note": "Evaluations Heren ponderees par le profil de consommation gaz "
+                                  "Synergrid. Mois en cours approche par l'EGSI pondere.",
+                          "source": "Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M)"},
     "TTF 101 Heren": {"energie": "gaz", "role": "terme",
                       "libelle": "TTF 101, produit mensuel a terme", "unite": "EUR/MWh",
                       "note": "Prix a terme du hub neerlandais, cote le mois precedent.",
@@ -70,7 +88,8 @@ META = {
                         "note": "Moyenne des cotations du trimestre precedent.",
                         "source": "parametres d'indexation publies par Engie"},
 }
-COMPTANT = {"Epex DAM", "Epex DAM RLP", "Epex DAM SPP", "ZTP DAM", "TTF DAM"}
+COMPTANT = {"Epex DAM", "Epex DAM RLP", "Epex DAM SPP", "ZTP DAM", "TTF DAM",
+            "TTF DAM Heren", "TTF DAM RLP Heren", "ZTP DAM EGSI"}
 
 
 def jours_du_mois(m):
@@ -111,14 +130,19 @@ def quotidien(nom):
 
 
 def estime_profil(indice):
-    if not os.path.exists(ENCOURS):
-        return None
-    d = json.load(open(ENCOURS, encoding="utf-8"))
-    v = d.get(indice)
-    if v is None:
-        return None
-    return {"mois": d["mois"], "valeur": v, "jours_connus": d["jours_connus"],
-            "jours_total": jours_du_mois(d["mois"]), "definitif": False}
+    for chemin in ENCOURS:
+        if not os.path.exists(chemin):
+            continue
+        d = json.load(open(chemin, encoding="utf-8"))
+        v = d.get(indice)
+        if v is None:
+            continue
+        estimation = {"mois": d["mois"], "valeur": v, "jours_connus": d["jours_connus"],
+                      "jours_total": jours_du_mois(d["mois"]), "definitif": False}
+        if d.get("base"):
+            estimation["approche"] = d["base"]
+        return estimation
+    return None
 
 
 def estime(indice, publies):

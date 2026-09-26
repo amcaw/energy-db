@@ -27,6 +27,10 @@ OBS = os.path.join(DATA, "observations.csv")
 CHAMPS = ["jour", "valeur", "releve_le"]
 
 
+def jour_de_livraison(cotation):
+    return (date.fromisoformat(str(cotation)[:10]) + timedelta(days=1)).isoformat()
+
+
 def fetch(debut, fin, essais=5):
     params = dict(INSTRUMENT, startDate=debut, endDate=fin)
     url = API + "?" + urllib.parse.urlencode(params)
@@ -59,7 +63,7 @@ def fetch(debut, fin, essais=5):
             continue
         for ligne in serie.get("timeAndValue", []):
             if len(ligne) >= 2 and ligne[1] is not None:
-                out[ligne[0]] = float(ligne[1])
+                out[jour_de_livraison(ligne[0])] = float(ligne[1])
     return out
 
 
@@ -114,6 +118,36 @@ def charger_engie():
 def indice(jours, mois):
     v = [x for j, x in jours.items() if j.startswith(mois)]
     return statistics.fmean(v) if v else None
+
+
+INDICE_EGSI = "ZTP DAM EGSI"
+SOURCE_EGSI = "EEX EGSI ZTP Day + Weekend, par jour de livraison"
+ENTETE_OBS = ["observed_at", "energie", "mois", "indice", "valeur", "source", "sha256"]
+
+
+def cmd_publier():
+    jours = lire_jours()
+    existants = set()
+    if os.path.exists(OBS):
+        for r in csv.DictReader(open(OBS, encoding="utf-8")):
+            existants.add((r["indice"], r["mois"]))
+    horodatage = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    ajouts = []
+    for m in sorted({j[:7] for j in jours}):
+        an, mo = (int(x) for x in m.split("-"))
+        complet = sum(1 for j in jours if j.startswith(m)) == calendar.monthrange(an, mo)[1]
+        if (INDICE_EGSI, m) in existants or not complet:
+            continue
+        ajouts.append({"observed_at": horodatage, "energie": "gaz", "mois": m,
+                       "indice": INDICE_EGSI, "valeur": f"{indice(jours, m):.4f}",
+                       "source": SOURCE_EGSI, "sha256": ""})
+    if ajouts:
+        with open(OBS, "a", newline="", encoding="utf-8") as f:
+            csv.DictWriter(f, fieldnames=ENTETE_OBS).writerows(ajouts)
+    print(json.dumps({"mois_publies": len(ajouts),
+                      "premier": ajouts[0]["mois"] if ajouts else None,
+                      "dernier": ajouts[-1]["mois"] if ajouts else None}, ensure_ascii=False))
+    return 0
 
 
 def cmd_collect():
@@ -211,7 +245,8 @@ def cmd_nowcast():
     return 0
 
 
-COMMANDES = {"collect": cmd_collect, "backtest": cmd_backtest, "nowcast": cmd_nowcast}
+COMMANDES = {"collect": cmd_collect, "publier": cmd_publier, "backtest": cmd_backtest,
+             "nowcast": cmd_nowcast}
 
 if __name__ == "__main__":
     nom = sys.argv[1] if len(sys.argv) > 1 else "nowcast"
