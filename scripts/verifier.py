@@ -17,7 +17,9 @@ def charger(nom):
 
 def main():
     indices = charger("indices.json")["indices"]
-    comparateurs = {"CWaPE": (charger("cwape_gaz.json"), 20), "Brugel": (charger("brugel_gaz.json"), 8)}
+    comparateurs = {"CWaPE gaz": (charger("cwape_gaz.json"), 20), "Brugel gaz": (charger("brugel_gaz.json"), 8),
+                    "CWaPE électricité": (charger("cwape_electricite.json"), 20),
+                    "Brugel électricité": (charger("brugel_electricite.json"), 8)}
     ennuis = Counter()
     details = []
 
@@ -37,7 +39,8 @@ def main():
         for o in offres:
             if o["fournisseur"].lower() == "tarif social":
                 continue
-            if not BORNES["gaz"][0] <= o["prix_kwh"] <= BORNES["gaz"][1]:
+            bornes = BORNES["electricite" if "électricité" in nom else "gaz"]
+            if not bornes[0] <= o["prix_kwh"] <= bornes[1]:
                 noter(f"prix {nom} invraisemblable", f"{o['fournisseur']} {o['produit']} -> {o['prix_kwh']:.2f} c/kWh")
             if not 0 <= o["redevance"] <= 400:
                 noter(f"redevance {nom} invraisemblable", f"{o['fournisseur']} {o['produit']} -> {o['redevance']:.2f}")

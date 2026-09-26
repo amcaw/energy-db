@@ -1,8 +1,9 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T10:55:44+00:00",
+ "releve_le": "2026-09-26T11:00:26+00:00",
  "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
  "localite": "1300 Wavre (Limal)",
+ "kwh_reference": 20000,
  "offres": [
   {
    "id": 280,

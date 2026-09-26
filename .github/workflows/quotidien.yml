@@ -89,8 +89,8 @@ jobs:
 
       - name: Signaler un echec de la collecte CWaPE
         if: steps.cwape.outcome == 'failure'
-        run: echo "::warning::la collecte CWaPE a echoue ou les prix ne sont plus lineaires, voir le resume"
+        run: echo "::warning::la collecte CWaPE (gaz ou electricite) a echoue ou les prix ne sont plus lineaires, voir le resume"
 
       - name: Signaler un echec de la collecte Brugel
         if: steps.brugel.outcome == 'failure'
-        run: echo "::warning::la collecte Brugel a echoue ou les prix ne sont plus lineaires, voir le resume"
+        run: echo "::warning::la collecte Brugel (gaz ou electricite) a echoue ou les prix ne sont plus lineaires, voir le resume"

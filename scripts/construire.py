@@ -175,7 +175,9 @@ def main():
         w.writerows(sorted(lignes, key=lambda x: (x["indice"], x["jour"])))
 
     offres = {}
-    for region, nom in (("wallonie", "cwape_gaz.json"), ("bruxelles", "brugel_gaz.json")):
+    for region, nom in (("wallonie gaz", "cwape_gaz.json"), ("bruxelles gaz", "brugel_gaz.json"),
+                        ("wallonie electricite", "cwape_electricite.json"),
+                        ("bruxelles electricite", "brugel_electricite.json")):
         chemin = os.path.join(SORTIE, nom)
         if os.path.exists(chemin):
             offres[region] = len(json.load(open(chemin, encoding="utf-8")).get("offres_actuelles", []))
@@ -193,8 +195,9 @@ def main():
             "series_quotidiennes": dict(sorted(profondeur.items())),
             "valeurs_mensuelles": sum(len(b["publie"]) for b in indices.values()),
             "valeurs_quotidiennes": len(lignes),
-            "offres_gaz_par_region": offres,
-            "fichiers": ["indices.json", "indices_jours.csv", "cwape_gaz.json", "brugel_gaz.json", "meta.json"]}
+            "offres_par_comparateur": offres,
+            "fichiers": ["indices.json", "indices_jours.csv", "cwape_gaz.json", "brugel_gaz.json",
+                          "cwape_electricite.json", "brugel_electricite.json", "meta.json"]}
     with open(os.path.join(SORTIE, "meta.json"), "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=1)
 
