@@ -57,7 +57,11 @@ TOLERANCE_KWH = 0.0005
 TOLERANCE_REDEVANCE = 0.01
 PAUSE = 0.4
 DETAILS = ["en_ligne", "debut", "fin", "formule", "parametre", "fiche", "conditions_generales",
-           "rattachement"]
+           "rattachement", "decodage"]
+TVA = 1.06
+TOLERANCE_DECODAGE = 0.012
+NOMBRE = r"(\d+(?:[.,]\d+)?)"
+UNITE = r"(c\s*€\s*/\s*kWh|€\s*/\s*MWh|EUR\s*/\s*MWh)?"
 REGLES_RATTACHEMENT = {
     "electricite": [
         (r"BELIX", None, "inconnu", "indice propre au fournisseur, non publie"),
@@ -147,6 +151,59 @@ def rattacher(energie, fournisseur, formule, parametre):
     return {"indice": None, "statut": "inconnu", "raison": "indice non reconnu dans la formule"}
 
 
+def en_nombre(texte):
+    return float(texte.replace(",", "."))
+
+
+def candidats_formule(formule):
+    t = formule.replace("×", "x")
+    produits = []
+    for m in re.finditer(NOMBRE + r"\s*[x*]\s*\(?\s*[A-Za-z]", t):
+        produits.append((en_nombre(m.group(1)), m.start(), m.end()))
+    for m in re.finditer(r"[A-Za-z][A-Za-z0-9_\-]*(?:\s+[A-Za-z][A-Za-z0-9_\-]*){0,3}\s*[x*]\s*" + NOMBRE, t):
+        produits.append((en_nombre(m.group(1)), m.start(), m.end()))
+    resultats = []
+    for coefficient, debut, fin in produits:
+        if coefficient == 0:
+            continue
+        constantes = []
+        for m in re.finditer(r"\+\s*" + NOMBRE + r"\s*" + UNITE, t[fin:fin + 70]):
+            if re.match(r"\s*[x*]", t[fin + m.end(1):]):
+                continue
+            constantes.append((en_nombre(m.group(1)), m.group(2)))
+            break
+        m = re.search(NOMBRE + r"\s*" + UNITE + r"\s*\+\s*\(?\s*$", t[max(0, debut - 40):debut])
+        if m:
+            constantes.append((en_nombre(m.group(1)), m.group(2)))
+        for constante, unite in constantes or [(0.0, None)]:
+            resultats.append((coefficient, constante, unite))
+    return resultats
+
+
+def decoder_formule(formule, parametre, prix_kwh):
+    valeur = re.search(r"\d+[.,]\d{2,}", parametre or "")
+    if not formule or not valeur:
+        return None
+    indice = en_nombre(valeur.group())
+    cible = prix_kwh / TVA
+    for coefficient, constante, unite in candidats_formule(formule):
+        en_centimes_terme = coefficient < 0.5
+        if unite:
+            en_centimes_constante = unite.replace(" ", "").lower().startswith("c")
+        else:
+            en_centimes_constante = en_centimes_terme
+        pente = coefficient if en_centimes_terme else coefficient / 10
+        fixe = constante if en_centimes_constante else constante / 10
+        if abs(pente * indice + fixe - cible) <= TOLERANCE_DECODAGE:
+            return {"coefficient": coefficient,
+                    "unite_terme": "c€/kWh" if en_centimes_terme else "€/MWh",
+                    "constante": constante,
+                    "unite_constante": "c€/kWh" if en_centimes_constante else "€/MWh",
+                    "pente_ckwh": round(pente, 6), "constante_ckwh_htva": round(fixe, 6),
+                    "parametre_vreg": indice}
+    return None
+
+
 def valeur_parametre(parametre):
     trouve = re.search(r"\d+[.,]\d{2,}", parametre or "")
     return round(float(trouve.group().replace(",", ".")), 2) if trouve else None
@@ -223,8 +280,11 @@ def lire_offres(lignes, kwh, energie):
             if energie == "electricite" and item.get("billingType") not in (None, "unique"):
                 o["tranches"] = True
     for o in offres.values():
+        variable = o["type"] == "variable"
         o["rattachement"] = (rattacher(energie, o["fournisseur"], o["formule"], o["parametre"])
-                             if o["type"] == "variable" else None)
+                             if variable else None)
+        o["decodage"] = (decoder_formule(o["formule"], o["parametre"], o["prix_kwh"])
+                         if variable and not o.get("tranches") else None)
     controler_parametres(offres.values(), energie)
     return sorted(offres.values(), key=lambda o: (o["fournisseur"], o["produit"], o["id"]))
 

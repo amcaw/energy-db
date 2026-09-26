@@ -1,6 +1,6 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T19:40:59+00:00",
+ "releve_le": "2026-09-26T19:49:11+00:00",
  "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
  "localite": "1300 Wavre (Limal)",
  "kwh_reference": 3500,
@@ -26,6 +26,15 @@
     "indice": "Epex DAM RLP",
     "statut": "approche",
     "raison": "la formule cite Epex DAM, mais le parametre VREG est celui de Epex DAM RLP"
+   },
+   "decodage": {
+    "coefficient": 1.168,
+    "unite_terme": "€/MWh",
+    "constante": 16.9,
+    "unite_constante": "€/MWh",
+    "pente_ckwh": 0.1168,
+    "constante_ckwh_htva": 1.69,
+    "parametre_vreg": 133.99053
    }
   },
   {
@@ -45,7 +54,8 @@
    "prix_kwh": 19.61,
    "certificats_verts": 3.0316,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 361,
@@ -68,6 +78,15 @@
     "indice": "Epex DAM RLP",
     "statut": "approche",
     "raison": "la formule cite Epex DAM, mais le parametre VREG est celui de Epex DAM RLP"
+   },
+   "decodage": {
+    "coefficient": 1.168,
+    "unite_terme": "€/MWh",
+    "constante": 16.9,
+    "unite_constante": "€/MWh",
+    "pente_ckwh": 0.1168,
+    "constante_ckwh_htva": 1.69,
+    "parametre_vreg": 133.99053
    }
   },
   {
@@ -91,6 +110,15 @@
     "indice": null,
     "statut": "inconnu",
     "raison": "indice propre au fournisseur, non publie"
+   },
+   "decodage": {
+    "coefficient": 0.075,
+    "unite_terme": "c€/kWh",
+    "constante": 5.0,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.075,
+    "constante_ckwh_htva": 5.0,
+    "parametre_vreg": 128.55028
    }
   },
   {
@@ -110,7 +138,8 @@
    "prix_kwh": 20.444031,
    "certificats_verts": 3.220683,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 504,
@@ -133,6 +162,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.102,
+    "unite_terme": "c€/kWh",
+    "constante": 1.462,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.102,
+    "constante_ckwh_htva": 1.462,
+    "parametre_vreg": 133.9905
    }
   },
   {
@@ -156,6 +194,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.102,
+    "unite_terme": "c€/kWh",
+    "constante": 3.001,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.102,
+    "constante_ckwh_htva": 3.001,
+    "parametre_vreg": 133.9905
    }
   },
   {
@@ -179,6 +226,15 @@
     "indice": "Epex DAM",
     "statut": "exact",
     "raison": "verifie contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.1178,
+    "unite_terme": "c€/kWh",
+    "constante": 1.2845,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1178,
+    "constante_ckwh_htva": 1.2845,
+    "parametre_vreg": 128.55028
    }
   },
   {
@@ -202,6 +258,15 @@
     "indice": "Epex DAM",
     "statut": "exact",
     "raison": "verifie contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.1177,
+    "unite_terme": "c€/kWh",
+    "constante": 1.8432,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1177,
+    "constante_ckwh_htva": 1.8432,
+    "parametre_vreg": 128.55028
    }
   },
   {
@@ -225,6 +290,15 @@
     "indice": "Endex 101",
     "statut": "exact",
     "raison": "valeur publiee par Engie"
+   },
+   "decodage": {
+    "coefficient": 0.1179,
+    "unite_terme": "c€/kWh",
+    "constante": 2.5143,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1179,
+    "constante_ckwh_htva": 2.5143,
+    "parametre_vreg": 128.23038
    }
   },
   {
@@ -244,7 +318,8 @@
    "prix_kwh": 18.69522,
    "certificats_verts": 3.0952,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 366,
@@ -267,6 +342,15 @@
     "indice": "Epex DAM",
     "statut": "exact",
     "raison": "verifie contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.1177,
+    "unite_terme": "c€/kWh",
+    "constante": 1.6712,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1177,
+    "constante_ckwh_htva": 1.6712,
+    "parametre_vreg": 128.55028
    }
   },
   {
@@ -286,7 +370,8 @@
    "prix_kwh": 17.83874,
    "certificats_verts": 3.0952,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 5,
@@ -309,6 +394,15 @@
     "indice": "Epex DAM",
     "statut": "exact",
     "raison": "verifie contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.1178,
+    "unite_terme": "c€/kWh",
+    "constante": 1.8863,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1178,
+    "constante_ckwh_htva": 1.8863,
+    "parametre_vreg": 128.55028
    }
   },
   {
@@ -332,6 +426,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.102,
+    "unite_terme": "c€/kWh",
+    "constante": 1.2,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.102,
+    "constante_ckwh_htva": 1.2,
+    "parametre_vreg": 133.99
    }
   },
   {
@@ -355,6 +458,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.101,
+    "unite_terme": "c€/kWh",
+    "constante": 0.74,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.101,
+    "constante_ckwh_htva": 0.74,
+    "parametre_vreg": 133.99
    }
   },
   {
@@ -374,7 +486,8 @@
    "prix_kwh": 13.57,
    "certificats_verts": 2.9998,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 452,
@@ -397,7 +510,8 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
-   }
+   },
+   "decodage": null
   },
   {
    "id": 221,
@@ -416,7 +530,8 @@
    "prix_kwh": 19.179916,
    "certificats_verts": 3.030243,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 217,
@@ -439,6 +554,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.10432,
+    "unite_terme": "c€/kWh",
+    "constante": 1.45193,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.10432,
+    "constante_ckwh_htva": 1.45193,
+    "parametre_vreg": 133.99053
    }
   },
   {
@@ -458,7 +582,8 @@
    "prix_kwh": 22.574322,
    "certificats_verts": 3.030243,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 21,
@@ -477,7 +602,8 @@
    "prix_kwh": 24.386922,
    "certificats_verts": 3.030243,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 22,
@@ -500,6 +626,15 @@
     "indice": "Epex DAM",
     "statut": "approche",
     "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+   },
+   "decodage": {
+    "coefficient": 0.10988,
+    "unite_terme": "c€/kWh",
+    "constante": 5.00407,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.10988,
+    "constante_ckwh_htva": 5.00407,
+    "parametre_vreg": 128.06479
    }
   },
   {
@@ -523,6 +658,15 @@
     "indice": "Epex DAM",
     "statut": "approche",
     "raison": "parametre VREG different de la moyenne mensuelle (periodicite ou ponderation differente)"
+   },
+   "decodage": {
+    "coefficient": 0.10988,
+    "unite_terme": "c€/kWh",
+    "constante": 6.62407,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.10988,
+    "constante_ckwh_htva": 6.62407,
+    "parametre_vreg": 128.06479
    }
   },
   {
@@ -542,7 +686,8 @@
    "prix_kwh": 20.79967,
    "certificats_verts": 3.030243,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 249,
@@ -565,6 +710,15 @@
     "indice": "Epex DAM",
     "statut": "exact",
     "raison": "verifie contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.10973,
+    "unite_terme": "c€/kWh",
+    "constante": 3.61489,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.10973,
+    "constante_ckwh_htva": 3.61489,
+    "parametre_vreg": 128.55028
    }
   },
   {
@@ -584,7 +738,8 @@
    "prix_kwh": 20.65622,
    "certificats_verts": 3.13654,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 145,
@@ -607,6 +762,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.1095,
+    "unite_terme": "€/MWh",
+    "constante": 3.35,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.11095,
+    "constante_ckwh_htva": 3.35,
+    "parametre_vreg": 133.99053
    }
   },
   {
@@ -626,7 +790,8 @@
    "prix_kwh": 19.46054,
    "certificats_verts": 3.13654,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 447,
@@ -649,7 +814,8 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
-   }
+   },
+   "decodage": null
   },
   {
    "id": 330,
@@ -668,7 +834,8 @@
    "prix_kwh": 21.31554,
    "certificats_verts": 3.13654,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 334,
@@ -691,6 +858,15 @@
     "indice": "Epex DAM",
     "statut": "exact",
     "raison": "verifie contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 1.09,
+    "unite_terme": "€/MWh",
+    "constante": 3.45,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.109,
+    "constante_ckwh_htva": 3.45,
+    "parametre_vreg": 128.55028
    }
   },
   {
@@ -710,7 +886,8 @@
    "prix_kwh": 20.25554,
    "certificats_verts": 3.13654,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 148,
@@ -733,7 +910,8 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
-   }
+   },
+   "decodage": null
   },
   {
    "id": 326,
@@ -752,7 +930,8 @@
    "prix_kwh": 18.29454,
    "certificats_verts": 3.13654,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 206,
@@ -775,6 +954,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.1095,
+    "unite_terme": "€/MWh",
+    "constante": 0.4,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.11095,
+    "constante_ckwh_htva": 0.4,
+    "parametre_vreg": 133.99053
    }
   },
   {
@@ -794,7 +982,8 @@
    "prix_kwh": 20.65622,
    "certificats_verts": 3.13654,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 149,
@@ -817,6 +1006,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.1095,
+    "unite_terme": "€/MWh",
+    "constante": 3.35,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.11095,
+    "constante_ckwh_htva": 3.35,
+    "parametre_vreg": 133.99053
    }
   },
   {
@@ -836,7 +1034,8 @@
    "prix_kwh": 20.23222,
    "certificats_verts": 3.13654,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 181,
@@ -855,7 +1054,8 @@
    "prix_kwh": 20.770594,
    "certificats_verts": 3.0952,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 435,
@@ -878,6 +1078,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.057,
+    "unite_terme": "€/MWh",
+    "constante": 33.28,
+    "unite_constante": "€/MWh",
+    "pente_ckwh": 0.1057,
+    "constante_ckwh_htva": 3.328,
+    "parametre_vreg": 133.99
    }
   },
   {
@@ -897,7 +1106,8 @@
    "prix_kwh": 18.332594,
    "certificats_verts": 3.0952,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 373,
@@ -920,6 +1130,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.067,
+    "unite_terme": "€/MWh",
+    "constante": 4.28,
+    "unite_constante": "€/MWh",
+    "pente_ckwh": 0.1067,
+    "constante_ckwh_htva": 0.428,
+    "parametre_vreg": 133.99
    }
   },
   {
@@ -943,6 +1162,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.15,
+    "unite_terme": "€/MWh",
+    "constante": 10.0,
+    "unite_constante": "€/MWh",
+    "pente_ckwh": 0.115,
+    "constante_ckwh_htva": 1.0,
+    "parametre_vreg": 133.99
    }
   },
   {
@@ -962,7 +1190,8 @@
    "prix_kwh": 25.03296,
    "certificats_verts": 0.0,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 399,
@@ -981,7 +1210,8 @@
    "prix_kwh": 20.007182,
    "certificats_verts": 3.319072,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 397,
@@ -1004,7 +1234,8 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
-   }
+   },
+   "decodage": null
   },
   {
    "id": 401,
@@ -1027,6 +1258,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.1096,
+    "unite_terme": "c€/kWh",
+    "constante": 1.8,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1096,
+    "constante_ckwh_htva": 1.8,
+    "parametre_vreg": 133.99
    }
   },
   {
@@ -1046,7 +1286,8 @@
    "prix_kwh": 19.235078,
    "certificats_verts": 3.319072,
    "tranches": false,
-   "rattachement": null
+   "rattachement": null,
+   "decodage": null
   },
   {
    "id": 402,
@@ -1069,6 +1310,15 @@
     "indice": "Epex DAM RLP",
     "statut": "exact",
     "raison": "verifie contre le Belpex RLP M publie par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.1097,
+    "unite_terme": "c€/kWh",
+    "constante": 1.72,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1097,
+    "constante_ckwh_htva": 1.72,
+    "parametre_vreg": 133.99
    }
   }
  ]
