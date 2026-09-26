@@ -218,7 +218,15 @@ def prix_quart(mois):
     return par
 
 
-def pondere(par_prix, par_poids, mois):
+def par_heure(valeurs):
+    return [sum(valeurs[i:i + 4]) / 4 for i in range(0, len(valeurs), 4)]
+
+
+def somme_par_heure(valeurs):
+    return [sum(valeurs[i:i + 4]) for i in range(0, len(valeurs), 4)]
+
+
+def pondere(par_prix, par_poids, mois, horaire=False):
     num = den = 0.0
     jours = 0
     for jour in sorted(par_prix):
@@ -232,6 +240,8 @@ def pondere(par_prix, par_poids, mois):
             prix = [p for p in prix for _ in range(4)]
         if len(poids) != len(prix):
             return None, 0
+        if horaire and len(prix) % 4 == 0:
+            prix, poids = par_heure(prix), somme_par_heure(poids)
         num += sum(p * w for p, w in zip(prix, poids))
         den += sum(poids)
         jours += 1
@@ -260,7 +270,7 @@ def serie_mensuelle():
         time.sleep(1)
         if not par_prix:
             continue
-        rlp, n1 = pondere(par_prix, profils[an][0], mois)
+        rlp, n1 = pondere(par_prix, profils[an][0], mois, horaire=True)
         spp, n2 = pondere(par_prix, profils[an][1], mois)
         jours = len([j for j in par_prix if j.startswith(mois)])
         out[mois] = {"rlp": rlp, "spp": spp, "jours": jours,
@@ -315,10 +325,10 @@ def cmd_publier():
 
 
 REFERENCE = {
-    "2025-10": (78.12, 66.21), "2025-11": (89.54, 80.13), "2025-12": (87.29, 86.63),
-    "2026-01": (111.05, 114.16), "2026-02": (87.44, 74.51), "2026-03": (97.64, 53.18),
-    "2026-04": (84.69, 27.95), "2026-05": (98.03, 42.37), "2026-06": (120.96, 70.89),
-    "2026-07": (114.37, 62.65), "2026-08": (135.06, 79.11),
+    "2025-10": (78.00, 66.21), "2025-11": (89.43, 80.13), "2025-12": (87.23, 86.63),
+    "2026-01": (110.95, 114.16), "2026-02": (87.35, 74.51), "2026-03": (97.41, 53.18),
+    "2026-04": (84.53, 27.95), "2026-05": (97.90, 42.37), "2026-06": (120.79, 70.89),
+    "2026-07": (114.29, 62.65), "2026-08": (134.94, 79.11),
 }
 
 
