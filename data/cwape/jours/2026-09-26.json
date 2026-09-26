@@ -1,30 +1,8 @@
 {
  "date": "2026-09-26",
- "releve_le": "2026-09-26T10:51:54+00:00",
+ "releve_le": "2026-09-26T10:55:44+00:00",
  "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
  "localite": "1300 Wavre (Limal)",
- "profils": [
-  {
-   "code": "D1",
-   "kwh": 2360,
-   "libelle": "Petite consommation : cuisine/eau chaude - 2.360 kWh par an"
-  },
-  {
-   "code": "D2",
-   "kwh": 4652,
-   "libelle": "Grosse consommation Cuisine/eau chaude : 4.652 kWh par an"
-  },
-  {
-   "code": "D3a",
-   "kwh": 17000,
-   "libelle": "Gaz pour cuisine/eau chaude/chauffage central : consommation normale 17 000 kWh par an"
-  },
-  {
-   "code": "D3b",
-   "kwh": 34890,
-   "libelle": "Gaz pour cuisine/eau chaude/chauffage central : consommation élevée 34 890 kWh par an"
-  }
- ],
  "offres": [
   {
    "id": 280,
