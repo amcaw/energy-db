@@ -47,9 +47,11 @@ ENERGIES = {
         "jours": os.path.join("electricite", "jours"),
         "sortie": "{dossier}_electricite.json",
         "consommations": [1750, 3500],
-        "compteur": "mono-horaire, compteur classique",
+        "compteur": "mono-horaire ; offres réservées au compteur intelligent marquées compteur_intelligent",
         "perimetre": ("Composante énergie du fournisseur (prix du kWh, certificats verts et redevance fixe), "
-                      "hors réseau et taxes, clients résidentiels, compteur mono-horaire classique. "
+                      "hors réseau et taxes, clients résidentiels, compteur mono-horaire. Les offres réservées "
+                      "au compteur intelligent (dynamiques ou à plages horaires) sont simulées à part et "
+                      "marquées compteur_intelligent ; leur prix est celui calculé par le comparateur. "
                       "Identique quel que soit le gestionnaire de réseau de la région."),
     },
 }
@@ -97,6 +99,7 @@ PARTICULARITES = {
                        "d'Octa+, sur laquelle la série est vérifiée",
 }
 DETAILS_ELECTRICITE = ["certificats_verts", "tranches", "bihoraire"]
+TYPES = {"fixed": "fixe", "dynamic": "dynamique"}
 BIHORAIRE = {"jour": 3600, "nuit": 3900}
 COMPTEURS_BIHORAIRE = {"jour": 3, "nuit": 4}
 ECHELLES_BIHORAIRE = [0.5, 1]
@@ -123,7 +126,7 @@ def appel(region, chemin, corps, essais=5):
             attente *= 2
 
 
-def simuler(region, energie, kwh, repartition=None):
+def simuler(region, energie, kwh, repartition=None, intelligent=False):
     gaz = energie == "gaz"
     compteurs = ([{"counterType": COMPTEURS_BIHORAIRE[plage], "consumption": valeur}
                   for plage, valeur in repartition.items()] if repartition
@@ -136,7 +139,7 @@ def simuler(region, energie, kwh, repartition=None):
         "isElectricityConsumptionUnknown": False,
         "electricityConsumptionsPerCounterType": [] if gaz else compteurs,
         "prosumerConsumptionsPerCounterType": [],
-        "computeNetForProsumer": False, "hasElectricitySmartCounter": False,
+        "computeNetForProsumer": False, "hasElectricitySmartCounter": intelligent,
         "isInjectionSeparated": False, "hasCompensation": False,
         "nightOnly": False, "isTariffImpact": False,
         **region["corps"][energie],
@@ -268,17 +271,17 @@ def montant(prix):
     return prix or 0
 
 
-def lire_offres(lignes, kwh, energie):
+def lire_offres(lignes, kwh, energie, intelligent=False):
     offres = {}
     for ligne in lignes:
         produit = ligne["providerProduct"]
-        if produit.get("isForSmartCounter"):
+        if bool(produit.get("isForSmartCounter")) != intelligent:
             continue
         o = offres.setdefault(produit["id"], {
             "id": produit["id"],
             "fournisseur": (produit.get("providerName") or ligne["provider"].get("name", "")).strip(),
             "produit": produit["name"].strip(),
-            "type": "fixe" if produit.get("billingBase") == "fixed" else "variable",
+            "type": TYPES.get(produit.get("billingBase"), "variable"),
             "duree": produit.get("contractDuration"),
             "en_ligne": bool(produit.get("isOnline")),
             "debut": date_jour(produit.get("startAt")),
@@ -289,6 +292,7 @@ def lire_offres(lignes, kwh, energie):
             "conditions_generales": en_francais(produit, "termsAndConditionsUrl"),
             "redevance": 0.0, "prix_kwh": 0.0,
             **({"certificats_verts": 0.0, "tranches": False} if energie == "electricite" else {}),
+            **({"compteur_intelligent": True} if intelligent else {}),
         })
         item = ligne["invoiceItem"]
         prix = montant(ligne["price"])
@@ -305,8 +309,9 @@ def lire_offres(lignes, kwh, energie):
         o["rattachement"] = (rattacher(energie, o["fournisseur"], o["formule"], o["parametre"])
                              if variable else None)
         o["decodage"] = (decoder_formule(o["formule"], o["parametre"], o["prix_kwh"])
-                         if variable and not o.get("tranches") else None)
-    controler_parametres(offres.values(), energie)
+                         if variable and not o.get("tranches") and not intelligent else None)
+    if not intelligent:
+        controler_parametres(offres.values(), energie)
     return sorted(offres.values(), key=lambda o: (o["fournisseur"], o["produit"], o["id"]))
 
 
@@ -405,6 +410,18 @@ def relever(cle, energie):
                 "offres": problemes}
     offres = releves[-1]
     bihoraires = ajouter_bihoraire(region, offres) if energie == "electricite" else None
+    intelligentes = None
+    if energie == "electricite":
+        releves = [lire_offres(simuler(region, energie, kwh, intelligent=True), kwh, energie, intelligent=True)
+                   for kwh in config["consommations"]]
+        problemes = incoherences(releves)
+        if problemes:
+            return {"region": cle, "energie": energie,
+                    "erreur": "prix incohérents entre consommations (compteur intelligent)", "offres": problemes}
+        intelligentes = releves[-1]
+        for o in intelligentes:
+            o["bihoraire"] = None
+        offres = sorted(offres + intelligentes, key=lambda o: (o["fournisseur"], o["produit"], o["id"]))
     maintenant = datetime.now(timezone.utc)
     jour = {"date": maintenant.date().isoformat(), "releve_le": maintenant.isoformat(timespec="seconds"),
             "source": region["source"], "localite": region["localite_nom"],
@@ -416,7 +433,8 @@ def relever(cle, energie):
     return {"region": cle, "energie": energie, "date": jour["date"], "offres": len(offres),
             "fixes": sum(o["type"] == "fixe" for o in offres),
             "variables": sum(o["type"] == "variable" for o in offres),
-            **({"bihoraire": bihoraires} if bihoraires is not None else {})}
+            **({"bihoraire": bihoraires} if bihoraires is not None else {}),
+            **({"compteur_intelligent": len(intelligentes)} if intelligentes is not None else {})}
 
 
 def construire(cle, energie):
@@ -437,7 +455,9 @@ def construire(cle, energie):
     for mois, j in sorted(dernier_du_mois.items()):
         for o in j["offres"]:
             h = historique.setdefault(str(o["id"]), {"mois": {}})
-            h.update(fournisseur=o["fournisseur"], produit=o["produit"], type=o["type"], duree=o["duree"])
+            h.update(fournisseur=o["fournisseur"], produit=o["produit"], type=o["type"], duree=o["duree"],
+                     **({"compteur_intelligent": bool(o.get("compteur_intelligent"))}
+                        if energie == "electricite" else {}))
             h["mois"][mois] = {"prix_kwh": o["prix_kwh"], "redevance": o["redevance"], "releve_le": j["date"],
                                **{k: o.get(k) for k in details}}
     actuel = jours[-1]
