@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-27T10:46:08+00:00",
+ "genere_le": "2026-09-28T11:58:06+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -328,8 +328,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 153.9401,
-    "jours_connus": 27,
+    "valeur": 155.7085,
+    "jours_connus": 28,
     "jours_total": 30,
     "definitif": false
    }
@@ -491,8 +491,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 129.7971,
-    "jours_connus": 89,
+    "valeur": 130.6155,
+    "jours_connus": 90,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre"
@@ -714,8 +714,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 75.9322,
-    "jours_connus": 27,
+    "valeur": 75.7835,
+    "jours_connus": 28,
     "jours_total": 30,
     "definitif": false
    }
@@ -767,8 +767,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 75.9322,
-    "jours_connus": 27,
+    "valeur": 75.7835,
+    "jours_connus": 28,
     "jours_total": 30,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -819,8 +819,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 63.0327,
-    "jours_connus": 89,
+    "valeur": 63.1298,
+    "jours_connus": 90,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre",
@@ -853,8 +853,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 76.035,
-    "jours_connus": 27,
+    "valeur": 75.7976,
+    "jours_connus": 28,
     "jours_total": 30,
     "definitif": false
    }
@@ -906,8 +906,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 76.035,
-    "jours_connus": 27,
+    "valeur": 75.7976,
+    "jours_connus": 28,
     "jours_total": 30,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -1107,8 +1107,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 75.9494,
-    "jours_connus": 27,
+    "valeur": 75.7954,
+    "jours_connus": 28,
     "jours_total": 30,
     "definitif": false
    }
@@ -1139,8 +1139,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 75.9494,
-    "jours_connus": 27,
+    "valeur": 75.7954,
+    "jours_connus": 28,
     "jours_total": 30,
     "definitif": false
    }
@@ -1171,8 +1171,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 76.0217,
-    "jours_connus": 27,
+    "valeur": 75.7777,
+    "jours_connus": 28,
     "jours_total": 30,
     "definitif": false
    }
