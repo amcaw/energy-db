@@ -819,3 +819,4 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-09-26T20:05:28+00:00,gaz,2026-04,TTF DAM Heren trimestriel,45.6490,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
 2026-09-26T20:05:28+00:00,gaz,2026-05,TTF DAM Heren trimestriel,45.6490,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
 2026-09-26T20:05:28+00:00,gaz,2026-06,TTF DAM Heren trimestriel,45.6490,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",8e4f5fe9c53fb058
+2026-09-29T11:33:23+00:00,gaz,2026-09,TTF DAM,75.6979,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
