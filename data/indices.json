@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-29T11:35:22+00:00",
+ "genere_le": "2026-09-30T11:22:50+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -328,8 +328,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 156.1963,
-    "jours_connus": 29,
+    "valeur": 156.4058,
+    "jours_connus": 30,
     "jours_total": 30,
     "definitif": false
    }
@@ -407,8 +407,8 @@
    "note": "Moyenne des prix journaliers du trimestre de fourniture, meme valeur pour ses trois mois. Verifie contre le Belpex trimestriel de Luminus.",
    "source": "energy-charts.info, recoupe avec Luminus",
    "premier_mois": "2020-01",
-   "dernier_mois": "2026-06",
-   "mois_publies": 78,
+   "dernier_mois": "2026-09",
+   "mois_publies": 81,
    "publie": {
     "2020-01": 30.1137,
     "2020-02": 30.1137,
@@ -487,15 +487,10 @@
     "2026-03": 95.7514,
     "2026-04": 94.2502,
     "2026-05": 94.2502,
-    "2026-06": 94.2502
-   },
-   "estime": {
-    "mois": "2026-09",
-    "valeur": 131.0467,
-    "jours_connus": 91,
-    "jours_total": 92,
-    "definitif": false,
-    "periode": "trimestre"
+    "2026-06": 94.2502,
+    "2026-07": 131.3884,
+    "2026-08": 131.3884,
+    "2026-09": 131.3884
    }
   },
   "TTF 101 Heren": {
@@ -761,8 +756,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 75.6979,
-    "jours_connus": 29,
+    "valeur": 75.4981,
+    "jours_connus": 30,
     "jours_total": 30,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -813,8 +808,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 63.2416,
-    "jours_connus": 91,
+    "valeur": 63.3118,
+    "jours_connus": 92,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre",
@@ -830,8 +825,8 @@
    "note": "Cotations EGSI du hub neerlandais ponderees par le profil de consommation gaz Synergrid. Verifie contre le TTF RLP publie par Octa+.",
    "source": "EEX EGSI TTF + profil Synergrid RLP gaz",
    "premier_mois": "2025-10",
-   "dernier_mois": "2026-08",
-   "mois_publies": 11,
+   "dernier_mois": "2026-09",
+   "mois_publies": 12,
    "publie": {
     "2025-10": 32.0097,
     "2025-11": 30.5187,
@@ -843,14 +838,8 @@
     "2026-05": 46.9308,
     "2026-06": 45.0864,
     "2026-07": 53.0954,
-    "2026-08": 61.7261
-   },
-   "estime": {
-    "mois": "2026-09",
-    "valeur": 75.6622,
-    "jours_connus": 29,
-    "jours_total": 30,
-    "definitif": false
+    "2026-08": 61.7261,
+    "2026-09": 75.3463
    }
   },
   "TTF DAM RLP Heren": {
@@ -900,8 +889,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 75.6622,
-    "jours_connus": 29,
+    "valeur": 75.3463,
+    "jours_connus": 30,
     "jours_total": 30,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -1101,8 +1090,8 @@
    },
    "estime": {
     "mois": "2026-09",
-    "valeur": 75.703,
-    "jours_connus": 29,
+    "valeur": 75.4985,
+    "jours_connus": 30,
     "jours_total": 30,
     "definitif": false
    }
@@ -1116,8 +1105,8 @@
    "note": "Moyenne des cotations EGSI du hub gazier belge, par jour de livraison. Verifie contre le ZTP mensuel publie par Mega.",
    "source": "EEX EGSI ZTP Day + Weekend",
    "premier_mois": "2025-10",
-   "dernier_mois": "2026-08",
-   "mois_publies": 11,
+   "dernier_mois": "2026-09",
+   "mois_publies": 12,
    "publie": {
     "2025-10": 31.507,
     "2025-11": 29.9478,
@@ -1129,14 +1118,8 @@
     "2026-05": 46.7537,
     "2026-06": 44.4393,
     "2026-07": 53.2604,
-    "2026-08": 61.7121
-   },
-   "estime": {
-    "mois": "2026-09",
-    "valeur": 75.703,
-    "jours_connus": 29,
-    "jours_total": 30,
-    "definitif": false
+    "2026-08": 61.7121,
+    "2026-09": 75.4985
    }
   },
   "ZTP DAM RLP": {
@@ -1148,8 +1131,8 @@
    "note": "Cotations EGSI du hub belge ponderees par le profil de consommation gaz Synergrid. Verifie contre le ZTP RLP publie par Octa+.",
    "source": "EEX EGSI ZTP + profil Synergrid RLP gaz",
    "premier_mois": "2025-10",
-   "dernier_mois": "2026-08",
-   "mois_publies": 11,
+   "dernier_mois": "2026-09",
+   "mois_publies": 12,
    "publie": {
     "2025-10": 31.4618,
     "2025-11": 29.9587,
@@ -1161,14 +1144,8 @@
     "2026-05": 46.5343,
     "2026-06": 44.7829,
     "2026-07": 53.0644,
-    "2026-08": 61.896
-   },
-   "estime": {
-    "mois": "2026-09",
-    "valeur": 75.6334,
-    "jours_connus": 29,
-    "jours_total": 30,
-    "definitif": false
+    "2026-08": 61.896,
+    "2026-09": 75.3117
    }
   }
  }
