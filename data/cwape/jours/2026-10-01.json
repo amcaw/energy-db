@@ -1,6 +1,6 @@
 {
  "date": "2026-10-01",
- "releve_le": "2026-10-01T10:32:06+00:00",
+ "releve_le": "2026-10-01T11:49:33+00:00",
  "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
  "localite": "1300 Wavre (Limal)",
  "kwh_reference": 20000,
@@ -46,7 +46,7 @@
    "fin": null,
    "formule": null,
    "parametre": null,
-   "fiche": "https://files.boltenergie.be/pricelists/fix/plenty_fix_res_ng_fr_202609.pdf",
+   "fiche": "https://files.boltenergie.be/pricelists/fix/plenty_fix_res_ng_fr_202610.pdf",
    "conditions_generales": "https://www.boltenergie.be/fr/termes-et-conditions",
    "redevance": 47.88,
    "prix_kwh": 8.0136,
