@@ -1,5 +1,12 @@
 {
- "mois": "2026-09",
- "calcule_le": "2026-09-30T11:21:08+00:00",
- "series": {}
+ "mois": "2026-10",
+ "calcule_le": "2026-10-01T07:13:03+00:00",
+ "series": {
+  "Epex DAM trimestriel": {
+   "mois": "2026-10",
+   "valeur": 200.9769,
+   "jours": 1,
+   "attendus": 92
+  }
+ }
 }

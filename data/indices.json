@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-09-30T11:22:50+00:00",
+ "genere_le": "2026-10-01T07:19:13+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -327,10 +327,10 @@
     "2026-08": 129.32
    },
    "estime": {
-    "mois": "2026-09",
-    "valeur": 156.4058,
-    "jours_connus": 30,
-    "jours_total": 30,
+    "mois": "2026-10",
+    "valeur": 200.9769,
+    "jours_connus": 1,
+    "jours_total": 31,
     "definitif": false
    }
   },
@@ -491,6 +491,14 @@
     "2026-07": 131.3884,
     "2026-08": 131.3884,
     "2026-09": 131.3884
+   },
+   "estime": {
+    "mois": "2026-10",
+    "valeur": 200.9769,
+    "jours_connus": 1,
+    "jours_total": 92,
+    "definitif": false,
+    "periode": "trimestre"
    }
   },
   "TTF 101 Heren": {
