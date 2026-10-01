@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-01T07:19:13+00:00",
+ "genere_le": "2026-10-01T10:32:46+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -11,8 +11,8 @@
    "note": "Prix a terme cote le mois precedent pour livraison le mois suivant.",
    "source": "parametres d'indexation publies par Engie, recoupes avec EEX",
    "premier_mois": "2022-01",
-   "dernier_mois": "2026-09",
-   "mois_publies": 57,
+   "dernier_mois": "2026-10",
+   "mois_publies": 58,
    "publie": {
     "2022-01": 295.7,
     "2022-02": 226.05,
@@ -70,7 +70,8 @@
     "2026-06": 91.55,
     "2026-07": 97.67,
     "2026-08": 118.12,
-    "2026-09": 134.51
+    "2026-09": 134.51,
+    "2026-10": 166.92
    }
   },
   "Endex 103": {
@@ -82,8 +83,8 @@
    "note": "Moyenne des cotations du trimestre precedent.",
    "source": "parametres d'indexation publies par Engie",
    "premier_mois": "2022-01",
-   "dernier_mois": "2026-09",
-   "mois_publies": 57,
+   "dernier_mois": "2026-10",
+   "mois_publies": 58,
    "publie": {
     "2022-01": 293.87,
     "2022-02": 293.87,
@@ -141,7 +142,8 @@
     "2026-06": 95.68,
     "2026-07": 98.21,
     "2026-08": 98.21,
-    "2026-09": 98.21
+    "2026-09": 98.21,
+    "2026-10": 170.89
    }
   },
   "Endex 303": {
@@ -153,8 +155,8 @@
    "note": "Produit a terme trimestriel, historique.",
    "source": "parametres d'indexation publies par Engie",
    "premier_mois": "2020-04",
-   "dernier_mois": "2026-09",
-   "mois_publies": 78,
+   "dernier_mois": "2026-10",
+   "mois_publies": 79,
    "publie": {
     "2020-04": 30.78,
     "2020-05": 30.78,
@@ -233,7 +235,8 @@
     "2026-06": 80.19,
     "2026-07": 95.66,
     "2026-08": 95.66,
-    "2026-09": 95.66
+    "2026-09": 95.66,
+    "2026-10": 146.22
    }
   },
   "Epex DAM": {
@@ -245,8 +248,8 @@
    "note": "Moyenne des moyennes journalieres du marche belge de l'electricite. Connue a la fin du mois. C'est l'ancien Belpex.",
    "source": "energy-charts.info (Fraunhofer ISE), recoupe avec SMARD",
    "premier_mois": "2020-04",
-   "dernier_mois": "2026-08",
-   "mois_publies": 77,
+   "dernier_mois": "2026-09",
+   "mois_publies": 78,
    "publie": {
     "2020-04": 14.72,
     "2020-05": 15.39,
@@ -324,7 +327,8 @@
     "2026-05": 91.77,
     "2026-06": 112.13,
     "2026-07": 109.25,
-    "2026-08": 129.32
+    "2026-08": 129.32,
+    "2026-09": 156.41
    },
    "estime": {
     "mois": "2026-10",
@@ -510,8 +514,8 @@
    "note": "Prix a terme du hub neerlandais, cote le mois precedent.",
    "source": "parametres d'indexation publies par Engie",
    "premier_mois": "2021-03",
-   "dernier_mois": "2026-09",
-   "mois_publies": 67,
+   "dernier_mois": "2026-10",
+   "mois_publies": 68,
    "publie": {
     "2021-03": 17.2906,
     "2021-04": 17.5266,
@@ -579,7 +583,8 @@
     "2026-06": 47.0434,
     "2026-07": 44.9886,
     "2026-08": 53.8967,
-    "2026-09": 61.7581
+    "2026-09": 61.7581,
+    "2026-10": 75.2818
    }
   },
   "TTF 103 (Heren)": {
@@ -591,8 +596,8 @@
    "note": "Moyenne des cotations du trimestre precedent.",
    "source": "parametres d'indexation publies par Engie",
    "premier_mois": "2016-T1",
-   "dernier_mois": "2026-09",
-   "mois_publies": 95,
+   "dernier_mois": "2026-10",
+   "mois_publies": 96,
    "publie": {
     "2016-T1": 16.1071,
     "2016-T2": 11.99708,
@@ -688,7 +693,8 @@
     "2026-06": 52.154,
     "2026-07": 45.0886,
     "2026-08": 45.0886,
-    "2026-09": 45.0886
+    "2026-09": 45.0886,
+    "2026-10": 75.5028
    }
   },
   "TTF DAM": {
@@ -966,8 +972,8 @@
    "note": "Prix a terme du hub belge, cote le mois precedent.",
    "source": "parametres d'indexation publies par Engie, recoupes avec EEX",
    "premier_mois": "2022-02",
-   "dernier_mois": "2026-09",
-   "mois_publies": 56,
+   "dernier_mois": "2026-10",
+   "mois_publies": 57,
    "publie": {
     "2022-02": 84.496,
     "2022-03": 79.62,
@@ -1024,7 +1030,8 @@
     "2026-06": 46.722,
     "2026-07": 44.429,
     "2026-08": 53.605,
-    "2026-09": 61.768
+    "2026-09": 61.768,
+    "2026-10": 75.218
    }
   },
   "ZTP DAM": {
@@ -1036,8 +1043,8 @@
    "note": "Moyenne des cotations journalieres du hub gazier belge.",
    "source": "EEX EGSI ZTP Day",
    "premier_mois": "2022-01",
-   "dernier_mois": "2026-08",
-   "mois_publies": 56,
+   "dernier_mois": "2026-09",
+   "mois_publies": 57,
    "publie": {
     "2022-01": 81.1,
     "2022-02": 78.5,
@@ -1094,14 +1101,8 @@
     "2026-05": 46.56,
     "2026-06": 44.345,
     "2026-07": 53.116,
-    "2026-08": 61.537
-   },
-   "estime": {
-    "mois": "2026-09",
-    "valeur": 75.4985,
-    "jours_connus": 30,
-    "jours_total": 30,
-    "definitif": false
+    "2026-08": 61.537,
+    "2026-09": 75.401
    }
   },
   "ZTP DAM EGSI": {

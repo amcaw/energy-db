@@ -826,3 +826,11 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-09-30T11:21:08+00:00,electricite,2026-07,Epex DAM trimestriel,131.3884,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
 2026-09-30T11:21:08+00:00,electricite,2026-08,Epex DAM trimestriel,131.3884,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
 2026-09-30T11:21:08+00:00,electricite,2026-09,Epex DAM trimestriel,131.3884,moyenne trimestrielle des prix journaliers Epex DAM (energy-charts.info),
+2026-10-01T10:26:31+00:00,electricite,2026-10,Endex 303,146.22,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,5ce7eb07212ee678
+2026-10-01T10:26:31+00:00,electricite,2026-10,Endex 103,170.89,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,5ce7eb07212ee678
+2026-10-01T10:26:31+00:00,electricite,2026-10,Endex 101,166.92,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,5ce7eb07212ee678
+2026-10-01T10:26:31+00:00,electricite,2026-09,Epex DAM,156.41,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,5ce7eb07212ee678
+2026-10-01T10:26:31+00:00,gaz,2026-10,TTF 103 (Heren),75.5028,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,3aca353ca3302dbe
+2026-10-01T10:26:31+00:00,gaz,2026-10,TTF 101 Heren,75.2818,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,3aca353ca3302dbe
+2026-10-01T10:26:31+00:00,gaz,2026-10,ZTP 101,75.218,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,3aca353ca3302dbe
+2026-10-01T10:26:31+00:00,gaz,2026-09,ZTP DAM,75.401,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,3aca353ca3302dbe

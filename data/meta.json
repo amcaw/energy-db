@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-01T07:19:13+00:00",
+ "genere_le": "2026-10-01T10:32:46+00:00",
  "indices": 19,
  "series_quotidiennes": {
   "Epex DAM": {
@@ -23,7 +23,7 @@
    "dernier": "2026-09-30"
   }
  },
- "valeurs_mensuelles": 827,
+ "valeurs_mensuelles": 835,
  "valeurs_quotidiennes": 3606,
  "offres_par_comparateur": {
   "wallonie gaz": 44,
