@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-01T11:50:11+00:00",
+ "genere_le": "2026-10-02T11:21:17+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -332,8 +332,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 200.9769,
-    "jours_connus": 1,
+    "valeur": 199.8916,
+    "jours_connus": 2,
     "jours_total": 31,
     "definitif": false
    }
@@ -498,8 +498,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 200.9769,
-    "jours_connus": 1,
+    "valeur": 199.8916,
+    "jours_connus": 2,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre"
@@ -721,6 +721,13 @@
     "2026-07": 53.2896,
     "2026-08": 61.5408,
     "2026-09": 75.6979
+   },
+   "estime": {
+    "mois": "2026-10",
+    "valeur": 74.102,
+    "jours_connus": 1,
+    "jours_total": 31,
+    "definitif": false
    }
   },
   "TTF DAM Heren": {
@@ -769,10 +776,10 @@
     "2026-08": 61.438
    },
    "estime": {
-    "mois": "2026-09",
-    "valeur": 75.4981,
-    "jours_connus": 30,
-    "jours_total": 30,
+    "mois": "2026-10",
+    "valeur": 74.102,
+    "jours_connus": 1,
+    "jours_total": 31,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
    }
@@ -821,9 +828,9 @@
     "2026-06": 45.649
    },
    "estime": {
-    "mois": "2026-09",
-    "valeur": 63.3118,
-    "jours_connus": 92,
+    "mois": "2026-10",
+    "valeur": 74.102,
+    "jours_connus": 1,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre",
@@ -854,6 +861,13 @@
     "2026-07": 53.0954,
     "2026-08": 61.7261,
     "2026-09": 75.3463
+   },
+   "estime": {
+    "mois": "2026-10",
+    "valeur": 74.102,
+    "jours_connus": 1,
+    "jours_total": 31,
+    "definitif": false
    }
   },
   "TTF DAM RLP Heren": {
@@ -902,10 +916,10 @@
     "2026-08": 61.637
    },
    "estime": {
-    "mois": "2026-09",
-    "valeur": 75.3463,
-    "jours_connus": 30,
-    "jours_total": 30,
+    "mois": "2026-10",
+    "valeur": 74.102,
+    "jours_connus": 1,
+    "jours_total": 31,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
    }
@@ -1103,6 +1117,13 @@
     "2026-07": 53.116,
     "2026-08": 61.537,
     "2026-09": 75.401
+   },
+   "estime": {
+    "mois": "2026-10",
+    "valeur": 73.913,
+    "jours_connus": 1,
+    "jours_total": 31,
+    "definitif": false
    }
   },
   "ZTP DAM EGSI": {
@@ -1129,6 +1150,13 @@
     "2026-07": 53.2604,
     "2026-08": 61.7121,
     "2026-09": 75.4985
+   },
+   "estime": {
+    "mois": "2026-10",
+    "valeur": 73.913,
+    "jours_connus": 1,
+    "jours_total": 31,
+    "definitif": false
    }
   },
   "ZTP DAM RLP": {
@@ -1155,6 +1183,13 @@
     "2026-07": 53.0644,
     "2026-08": 61.896,
     "2026-09": 75.3117
+   },
+   "estime": {
+    "mois": "2026-10",
+    "valeur": 73.913,
+    "jours_connus": 1,
+    "jours_total": 31,
+    "definitif": false
    }
   }
  }
