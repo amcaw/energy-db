@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-03T10:37:24+00:00",
+ "genere_le": "2026-10-04T11:19:36+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -724,8 +724,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.0155,
-    "jours_connus": 2,
+    "valeur": 73.9867,
+    "jours_connus": 3,
     "jours_total": 31,
     "definitif": false
    }
@@ -777,8 +777,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.0155,
-    "jours_connus": 2,
+    "valeur": 73.9867,
+    "jours_connus": 3,
     "jours_total": 31,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -829,8 +829,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.0155,
-    "jours_connus": 2,
+    "valeur": 73.9867,
+    "jours_connus": 3,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre",
@@ -864,8 +864,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.0201,
-    "jours_connus": 2,
+    "valeur": 73.9897,
+    "jours_connus": 3,
     "jours_total": 31,
     "definitif": false
    }
@@ -917,8 +917,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.0201,
-    "jours_connus": 2,
+    "valeur": 73.9897,
+    "jours_connus": 3,
     "jours_total": 31,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -1120,8 +1120,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 73.724,
-    "jours_connus": 2,
+    "valeur": 73.661,
+    "jours_connus": 3,
     "jours_total": 31,
     "definitif": false
    }
@@ -1153,8 +1153,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 73.724,
-    "jours_connus": 2,
+    "valeur": 73.661,
+    "jours_connus": 3,
     "jours_total": 31,
     "definitif": false
    }
@@ -1186,8 +1186,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 73.734,
-    "jours_connus": 2,
+    "valeur": 73.6677,
+    "jours_connus": 3,
     "jours_total": 31,
     "definitif": false
    }
