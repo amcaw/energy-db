@@ -834,3 +834,10 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-10-01T10:26:31+00:00,gaz,2026-10,TTF 101 Heren,75.2818,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,3aca353ca3302dbe
 2026-10-01T10:26:31+00:00,gaz,2026-10,ZTP 101,75.218,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,3aca353ca3302dbe
 2026-10-01T10:26:31+00:00,gaz,2026-09,ZTP DAM,75.401,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,3aca353ca3302dbe
+2026-10-05T12:29:43+00:00,gaz,2026-10,TTF 103 (Heren),75.2818,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,045656920f7d0061
+2026-10-05T12:29:43+00:00,gaz,2026-10,TTF 101 Heren,75.5028,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,045656920f7d0061
+2026-10-05T12:36:39+00:00,gaz,2026-09,TTF DAM Heren,75.4490,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",04eeff4ad44e2a55
+2026-10-05T12:36:39+00:00,gaz,2026-09,TTF DAM RLP Heren,75.3010,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",04eeff4ad44e2a55
+2026-10-05T12:36:39+00:00,gaz,2026-07,TTF DAM Heren trimestriel,63.2330,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",04eeff4ad44e2a55
+2026-10-05T12:36:39+00:00,gaz,2026-08,TTF DAM Heren trimestriel,63.2330,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",04eeff4ad44e2a55
+2026-10-05T12:36:39+00:00,gaz,2026-09,TTF DAM Heren trimestriel,63.2330,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",04eeff4ad44e2a55

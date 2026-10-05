@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-05T06:57:05+00:00",
+ "genere_le": "2026-10-05T12:41:08+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -584,7 +584,7 @@
     "2026-07": 44.9886,
     "2026-08": 53.8967,
     "2026-09": 61.7581,
-    "2026-10": 75.2818
+    "2026-10": 75.5028
    }
   },
   "TTF 103 (Heren)": {
@@ -694,7 +694,7 @@
     "2026-07": 45.0886,
     "2026-08": 45.0886,
     "2026-09": 45.0886,
-    "2026-10": 75.5028
+    "2026-10": 75.2818
    }
   },
   "TTF DAM": {
@@ -739,8 +739,8 @@
    "note": "Moyenne mensuelle des evaluations Heren du TTF, par jour de livraison. Mois en cours approche par l'EGSI (EEX).",
    "source": "parametres d'indexation publies par Luminus (TTFDAHM)",
    "premier_mois": "2024-01",
-   "dernier_mois": "2026-08",
-   "mois_publies": 32,
+   "dernier_mois": "2026-09",
+   "mois_publies": 33,
    "publie": {
     "2024-01": 29.921,
     "2024-02": 25.857,
@@ -773,21 +773,14 @@
     "2026-05": 46.895,
     "2026-06": 44.628,
     "2026-07": 53.206,
-    "2026-08": 61.438
+    "2026-08": 61.438,
+    "2026-09": 75.449
    },
    "estime": {
     "mois": "2026-10",
     "valeur": 74.041,
     "jours_connus": 4,
     "jours_total": 31,
-    "definitif": false,
-    "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
-   },
-   "estime_precedent": {
-    "mois": "2026-09",
-    "valeur": 75.4981,
-    "jours_connus": 30,
-    "jours_total": 30,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
    }
@@ -801,8 +794,8 @@
    "note": "Moyenne du trimestre de fourniture, meme valeur pour ses trois mois. Trimestre en cours approche par l'EGSI.",
    "source": "parametres d'indexation publies par Luminus (TTFDAHW)",
    "premier_mois": "2024-01",
-   "dernier_mois": "2026-06",
-   "mois_publies": 30,
+   "dernier_mois": "2026-09",
+   "mois_publies": 33,
    "publie": {
     "2024-01": 27.467,
     "2024-02": 27.467,
@@ -833,21 +826,15 @@
     "2026-03": 39.68,
     "2026-04": 45.649,
     "2026-05": 45.649,
-    "2026-06": 45.649
+    "2026-06": 45.649,
+    "2026-07": 63.233,
+    "2026-08": 63.233,
+    "2026-09": 63.233
    },
    "estime": {
     "mois": "2026-10",
     "valeur": 74.041,
     "jours_connus": 4,
-    "jours_total": 92,
-    "definitif": false,
-    "periode": "trimestre",
-    "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
-   },
-   "estime_precedent": {
-    "mois": "2026-09",
-    "valeur": 63.3118,
-    "jours_connus": 92,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre",
@@ -896,8 +883,8 @@
    "note": "Evaluations Heren ponderees par le profil de consommation gaz Synergrid. Mois en cours approche par l'EGSI pondere.",
    "source": "Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M)",
    "premier_mois": "2024-01",
-   "dernier_mois": "2026-08",
-   "mois_publies": 32,
+   "dernier_mois": "2026-09",
+   "mois_publies": 33,
    "publie": {
     "2024-01": 29.907,
     "2024-02": 25.932,
@@ -930,21 +917,14 @@
     "2026-05": 46.704,
     "2026-06": 44.949,
     "2026-07": 52.991,
-    "2026-08": 61.637
+    "2026-08": 61.637,
+    "2026-09": 75.301
    },
    "estime": {
     "mois": "2026-10",
     "valeur": 74.0492,
     "jours_connus": 4,
     "jours_total": 31,
-    "definitif": false,
-    "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
-   },
-   "estime_precedent": {
-    "mois": "2026-09",
-    "valeur": 75.3463,
-    "jours_connus": 30,
-    "jours_total": 30,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
    }
