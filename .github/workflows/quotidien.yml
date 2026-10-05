@@ -22,6 +22,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Dependances
+        run: pip install pyxlsb
+
       - name: Parametres d indexation Engie
         id: engie
         continue-on-error: true
@@ -66,6 +69,9 @@ jobs:
         run: python collecte/terme.py collect | tee -a rapport.json
 
       - name: Indices ponderes par profil
+        id: profil
+        continue-on-error: true
+        shell: bash
         run: python collecte/indices_profil.py publier | tee -a rapport.json
 
       - name: Tarifs du comparateur CWaPE
@@ -117,6 +123,10 @@ jobs:
       - name: Signaler un ecart des indices calcules
         if: steps.derives.outcome == 'failure'
         run: echo "::warning::un indice calcule (ZTP RLP, TTF RLP ou Epex trimestriel) s'ecarte des valeurs publiees par Octa+ ou Luminus, voir le resume"
+
+      - name: Signaler un echec des indices ponderes par profil
+        if: steps.profil.outcome == 'failure'
+        run: echo "::warning::le calcul des indices Epex DAM RLP et SPP a echoue, voir le resume"
 
       - name: Signaler un echec de la collecte Brugel
         if: steps.brugel.outcome == 'failure'

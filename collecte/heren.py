@@ -137,28 +137,41 @@ def profil_gaz(annee):
     return json.load(open(chemin, encoding="utf-8")) if os.path.exists(chemin) else {}
 
 
+def approximation_du_mois(jours, mois):
+    connus = {j: v for j, v in jours.items() if j.startswith(mois)}
+    if not connus:
+        return None
+    annee, rang = int(mois[:4]), int(mois[5:7])
+    profil = profil_gaz(annee)
+    poids = {j: profil[j] for j in connus if j in profil}
+    rlp = (sum(connus[j] * poids[j] for j in poids) / sum(poids.values())) if len(poids) == len(connus) else None
+    premier = (rang - 1) // 3 * 3 + 1
+    trimestre = [f"{annee}-{m:02d}" for m in range(premier, premier + 3)]
+    jours_trimestre = {j: v for j, v in jours.items() if j[:7] in trimestre}
+    fin = date(annee + (premier == 10), (premier + 2) % 12 + 1, 1)
+    total_trimestre = (fin - date(annee, premier, 1)).days
+    return {"mois": mois, "jours_connus": len(connus),
+            INDICE_TRIMESTRE: round(statistics.fmean(jours_trimestre.values()), 4) if jours_trimestre else None,
+            "trimestre": {"jours_connus": len(jours_trimestre), "jours_total": total_trimestre},
+            INDICE_SIMPLE: round(statistics.fmean(connus.values()), 4),
+            INDICE_RLP: round(rlp, 4) if rlp is not None else None}
+
+
 def approximation():
     if not os.path.exists(JOURS_TTF):
         return None
     jours = {r["jour"]: float(r["valeur"]) for r in csv.DictReader(open(JOURS_TTF, encoding="utf-8"))}
     aujourd = datetime.now(BE).date()
     mois = f"{aujourd.year}-{aujourd.month:02d}"
-    connus = {j: v for j, v in jours.items() if j.startswith(mois)}
-    if not connus:
+    precedent = f"{aujourd.year - (aujourd.month == 1)}-{(aujourd.month - 2) % 12 + 1:02d}"
+    courant = approximation_du_mois(jours, mois)
+    if not courant:
         return None
-    profil = profil_gaz(aujourd.year)
-    poids = {j: profil[j] for j in connus if j in profil}
-    rlp = (sum(connus[j] * poids[j] for j in poids) / sum(poids.values())) if len(poids) == len(connus) else None
-    premier = (aujourd.month - 1) // 3 * 3 + 1
-    trimestre = [f"{aujourd.year}-{m:02d}" for m in range(premier, premier + 3)]
-    jours_trimestre = {j: v for j, v in jours.items() if j[:7] in trimestre}
-    fin = date(aujourd.year + (premier == 10), (premier + 2) % 12 + 1, 1)
-    total_trimestre = (fin - date(aujourd.year, premier, 1)).days
-    return {"mois": mois, "jours_connus": len(connus),
-            INDICE_TRIMESTRE: round(statistics.fmean(jours_trimestre.values()), 4) if jours_trimestre else None,
-            "trimestre": {"jours_connus": len(jours_trimestre), "jours_total": total_trimestre},
-            INDICE_SIMPLE: round(statistics.fmean(connus.values()), 4),
-            INDICE_RLP: round(rlp, 4) if rlp is not None else None,
+    publies = observations()
+    retard = (None if (INDICE_SIMPLE, precedent) in publies and (INDICE_RLP, precedent) in publies
+              else approximation_du_mois(jours, precedent))
+    return {**courant,
+            **({"precedent": retard} if retard else {}),
             "base": "EEX EGSI TTF Day + Weekend, par jour de livraison",
             "calcule_le": datetime.now(timezone.utc).isoformat(timespec="seconds")}
 

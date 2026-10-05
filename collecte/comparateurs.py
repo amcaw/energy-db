@@ -233,23 +233,43 @@ def valeur_parametre(parametre):
     return round(float(trouve.group().replace(",", ".")), 2) if trouve else None
 
 
-REFERENCES_PARAMETRES = {"gaz": {}, "electricite": {}}
+def references_publiees(energie):
+    offres = []
+    for region in REGIONS.values():
+        dossier = jours_de(region, energie)
+        if not os.path.isdir(dossier):
+            continue
+        jours = sorted(f for f in os.listdir(dossier) if f.endswith(".json"))
+        if jours:
+            with open(os.path.join(dossier, jours[-1]), encoding="utf-8") as f:
+                offres += json.load(f)["offres"]
+    return offres
 
 
-def controler_parametres(offres, energie):
-    references = REFERENCES_PARAMETRES[energie]
+def valeurs_de_reference(offres):
+    comptes = {}
     for o in offres:
         r = o.get("rattachement")
         v = valeur_parametre(o.get("parametre"))
         if r and r["statut"] == "exact" and r["indice"] and v is not None:
-            references.setdefault(r["indice"], {}).setdefault(v, 0)
-            references[r["indice"]][v] += 1
-    reference = {serie: max(comptes, key=comptes.get) for serie, comptes in references.items()}
-    serie_de = {v: serie for serie, v in reference.items()}
+            comptes.setdefault(r["indice"], {}).setdefault(v, 0)
+            comptes[r["indice"]][v] += 1
+    return {serie: max(valeurs, key=valeurs.get) for serie, valeurs in comptes.items()}
+
+
+def controler_parametres(offres, energie, autres=()):
+    offres = list(offres)
+    reference = valeurs_de_reference(offres)
+    serie_de = {}
+    for serie, v in [*sorted(reference.items()), *sorted(valeurs_de_reference(autres).items())]:
+        serie_de.setdefault(v, serie)
     for o in offres:
         r = o.get("rattachement")
         v = valeur_parametre(o.get("parametre"))
-        if not r or not r["indice"] or v is None or reference.get(r["indice"]) in (None, v):
+        if not r or not r["indice"] or v is None:
+            continue
+        attendue = reference.get(r["indice"])
+        if attendue == v or (attendue is None and serie_de.get(v) in (None, r["indice"])):
             continue
         if v in serie_de:
             o["rattachement"] = {"indice": serie_de[v], "statut": "approche",
@@ -265,13 +285,18 @@ def date_jour(valeur):
     return valeur[:10] if valeur else None
 
 
+def sans_montant(prix):
+    return prix is None or (isinstance(prix, list) and not prix)
+
+
 def montant(prix):
     if isinstance(prix, list):
         return sum(p.get("price") or 0 for p in prix)
     return prix or 0
 
 
-def lire_offres(lignes, kwh, energie, intelligent=False):
+def lire_offres(lignes, kwh, energie, intelligent=False, sans_prix=None):
+    sans_prix = [] if sans_prix is None else sans_prix
     offres = {}
     for ligne in lignes:
         produit = ligne["providerProduct"]
@@ -301,9 +326,14 @@ def lire_offres(lignes, kwh, energie, intelligent=False):
         elif energie == "electricite" and "Green certificates" in (item.get("invoiceCategoryNestedName") or ""):
             o["certificats_verts"] = round(o["certificats_verts"] + prix / kwh * 100, 6)
         else:
+            if sans_montant(ligne["price"]):
+                o["sans_prix"] = True
             o["prix_kwh"] = round(o["prix_kwh"] + prix / kwh * 100, 6)
             if energie == "electricite" and item.get("billingType") not in (None, "unique"):
                 o["tranches"] = True
+    for i in [i for i, o in offres.items() if o.pop("sans_prix", False) or o["prix_kwh"] <= 0]:
+        sans_prix.append(f"{offres[i]['fournisseur']} {offres[i]['produit']}")
+        del offres[i]
     for o in offres.values():
         variable = o["type"] == "variable"
         o["rattachement"] = (rattacher(energie, o["fournisseur"], o["formule"], o["parametre"])
@@ -311,7 +341,7 @@ def lire_offres(lignes, kwh, energie, intelligent=False):
         o["decodage"] = (decoder_formule(o["formule"], o["parametre"], o["prix_kwh"])
                          if variable and not o.get("tranches") and not intelligent else None)
     if not intelligent:
-        controler_parametres(offres.values(), energie)
+        controler_parametres(offres.values(), energie, references_publiees(energie))
     return sorted(offres.values(), key=lambda o: (o["fournisseur"], o["produit"], o["id"]))
 
 
@@ -403,7 +433,9 @@ def ajouter_bihoraire(region, offres):
 def relever(cle, energie):
     region = REGIONS[cle]
     config = ENERGIES[energie]
-    releves = [lire_offres(simuler(region, energie, kwh), kwh, energie) for kwh in config["consommations"]]
+    sans_prix = []
+    releves = [lire_offres(simuler(region, energie, kwh), kwh, energie, sans_prix=sans_prix)
+               for kwh in config["consommations"]]
     problemes = incoherences(releves)
     if problemes:
         return {"region": cle, "energie": energie, "erreur": "prix incohérents entre consommations",
@@ -412,7 +444,8 @@ def relever(cle, energie):
     bihoraires = ajouter_bihoraire(region, offres) if energie == "electricite" else None
     intelligentes = None
     if energie == "electricite":
-        releves = [lire_offres(simuler(region, energie, kwh, intelligent=True), kwh, energie, intelligent=True)
+        releves = [lire_offres(simuler(region, energie, kwh, intelligent=True), kwh, energie,
+                               intelligent=True, sans_prix=sans_prix)
                    for kwh in config["consommations"]]
         problemes = incoherences(releves)
         if problemes:
@@ -434,6 +467,7 @@ def relever(cle, energie):
             "fixes": sum(o["type"] == "fixe" for o in offres),
             "variables": sum(o["type"] == "variable" for o in offres),
             **({"bihoraire": bihoraires} if bihoraires is not None else {}),
+            **({"sans_prix": sorted(set(sans_prix))} if sans_prix else {}),
             **({"compteur_intelligent": len(intelligentes)} if intelligentes is not None else {})}
 
 
@@ -452,8 +486,11 @@ def construire(cle, energie):
     details = DETAILS + (DETAILS_ELECTRICITE if energie == "electricite" else [])
     dernier_du_mois = {j["date"][:7]: j for j in jours}
     historique = {}
-    for mois, j in sorted(dernier_du_mois.items()):
+    for j in jours:
+        mois = j["date"][:7]
         for o in j["offres"]:
+            if o["prix_kwh"] <= 0:
+                continue
             h = historique.setdefault(str(o["id"]), {"mois": {}})
             h.update(fournisseur=o["fournisseur"], produit=o["produit"], type=o["type"], duree=o["duree"],
                      **({"compteur_intelligent": bool(o.get("compteur_intelligent"))}
@@ -474,7 +511,7 @@ def construire(cle, energie):
         "kwh_reference": actuel.get("kwh_reference", config["consommations"][-1]),
         **({"compteur": config["compteur"]} if "compteur" in config else {}),
         "unites": unites,
-        "offres_actuelles": actuel["offres"],
+        "offres_actuelles": [o for o in actuel["offres"] if o["prix_kwh"] > 0],
         "mois": sorted(dernier_du_mois),
         "historique": historique,
     }

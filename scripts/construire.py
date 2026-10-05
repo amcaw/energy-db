@@ -5,6 +5,7 @@ import statistics
 import sys
 from collections import defaultdict
 from datetime import date, datetime, timezone
+from zoneinfo import ZoneInfo
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RACINE, "collecte"))
@@ -165,17 +166,36 @@ def estime_profil(indice):
         if not os.path.exists(chemin):
             continue
         d = json.load(open(chemin, encoding="utf-8"))
-        v = d.get(indice)
-        if v is None:
+        estimation = estimation_encours(indice, d, d.get("base"))
+        if estimation:
+            return estimation
+    return None
+
+
+def estimation_encours(indice, d, base):
+    v = d.get(indice)
+    if v is None:
+        return None
+    estimation = {"mois": d["mois"], "valeur": v, "jours_connus": d["jours_connus"],
+                  "jours_total": jours_du_mois(d["mois"]), "definitif": False}
+    if indice in TRIMESTRIELS and d.get("trimestre"):
+        estimation.update(jours_connus=d["trimestre"]["jours_connus"],
+                          jours_total=d["trimestre"]["jours_total"], periode="trimestre")
+    if base:
+        estimation["approche"] = base
+    return estimation
+
+
+def estime_precedent(indice, publies):
+    for chemin in ENCOURS:
+        if not os.path.exists(chemin):
             continue
-        estimation = {"mois": d["mois"], "valeur": v, "jours_connus": d["jours_connus"],
-                      "jours_total": jours_du_mois(d["mois"]), "definitif": False}
-        if indice in TRIMESTRIELS and d.get("trimestre"):
-            estimation.update(jours_connus=d["trimestre"]["jours_connus"],
-                              jours_total=d["trimestre"]["jours_total"], periode="trimestre")
-        if d.get("base"):
-            estimation["approche"] = d["base"]
-        return estimation
+        d = json.load(open(chemin, encoding="utf-8"))
+        if not d.get("precedent"):
+            continue
+        estimation = estimation_encours(indice, d["precedent"], d.get("base"))
+        if estimation and estimation["mois"] not in publies:
+            return estimation
     return None
 
 
@@ -198,24 +218,67 @@ def estime(indice, publies):
             "definitif": False}
 
 
+def mois_courant():
+    return datetime.now(ZoneInfo("Europe/Brussels")).strftime("%Y-%m")
+
+
+def calcules_precedents(courant):
+    chemin = os.path.join(SORTIE, "indices.json")
+    out = defaultdict(dict)
+    if not os.path.exists(chemin):
+        return out
+    for nom, b in json.load(open(chemin, encoding="utf-8")).get("indices", {}).items():
+        for mois, info in (b.get("calcule") or {}).items():
+            out[nom][mois] = info
+        e = b.get("estime")
+        if (e and e["mois"] < courant and e["jours_connus"] >= e["jours_total"]
+                and not e.get("approche")):
+            out[nom][e["mois"]] = {"valeur": e["valeur"]}
+    return out
+
+
+def calcules_quotidiens(nom, courant):
+    fichier = QUOTIDIEN.get(nom)
+    if not fichier:
+        return {}
+    par_mois = defaultdict(list)
+    for jour, v in quotidien(fichier).items():
+        par_mois[jour[:7]].append(v)
+    return {mois: {"valeur": round(statistics.fmean(valeurs), 4)}
+            for mois, valeurs in par_mois.items()
+            if mois < courant and len(valeurs) == jours_du_mois(mois)}
+
+
 def main():
     os.makedirs(SORTIE, exist_ok=True)
+    courant = mois_courant()
+    precedents = calcules_precedents(courant)
     horodatage = datetime.now(timezone.utc).isoformat(timespec="seconds")
     series = mensuel()
     indices = {}
     for nom in sorted(set(series) | set(META)):
-        publies = series.get(nom, {})
-        if not publies:
+        officiels = series.get(nom, {})
+        if not officiels:
             continue
+        calcules = {mois: info
+                    for mois, info in {**precedents.get(nom, {}),
+                                       **calcules_quotidiens(nom, courant)}.items()
+                    if mois not in officiels and mois > max(officiels)}
+        publies = {**officiels, **{mois: info["valeur"] for mois, info in calcules.items()}}
         bloc = {"comptant": nom in COMPTANT,
                 **META.get(nom, {"energie": "", "role": "", "libelle": nom,
                                  "unite": "EUR/MWh", "note": "", "source": ""}),
                 "premier_mois": min(publies), "dernier_mois": max(publies),
                 "mois_publies": len(publies),
                 "publie": dict(sorted(publies.items()))}
+        if calcules:
+            bloc["calcule"] = dict(sorted(calcules.items()))
         n = estime(nom, publies)
         if n:
             bloc["estime"] = n
+        p = estime_precedent(nom, publies)
+        if p and p["mois"] != (n or {}).get("mois"):
+            bloc["estime_precedent"] = p
         indices[nom] = bloc
 
     with open(os.path.join(SORTIE, "indices.json"), "w", encoding="utf-8") as f:

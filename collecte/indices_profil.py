@@ -13,8 +13,6 @@ from datetime import date, datetime, timedelta, timezone
 from xml.etree import ElementTree
 from zoneinfo import ZoneInfo
 
-from pyxlsb import open_workbook
-
 BE = ZoneInfo("Europe/Brussels")
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
@@ -137,6 +135,8 @@ def profil_rlp(annee):
     if pret is not None:
         return pret
     fichier, url = SOURCES["rlp"][annee]
+    from pyxlsb import open_workbook
+
     chemin = telecharger(fichier, url)
     par = defaultdict(list)
     with open_workbook(chemin) as wb:

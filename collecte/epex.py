@@ -44,7 +44,7 @@ def fetch(debut, fin, essais=6):
                     json.dump(d, f)
             return d
         except urllib.error.HTTPError as e:
-            if e.code != 429 or n == essais - 1:
+            if e.code not in (429, 500, 502, 503, 504) or n == essais - 1:
                 raise
             time.sleep(attente)
             attente *= 2
