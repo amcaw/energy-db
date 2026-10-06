@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-05T12:41:08+00:00",
+ "genere_le": "2026-10-06T12:17:46+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -332,8 +332,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 190.5636,
-    "jours_connus": 3,
+    "valeur": 186.3439,
+    "jours_connus": 6,
     "jours_total": 31,
     "definitif": false
    }
@@ -347,8 +347,8 @@
    "note": "Prix horaires ponderes par le profil RLP0N (somme horaire), moyenne arithmetique de tous les gestionnaires de reseau belges. Aligne sur le Belpex RLP M publie par Luminus.",
    "source": "energy-charts.info + profil Synergrid RLP0N",
    "premier_mois": "2025-10",
-   "dernier_mois": "2026-08",
-   "mois_publies": 11,
+   "dernier_mois": "2026-09",
+   "mois_publies": 12,
    "publie": {
     "2025-10": 77.9001,
     "2025-11": 89.4278,
@@ -360,13 +360,14 @@
     "2026-05": 97.902,
     "2026-06": 120.794,
     "2026-07": 114.2847,
-    "2026-08": 134.9339
+    "2026-08": 134.9339,
+    "2026-09": 164.4231
    },
    "estime": {
-    "mois": "2026-09",
-    "valeur": 161.7054,
-    "jours_connus": 27,
-    "jours_total": 30,
+    "mois": "2026-10",
+    "valeur": 194.1032,
+    "jours_connus": 7,
+    "jours_total": 31,
     "definitif": false
    }
   },
@@ -379,8 +380,8 @@
    "note": "Prix quart-horaires ponderes par le profil SPP. C'est le parametre usuel des contrats d'injection photovoltaique.",
    "source": "energy-charts.info + profil Synergrid SPP",
    "premier_mois": "2025-10",
-   "dernier_mois": "2026-08",
-   "mois_publies": 11,
+   "dernier_mois": "2026-09",
+   "mois_publies": 12,
    "publie": {
     "2025-10": 66.1435,
     "2025-11": 78.9417,
@@ -392,13 +393,14 @@
     "2026-05": 42.3655,
     "2026-06": 70.8885,
     "2026-07": 62.646,
-    "2026-08": 79.1084
+    "2026-08": 79.1084,
+    "2026-09": 100.5259
    },
    "estime": {
-    "mois": "2026-09",
-    "valeur": 95.7257,
-    "jours_connus": 27,
-    "jours_total": 30,
+    "mois": "2026-10",
+    "valeur": 147.5818,
+    "jours_connus": 7,
+    "jours_total": 31,
     "definitif": false
    }
   },
@@ -498,8 +500,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 190.5636,
-    "jours_connus": 3,
+    "valeur": 186.3439,
+    "jours_connus": 6,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre"
@@ -724,8 +726,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.041,
-    "jours_connus": 4,
+    "valeur": 74.0376,
+    "jours_connus": 5,
     "jours_total": 31,
     "definitif": false
    }
@@ -778,8 +780,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.041,
-    "jours_connus": 4,
+    "valeur": 74.0376,
+    "jours_connus": 5,
     "jours_total": 31,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -833,8 +835,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.041,
-    "jours_connus": 4,
+    "valeur": 74.0376,
+    "jours_connus": 5,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre",
@@ -868,8 +870,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.0492,
-    "jours_connus": 4,
+    "valeur": 74.0436,
+    "jours_connus": 5,
     "jours_total": 31,
     "definitif": false
    }
@@ -922,8 +924,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 74.0492,
-    "jours_connus": 4,
+    "valeur": 74.0436,
+    "jours_connus": 5,
     "jours_total": 31,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -1125,8 +1127,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 73.7022,
-    "jours_connus": 4,
+    "valeur": 73.6928,
+    "jours_connus": 5,
     "jours_total": 31,
     "definitif": false
    }
@@ -1158,8 +1160,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 73.7022,
-    "jours_connus": 4,
+    "valeur": 73.6928,
+    "jours_connus": 5,
     "jours_total": 31,
     "definitif": false
    }
@@ -1191,8 +1193,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 73.7116,
-    "jours_connus": 4,
+    "valeur": 73.699,
+    "jours_connus": 5,
     "jours_total": 31,
     "definitif": false
    }

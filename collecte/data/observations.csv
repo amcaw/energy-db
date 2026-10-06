@@ -841,3 +841,5 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-10-05T12:36:39+00:00,gaz,2026-07,TTF DAM Heren trimestriel,63.2330,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",04eeff4ad44e2a55
 2026-10-05T12:36:39+00:00,gaz,2026-08,TTF DAM Heren trimestriel,63.2330,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",04eeff4ad44e2a55
 2026-10-05T12:36:39+00:00,gaz,2026-09,TTF DAM Heren trimestriel,63.2330,"Luminus, parametres d'indexation (TTFDAHW, ICIS Heren, moyenne trimestrielle)",04eeff4ad44e2a55
+2026-10-06T12:17:00+00:00,electricite,2026-09,Epex DAM RLP,164.4231,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-10-06T12:17:00+00:00,electricite,2026-09,Epex DAM SPP,100.5259,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
