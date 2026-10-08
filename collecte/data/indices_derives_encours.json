@@ -1,23 +1,23 @@
 {
  "mois": "2026-10",
- "calcule_le": "2026-10-07T12:00:34+00:00",
+ "calcule_le": "2026-10-08T12:13:59+00:00",
  "series": {
   "ZTP DAM RLP": {
    "mois": "2026-10",
-   "valeur": 74.0625,
-   "jours": 6,
+   "valeur": 74.6029,
+   "jours": 7,
    "attendus": 31
   },
   "TTF DAM RLP": {
    "mois": "2026-10",
-   "valeur": 74.4306,
-   "jours": 6,
+   "valeur": 74.9523,
+   "jours": 7,
    "attendus": 31
   },
   "Epex DAM trimestriel": {
    "mois": "2026-10",
-   "valeur": 187.31,
-   "jours": 7,
+   "valeur": 171.6741,
+   "jours": 9,
    "attendus": 92
   }
  }
