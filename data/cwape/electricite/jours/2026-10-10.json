@@ -1,0 +1,2578 @@
+{
+ "date": "2026-10-10",
+ "releve_le": "2026-10-10T11:25:40+00:00",
+ "source": "Comparateur officiel de la CWaPE (compacwape.be), simulations publiques",
+ "localite": "1300 Wavre (Limal)",
+ "kwh_reference": 3500,
+ "offres": [
+  {
+   "id": 278,
+   "fournisseur": "BOLT",
+   "produit": "Bolt Variable",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2023-12-31",
+   "fin": null,
+   "formule": "Belpex * 1,1680 + 16,9000",
+   "parametre": "150,94895",
+   "fiche": "https://files.boltenergie.be/pricelists/var/bolt_res_el_fr_14.pdf",
+   "conditions_generales": "https://www.boltenergie.be/fr/termes-et-conditions",
+   "redevance": 107.88,
+   "prix_kwh": 20.4792,
+   "certificats_verts": 3.0316,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "approche",
+    "raison": "la formule cite Epex DAM, mais le paramètre du comparateur est celui de Epex DAM RLP"
+   },
+   "decodage": {
+    "coefficient": 1.168,
+    "unite_terme": "€/MWh",
+    "constante": 16.9,
+    "unite_constante": "€/MWh",
+    "pente_ckwh": 0.1168,
+    "constante_ckwh_htva": 1.69,
+    "parametre_vreg": 150.94895
+   },
+   "bihoraire": {
+    "prix_jour": 20.4792,
+    "prix_nuit": 20.4792,
+    "redevance": 107.88,
+    "certificats_verts": 3.0316,
+    "decodage_jour": {
+     "coefficient": 1.168,
+     "unite_terme": "€/MWh",
+     "constante": 16.9,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1168,
+     "constante_ckwh_htva": 1.69,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 1.168,
+     "unite_terme": "€/MWh",
+     "constante": 16.9,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1168,
+     "constante_ckwh_htva": 1.69,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 499,
+   "fournisseur": "BOLT",
+   "produit": "Plenty Fix",
+   "type": "fixe",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2026-06-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://files.boltenergie.be/pricelists/fix/plenty_fix_res_el_fr_202610.pdf",
+   "conditions_generales": "https://www.boltenergie.be/fr/termes-et-conditions",
+   "redevance": 47.88,
+   "prix_kwh": 22.65962,
+   "certificats_verts": 3.0316,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 22.65962,
+    "prix_nuit": 22.65962,
+    "redevance": 47.88,
+    "certificats_verts": 3.0316,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 361,
+   "fournisseur": "BOLT",
+   "produit": "Plenty Variabel",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2025-05-12",
+   "fin": null,
+   "formule": "Belpex * 1,1680 + 16,900",
+   "parametre": "150,94895",
+   "fiche": "https://files.boltenergie.be/pricelists/var/plenty_res_el_fr_14.pdf",
+   "conditions_generales": "https://www.boltenergie.be/fr/termes-et-conditions",
+   "redevance": 47.88,
+   "prix_kwh": 20.4792,
+   "certificats_verts": 3.0316,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "approche",
+    "raison": "la formule cite Epex DAM, mais le paramètre du comparateur est celui de Epex DAM RLP"
+   },
+   "decodage": {
+    "coefficient": 1.168,
+    "unite_terme": "€/MWh",
+    "constante": 16.9,
+    "unite_constante": "€/MWh",
+    "pente_ckwh": 0.1168,
+    "constante_ckwh_htva": 1.69,
+    "parametre_vreg": 150.94895
+   },
+   "bihoraire": {
+    "prix_jour": 20.4792,
+    "prix_nuit": 20.4792,
+    "redevance": 47.88,
+    "certificats_verts": 3.0316,
+    "decodage_jour": {
+     "coefficient": 1.168,
+     "unite_terme": "€/MWh",
+     "constante": 16.9,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1168,
+     "constante_ckwh_htva": 1.69,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 1.168,
+     "unite_terme": "€/MWh",
+     "constante": 16.9,
+     "unite_constante": "€/MWh",
+     "pente_ckwh": 0.1168,
+     "constante_ckwh_htva": 1.69,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 459,
+   "fournisseur": "COCITER",
+   "produit": "Dynamic tariff",
+   "type": "dynamique",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2026-02-28",
+   "fin": null,
+   "formule": "0,103 x QUARTER HOURLY BELPEX + 3,0 (€c/kWh)",
+   "parametre": null,
+   "fiche": "https://www.cociter.be/carte-tarifaire-dyn/",
+   "conditions_generales": null,
+   "redevance": 53.0,
+   "prix_kwh": 19.681852,
+   "certificats_verts": 2.968,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 59,
+   "fournisseur": "COCITER",
+   "produit": "Energie Variable",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2023-04-30",
+   "fin": null,
+   "formule": "Monohoraire (htva) : 5 + 0,075 x BELIX Bihoraire heures pleines (htva) : 5 + 0,085 x BELIX Bihoraire heures creuses et exclusif nuit (htva) : 5 + 0,065 x BELIX",
+   "parametre": "Prix variable avec variation mensuelle calculé sur base du VTEST pour l'estimation (valeur pour octobre 2026 : 145,01543€/MWh) - la carte tarifaire et le prix réellement payé sont calculés via le BELIX.",
+   "fiche": "https://www.cociter.be/carte-tarifaire/",
+   "conditions_generales": null,
+   "redevance": 53.0,
+   "prix_kwh": 16.828772,
+   "certificats_verts": 2.968,
+   "tranches": false,
+   "rattachement": {
+    "indice": null,
+    "statut": "inconnu",
+    "raison": "indice propre au fournisseur, non publié"
+   },
+   "decodage": {
+    "coefficient": 0.075,
+    "unite_terme": "c€/kWh",
+    "constante": 5.0,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.075,
+    "constante_ckwh_htva": 5.0,
+    "parametre_vreg": 145.01543
+   },
+   "bihoraire": {
+    "prix_jour": 18.365878,
+    "prix_nuit": 15.29156,
+    "redevance": 53.0,
+    "certificats_verts": 2.968,
+    "decodage_jour": {
+     "coefficient": 0.085,
+     "unite_terme": "c€/kWh",
+     "constante": 5.0,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.085,
+     "constante_ckwh_htva": 5.0,
+     "parametre_vreg": 145.01543
+    },
+    "decodage_nuit": {
+     "coefficient": 0.065,
+     "unite_terme": "c€/kWh",
+     "constante": 5.0,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.065,
+     "constante_ckwh_htva": 5.0,
+     "parametre_vreg": 145.01543
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 532,
+   "fournisseur": "ENECO",
+   "produit": "Eneco Soleil & Vent Dynamic",
+   "type": "dynamique",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2026-09-30",
+   "fin": null,
+   "formule": "(0,102 x Belpex-H + 0,485 ) x 1,06",
+   "parametre": null,
+   "fiche": "https://cdn.eneco.be/downloads/fr/general/tk/BC_032_012610_FR_ENECO_POWER_DYNAMIC.pdf",
+   "conditions_generales": "https://cdn.eneco.be/downloads/fr/general/vw/conditions-g%C3%A9n%C3%A9rales.pdf",
+   "redevance": 15.0,
+   "prix_kwh": 16.859049,
+   "certificats_verts": 3.2542,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 528,
+   "fournisseur": "ENECO",
+   "produit": "Eneco Soleil & Vent Fix One",
+   "type": "fixe",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2026-09-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://cdn.eneco.be/downloads/fr/general/tk/BC_032_012610_FR_ENECO_POWER_FIX_ONE.pdf",
+   "conditions_generales": "https://cdn.eneco.be/downloads/fr/general/vw/conditions-g%C3%A9n%C3%A9rales.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 21.692476,
+   "certificats_verts": 3.2542,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 24.693018,
+    "prix_nuit": 19.079364,
+    "redevance": 65.0,
+    "certificats_verts": 3.2542,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 133,
+   "fournisseur": "ENECO",
+   "produit": "Eneco Soleil & Vent Fixe",
+   "type": "fixe",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2023-05-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://cdn.eneco.be/downloads/fr/general/tk/BC_032_012610_FR_ENECO_POWER_FIX.pdf",
+   "conditions_generales": "https://cdn.eneco.be/downloads/fr/general/vw/conditions-g%C3%A9n%C3%A9rales.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 22.100139,
+   "certificats_verts": 3.2542,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 25.100754,
+    "prix_nuit": 19.487054,
+    "redevance": 65.0,
+    "certificats_verts": 3.2542,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 504,
+   "fournisseur": "ENECO",
+   "produit": "Eneco Soleil & Vent Flex One",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2026-08-31",
+   "fin": null,
+   "formule": "(0,102 x Belpex-RLP-M + 0,371) x 1,06",
+   "parametre": "Belpex-RLP-M (150,94895)",
+   "fiche": "https://cdn.eneco.be/downloads/fr/general/tk/BC_032_012610_FR_ENECO_POWER_FLEX_ONE.pdf",
+   "conditions_generales": "https://cdn.eneco.be/downloads/fr/general/vw/conditions-g%C3%A9n%C3%A9rales.pdf",
+   "redevance": 50.0,
+   "prix_kwh": 16.713603,
+   "certificats_verts": 3.2542,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.102,
+    "unite_terme": "c€/kWh",
+    "constante": 0.371,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.102,
+    "constante_ckwh_htva": 0.371,
+    "parametre_vreg": 150.94895
+   },
+   "bihoraire": {
+    "prix_jour": 16.713603,
+    "prix_nuit": 16.713603,
+    "redevance": 50.0,
+    "certificats_verts": 3.2542,
+    "decodage_jour": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 0.371,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 0.371,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 0.371,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 0.371,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 8,
+   "fournisseur": "ENECO",
+   "produit": "Eneco Soleil & vent Flex",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2023-04-30",
+   "fin": null,
+   "formule": "(0,102 x Belpex-RLP-M + 2,986) x 1,06",
+   "parametre": "Belpex-RLP-M (150,94895)",
+   "fiche": "https://cdn.eneco.be/downloads/fr/general/tk/BC_032_012610_FR_ENECO_POWER_FLEX.pdf",
+   "conditions_generales": "https://cdn.eneco.be/downloads/fr/general/vw/conditions-g%C3%A9n%C3%A9rales.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 19.485874,
+   "certificats_verts": 3.2542,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.102,
+    "unite_terme": "c€/kWh",
+    "constante": 2.986,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.102,
+    "constante_ckwh_htva": 2.986,
+    "parametre_vreg": 150.94895
+   },
+   "bihoraire": {
+    "prix_jour": 19.485874,
+    "prix_nuit": 19.485874,
+    "redevance": 65.0,
+    "certificats_verts": 3.2542,
+    "decodage_jour": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 2.986,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 2.986,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 0.102,
+     "unite_terme": "c€/kWh",
+     "constante": 2.986,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.102,
+     "constante_ckwh_htva": 2.986,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 312,
+   "fournisseur": "ENGIE",
+   "produit": "BASIC Online",
+   "type": "variable",
+   "duree": 2,
+   "en_ligne": true,
+   "debut": "2025-01-01",
+   "fin": null,
+   "formule": "- Tarif normal = 1,5101 + (0,1169 x EPEXDAM) - Tarif bihoraire heures pleines = 1,5101 + (0,1298 x EPEXDAM) - Tarif bihoraire heures creuses = 1,5101 + (0,0983 x EPEXDAM) - Tarif exclusif nuit = 1,5101 + (0,0983 x EPEXDAM)",
+   "parametre": "145,01543",
+   "fiche": "https://www.engie.be/api/engie/be/ms/pricing/v1/public/pricesAndConditionsPDF?document=E_BASIC_ONLINE_R_GREY_C_I_24_W_F&monthOffset=0&segment=R&language=F",
+   "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
+   "redevance": 20.0022,
+   "prix_kwh": 19.56972,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "vérifié contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.1169,
+    "unite_terme": "c€/kWh",
+    "constante": 1.5101,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1169,
+    "constante_ckwh_htva": 1.5101,
+    "parametre_vreg": 145.01543
+   },
+   "bihoraire": {
+    "prix_jour": 21.55298,
+    "prix_nuit": 16.7109,
+    "redevance": 20.0022,
+    "certificats_verts": 3.18,
+    "decodage_jour": {
+     "coefficient": 0.1298,
+     "unite_terme": "c€/kWh",
+     "constante": 1.5101,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1298,
+     "constante_ckwh_htva": 1.5101,
+     "parametre_vreg": 145.01543
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0983,
+     "unite_terme": "c€/kWh",
+     "constante": 1.5101,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0983,
+     "constante_ckwh_htva": 1.5101,
+     "parametre_vreg": 145.01543
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 7,
+   "fournisseur": "ENGIE",
+   "produit": "DIRECT - Online 100% Green",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2023-04-30",
+   "fin": null,
+   "formule": "- Tarif normal = 2,1277 + (0,1171 x EPEXDAM) - Tarif bihoraire heures pleines = 2,0777 + (0,1297 x EPEXDAM) - Tarif bihoraire heures creuses = 2,1287 + (0,0985 x EPEXDAM) - Tarif exclusif nuit = 2,1287 + (0,0985 x EPEXDAM)",
+   "parametre": "145,01543",
+   "fiche": "https://www.engie.be/api/engie/be/ms/pricing/v1/public/pricesAndConditionsPDF?document=E_DIRECT_ONLINE_R_GREEN_C_I_12_W_F&monthOffset=0&segment=R&language=F",
+   "conditions_generales": "https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/",
+   "redevance": 29.998,
+   "prix_kwh": 20.25554,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "vérifié contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.1171,
+    "unite_terme": "c€/kWh",
+    "constante": 2.1277,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1171,
+    "constante_ckwh_htva": 2.1277,
+    "parametre_vreg": 145.01543
+   },
+   "bihoraire": {
+    "prix_jour": 22.13916,
+    "prix_nuit": 17.39778,
+    "redevance": 29.998,
+    "certificats_verts": 3.18,
+    "decodage_jour": {
+     "coefficient": 0.1297,
+     "unite_terme": "c€/kWh",
+     "constante": 2.0777,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1297,
+     "constante_ckwh_htva": 2.0777,
+     "parametre_vreg": 145.01543
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0985,
+     "unite_terme": "c€/kWh",
+     "constante": 2.1287,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0985,
+     "constante_ckwh_htva": 2.1287,
+     "parametre_vreg": 145.01543
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 393,
+   "fournisseur": "ENGIE",
+   "produit": "DYNAMIC",
+   "type": "dynamique",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "- Tarif normal = 0,7134 + (0,1039 x ESPOT_15) - Tarif bihoraire heures pleines = 0,7134 + (0,1039 x ESPOT_15) - Tarif bihoraire heures creuses = 0,7134 + (0,1039 x ESPOT_15) - Tarif exclusif nuit = 0,7134 + (0,1039 x ESPOT_15)",
+   "parametre": null,
+   "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=E_DYNAMIC_R_GREY_C_I_12_W_F&monthOffset=0&segment=R&language=F",
+   "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
+   "redevance": 100.7,
+   "prix_kwh": 17.405326,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 394,
+   "fournisseur": "ENGIE",
+   "produit": "DYNAMIC - 100% Green",
+   "type": "dynamique",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "- Tarif normal = 1,7134 + (0,1039 x ESPOT_15) - Tarif bihoraire heures pleines = 1,7134 + (0,1039 x ESPOT_15) - Tarif bihoraire heures creuses = 1,7134 + (0,1039 x ESPOT_15) - Tarif exclusif nuit = 1,7134 + (0,1039 x ESPOT_15)",
+   "parametre": null,
+   "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=E_DYNAMIC_R_GREY_C_I_12_W_F&monthOffset=0&segment=R&language=F",
+   "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
+   "redevance": 100.7,
+   "prix_kwh": 18.463995,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 3,
+   "fournisseur": "ENGIE",
+   "produit": "EASY  - 100% Green",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2023-04-30",
+   "fin": null,
+   "formule": "- Tarif normal = 2,8190 + (0,1172 x ENDEX101) - Tarif bihoraire heures pleines = 2,7290 + (0,1298 x ENDEX101) - Tarif bihoraire heures creuses = 2,8250 + (0,0986 x ENDEX101) - Tarif exclusif nuit = 2,8250 + (0,0986 x ENDEX101)",
+   "parametre": "144,82818",
+   "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=E_EASY_R_GREEN_C_I_12_W_F&monthOffset=0&segment=R&language=F",
+   "conditions_generales": "https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/",
+   "redevance": 64.9992,
+   "prix_kwh": 20.98058,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Endex 101",
+    "statut": "exact",
+    "raison": "valeur publiée par Engie"
+   },
+   "decodage": {
+    "coefficient": 0.1172,
+    "unite_terme": "c€/kWh",
+    "constante": 2.819,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1172,
+    "constante_ckwh_htva": 2.819,
+    "parametre_vreg": 144.82818
+   },
+   "bihoraire": {
+    "prix_jour": 22.81968,
+    "prix_nuit": 18.1313,
+    "redevance": 64.9992,
+    "certificats_verts": 3.18,
+    "decodage_jour": {
+     "coefficient": 0.1298,
+     "unite_terme": "c€/kWh",
+     "constante": 2.729,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1298,
+     "constante_ckwh_htva": 2.729,
+     "parametre_vreg": 144.82818
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0986,
+     "unite_terme": "c€/kWh",
+     "constante": 2.825,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0986,
+     "constante_ckwh_htva": 2.825,
+     "parametre_vreg": 144.82818
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 1,
+   "fournisseur": "ENGIE",
+   "produit": "EASY - 100% Green",
+   "type": "fixe",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2023-04-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://www.engie.be/api/engie/be/ms_1/pricing/v1/public/pricesAndConditionsPDF?document=E_EASY_R_GREEN_C_F_12_W_F&monthOffset=0&segment=R&language=F",
+   "conditions_generales": "https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/",
+   "redevance": 68.9954,
+   "prix_kwh": 23.09952,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 25.14002,
+    "prix_nuit": 20.03824,
+    "redevance": 68.9954,
+    "certificats_verts": 3.18,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 366,
+   "fournisseur": "ENGIE",
+   "produit": "EMPOWER",
+   "type": "variable",
+   "duree": 0,
+   "en_ligne": true,
+   "debut": "2025-05-31",
+   "fin": null,
+   "formule": "- Tarif normal = 1,9577 + (0,1171 x EPEXDAM) - Tarif bihoraire heures pleines = 2,3077 + (0,1297 x EPEXDAM) - Tarif bihoraire heures creuses = 1,4422 + (0,0965 x EPEXDAM) - Tarif exclusif nuit = 2,1396 + (0,0983 x EPEXDAM)",
+   "parametre": "145,01543",
+   "fiche": "https://www.engie.be/api/engie/be/ms/pricing/v1/public/pricesAndConditionsPDF?document=E_EMPOWER_R_GREEN_C_I_00_W_F&monthOffset=0&segment=R&language=F",
+   "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
+   "redevance": 90.0046,
+   "prix_kwh": 20.07534,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "vérifié contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.1171,
+    "unite_terme": "c€/kWh",
+    "constante": 1.9577,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1171,
+    "constante_ckwh_htva": 1.9577,
+    "parametre_vreg": 145.01543
+   },
+   "bihoraire": {
+    "prix_jour": 22.38296,
+    "prix_nuit": 16.36216,
+    "redevance": 90.0046,
+    "certificats_verts": 3.18,
+    "decodage_jour": {
+     "coefficient": 0.1297,
+     "unite_terme": "c€/kWh",
+     "constante": 2.3077,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1297,
+     "constante_ckwh_htva": 2.3077,
+     "parametre_vreg": 145.01543
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0965,
+     "unite_terme": "c€/kWh",
+     "constante": 1.4422,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0965,
+     "constante_ckwh_htva": 1.4422,
+     "parametre_vreg": 145.01543
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 368,
+   "fournisseur": "ENGIE",
+   "produit": "EMPOWER",
+   "type": "fixe",
+   "duree": 0,
+   "en_ligne": true,
+   "debut": "2025-05-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://www.engie.be/api/engie/be/ms/pricing/v1/public/pricesAndConditionsPDF?document=E_EMPOWER_R_GREEN_C_F_00_W_D&monthOffset=0&segment=R&language=D",
+   "conditions_generales": "https://www.engie-electrabel.be/fr/particulier/prices-and-conditions",
+   "redevance": 90.0046,
+   "prix_kwh": 22.24304,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 24.83368,
+    "prix_nuit": 18.08572,
+    "redevance": 90.0046,
+    "certificats_verts": 3.18,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 407,
+   "fournisseur": "ENGIE",
+   "produit": "EMPOWER with Flextime",
+   "type": "variable",
+   "duree": 0,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "- Tarif Flextime heures pleines = 2,5635 + (0,1438 x EPEXDAM) - Tarif Flextime heures creuses = 1,9185 + (0,1068 x EPEXDAM) - Tarif Flextime super-creuses = 0,9385 + (0,0833 x EPEXDAM)",
+   "parametre": "145,01543",
+   "fiche": "https://www.engie.be/api/engie/be/ms/pricing/v1/public/pricesAndConditionsPDF?document=E_EMPOWER_R_GREEN_C_I_00_W_F&monthOffset=0&segment=R&language=F",
+   "conditions_generales": "https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/",
+   "redevance": 90.0046,
+   "prix_kwh": 19.139482,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "vérifié contre Engie, Luminus et Mega"
+   },
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 5,
+   "fournisseur": "ENGIE",
+   "produit": "FLOW - 100% Green",
+   "type": "variable",
+   "duree": 2,
+   "en_ligne": true,
+   "debut": "2023-04-30",
+   "fin": null,
+   "formule": "- Tarif normal = 2,1666 + (0,1169 x EPEXDAM) - Tarif bihoraire heures pleines = 2,2126 + (0,1298 x EPEXDAM) - Tarif bihoraire heures creuses = 2,1396 + (0,0983 x EPEXDAM) - Tarif exclusif nuit = 2,1396 + (0,0983 x EPEXDAM)",
+   "parametre": "145,01543",
+   "fiche": "https://www.engie.be/api/engie/be/ms/pricing/v1/public/pricesAndConditionsPDF?document=E_FLOW_R_GREEN_C_I_24_W_F&monthOffset=0&segment=R&language=F",
+   "conditions_generales": "https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/",
+   "redevance": 58.9996,
+   "prix_kwh": 20.26614,
+   "certificats_verts": 3.18,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "vérifié contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.1169,
+    "unite_terme": "c€/kWh",
+    "constante": 2.1666,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1169,
+    "constante_ckwh_htva": 2.1666,
+    "parametre_vreg": 145.01543
+   },
+   "bihoraire": {
+    "prix_jour": 22.29816,
+    "prix_nuit": 17.3787,
+    "redevance": 58.9996,
+    "certificats_verts": 3.18,
+    "decodage_jour": {
+     "coefficient": 0.1298,
+     "unite_terme": "c€/kWh",
+     "constante": 2.2126,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1298,
+     "constante_ckwh_htva": 2.2126,
+     "parametre_vreg": 145.01543
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0983,
+     "unite_terme": "c€/kWh",
+     "constante": 2.1396,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0983,
+     "constante_ckwh_htva": 2.1396,
+     "parametre_vreg": 145.01543
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 381,
+   "fournisseur": "Ecofix Gas & Power",
+   "produit": "Flexy",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "(BELPEX-RLP-M * 0,1020) + 1,2000",
+   "parametre": "Belpex-RLP-M 133,99 €",
+   "fiche": "https://portal.ecofixgp.be/docs/prices/current/WAL_EL_Ecofix_Flexy_FR.pdf",
+   "conditions_generales": "https://www.ecofixgp.be/fr/algemene-voorwaarden",
+   "redevance": 59.996,
+   "prix_kwh": 17.596,
+   "certificats_verts": 3.0528,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "approche",
+    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+   },
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 17.596,
+    "prix_nuit": 17.596,
+    "redevance": 59.996,
+    "certificats_verts": 3.0528,
+    "decodage_jour": null,
+    "decodage_nuit": null,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 383,
+   "fournisseur": "Ecofix Gas & Power",
+   "produit": "Flexy Online",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "(BELPEX-RLP-M * 0,1010) + 0,74",
+   "parametre": "BELPEX-RLP-M 150,95 €",
+   "fiche": "https://portal.ecofixgp.be/docs/prices/current/WAL_EL_Ecofix_Flexy_Online_FR.pdf",
+   "conditions_generales": "https://www.ecofixgp.be/fr/algemene-voorwaarden",
+   "redevance": 9.9958,
+   "prix_kwh": 16.9494,
+   "certificats_verts": 3.0528,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.101,
+    "unite_terme": "c€/kWh",
+    "constante": 0.74,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.101,
+    "constante_ckwh_htva": 0.74,
+    "parametre_vreg": 150.95
+   },
+   "bihoraire": {
+    "prix_jour": 16.9494,
+    "prix_nuit": 16.9494,
+    "redevance": 9.9958,
+    "certificats_verts": 3.0528,
+    "decodage_jour": {
+     "coefficient": 0.101,
+     "unite_terme": "c€/kWh",
+     "constante": 0.74,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.101,
+     "constante_ckwh_htva": 0.74,
+     "parametre_vreg": 150.95
+    },
+    "decodage_nuit": {
+     "coefficient": 0.101,
+     "unite_terme": "c€/kWh",
+     "constante": 0.74,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.101,
+     "constante_ckwh_htva": 0.74,
+     "parametre_vreg": 150.95
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 385,
+   "fournisseur": "Ecofix Gas & Power",
+   "produit": "Motion",
+   "type": "dynamique",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "(0,1000 x Belpex 15M) + 1,1020",
+   "parametre": null,
+   "fiche": "https://portal.ecofixgp.be/docs/prices/current/WAL_EL_Ecofix_Motion_FR.pdf",
+   "conditions_generales": "https://www.ecofixgp.be/fr/algemene-voorwaarden",
+   "redevance": 59.996,
+   "prix_kwh": 17.191746,
+   "certificats_verts": 3.0528,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 386,
+   "fournisseur": "Ecofix Gas & Power",
+   "produit": "Motion Online",
+   "type": "dynamique",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "(0,1010 x Belpex 15M) + 0,74",
+   "parametre": null,
+   "fiche": "https://portal.ecofixgp.be/docs/prices/current/WAL_EL_Ecofix_Motion_Online_FR.pdf",
+   "conditions_generales": "https://www.ecofixgp.be/fr/algemene-voorwaarden",
+   "redevance": 9.9958,
+   "prix_kwh": 16.968759,
+   "certificats_verts": 3.0528,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 417,
+   "fournisseur": "EnergyVision",
+   "produit": "Low-cost energy 1 year fixed",
+   "type": "fixe",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-10-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://www.energyvision.be/sites/default/files/2026-09/EV-1026-GS1JV-WAL-fr.pdf",
+   "conditions_generales": "https://www.energyvision.be/fr-be/conditions",
+   "redevance": 95.0,
+   "prix_kwh": 13.57,
+   "certificats_verts": 2.9998,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 13.57,
+    "prix_nuit": 13.57,
+    "redevance": 95.0,
+    "certificats_verts": 2.9998,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 452,
+   "fournisseur": "EnergyVision",
+   "produit": "Low-cost energy with 1,800 kWh at a fixed rate",
+   "type": "variable",
+   "duree": 0,
+   "en_ligne": true,
+   "debut": "2026-02-28",
+   "fin": null,
+   "formule": "<= 1800 kWh : fixed price / prix fixe / vaste prijs >1800 kWh : 1,12 x Belpex-RLP-M + 20 EUR/MWh",
+   "parametre": "150,94895",
+   "fiche": "https://www.energyvision.be/sites/default/files/2026-09/EV-1026-GS1800V-WAL-fr.pdf",
+   "conditions_generales": "https://www.energyvision.be/fr-be/conditions",
+   "redevance": 70.0,
+   "prix_kwh": 15.187377,
+   "certificats_verts": 2.9998,
+   "tranches": true,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "approche",
+    "raison": "EnergyVision pondère avec le profil des seuls gestionnaires flamands, la série avec celui de tous les gestionnaires belges"
+   },
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 221,
+   "fournisseur": "LUMINUS",
+   "produit": "BasicFix Online",
+   "type": "fixe",
+   "duree": 2,
+   "en_ligne": true,
+   "debut": "2023-06-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=basicfix&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
+   "redevance": 25.0,
+   "prix_kwh": 21.032499,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 24.871851,
+    "prix_nuit": 17.943574,
+    "redevance": 25.0,
+    "certificats_verts": 3.030243,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 217,
+   "fournisseur": "LUMINUS",
+   "produit": "BasicFlex Online",
+   "type": "variable",
+   "duree": 0,
+   "en_ligne": true,
+   "debut": "2023-06-30",
+   "fin": null,
+   "formule": "Jour (compteur de jour) = 0,10432 x Belpex RLP M + 1,45193 Jour (compteur de jour et de nuit) = 0,12632 x Belpex RLP M + 1,60026 Nuit (compteur de jour et de nuit) = 0,09132 x Belpex RLP M + 1,3427 Exclusif Nuit = 0,09132 x Belpex RLP M + 1,3427",
+   "parametre": "150,94895",
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=basicflex&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
+   "redevance": 25.0,
+   "prix_kwh": 18.230855,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.10432,
+    "unite_terme": "c€/kWh",
+    "constante": 1.45193,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.10432,
+    "constante_ckwh_htva": 1.45193,
+    "parametre_vreg": 150.94895
+   },
+   "bihoraire": {
+    "prix_jour": 21.908218,
+    "prix_nuit": 16.035002,
+    "redevance": 25.0,
+    "certificats_verts": 3.030243,
+    "decodage_jour": {
+     "coefficient": 0.12632,
+     "unite_terme": "c€/kWh",
+     "constante": 1.60026,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.12632,
+     "constante_ckwh_htva": 1.60026,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 0.09132,
+     "unite_terme": "c€/kWh",
+     "constante": 1.3427,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.09132,
+     "constante_ckwh_htva": 1.3427,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 20,
+   "fournisseur": "LUMINUS",
+   "produit": "Comfy",
+   "type": "fixe",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2018-09-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=comfy&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 24.426916,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 28.465632,
+    "prix_nuit": 21.191403,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 21,
+   "fournisseur": "LUMINUS",
+   "produit": "Comfy+",
+   "type": "fixe",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2020-09-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=comfy-plus&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 26.239516,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 30.566192,
+    "prix_nuit": 22.79194,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 22,
+   "fournisseur": "LUMINUS",
+   "produit": "ComfyFlex",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2020-10-14",
+   "fin": null,
+   "formule": "Jour (compteur de jour) = 0,10988 x Belpex + 0 x Endex 1-0-3 + 5,00407 Jour (compteur de jour et de nuit) = 0,12928 x Belpex + 0 x Endex 1-0-3 + 5,59667 Nuit (compteur de jour et de nuit) = 0,09428 x Belpex + 0 x Endex 1-0-3 + 4,56766 Exclusif Nuit = 0,09428 x Belpex + 0 x Endex 1-0-3 + 4,56766",
+   "parametre": "144,52474",
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=comfyflex&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 22.137517,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM trimestriel",
+    "statut": "exact",
+    "raison": "moyenne trimestrielle, vérifiée contre le Belpex trimestriel publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.10988,
+    "unite_terme": "c€/kWh",
+    "constante": 5.00407,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.10988,
+    "constante_ckwh_htva": 5.00407,
+    "parametre_vreg": 144.52474
+   },
+   "bihoraire": {
+    "prix_jour": 25.73768,
+    "prix_nuit": 19.285057,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "decodage_jour": {
+     "coefficient": 0.12928,
+     "unite_terme": "c€/kWh",
+     "constante": 5.59667,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.12928,
+     "constante_ckwh_htva": 5.59667,
+     "parametre_vreg": 144.52474
+    },
+    "decodage_nuit": {
+     "coefficient": 0.09428,
+     "unite_terme": "c€/kWh",
+     "constante": 4.56766,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.09428,
+     "constante_ckwh_htva": 4.56766,
+     "parametre_vreg": 144.52474
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 23,
+   "fournisseur": "LUMINUS",
+   "produit": "ComfyFlex+",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2020-10-14",
+   "fin": null,
+   "formule": "Jour (compteur de jour) = 0,10988 x Belpex + 0 x Endex 1-0-3 + 6,62407 Jour (compteur de jour et de nuit) = 0,12928 x Belpex + 0 x Endex 1-0-3 + 7,47403 Nuit (compteur de jour et de nuit) = 0,09428 x Belpex + 0 x Endex 1-0-3 + 5,99813 Exclusif Nuit = 0,09428 x Belpex + 0 x Endex 1-0-3 + 5,99813",
+   "parametre": "144,52474",
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=comfyflex-plus&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 23.854717,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM trimestriel",
+    "statut": "exact",
+    "raison": "moyenne trimestrielle, vérifiée contre le Belpex trimestriel publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.10988,
+    "unite_terme": "c€/kWh",
+    "constante": 6.62407,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.10988,
+    "constante_ckwh_htva": 6.62407,
+    "parametre_vreg": 144.52474
+   },
+   "bihoraire": {
+    "prix_jour": 27.727681,
+    "prix_nuit": 20.801355,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "decodage_jour": {
+     "coefficient": 0.12928,
+     "unite_terme": "c€/kWh",
+     "constante": 7.47403,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.12928,
+     "constante_ckwh_htva": 7.47403,
+     "parametre_vreg": 144.52474
+    },
+    "decodage_nuit": {
+     "coefficient": 0.09428,
+     "unite_terme": "c€/kWh",
+     "constante": 5.99813,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.09428,
+     "constante_ckwh_htva": 5.99813,
+     "parametre_vreg": 144.52474
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 347,
+   "fournisseur": "LUMINUS",
+   "produit": "Dynamic Online",
+   "type": "dynamique",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-04-30",
+   "fin": null,
+   "formule": "Jour (compteur de jour) = 0,10185 x Belpex H + 2,45912 Jour (compteur de jour et de nuit) = 0,10185 x Belpex H + 2,45912 Nuit (compteur de jour et de nuit) = 0,10185 x Belpex H + 2,45912",
+   "parametre": null,
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=dynamic&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
+   "redevance": 75.0,
+   "prix_kwh": 18.924951,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 245,
+   "fournisseur": "LUMINUS",
+   "produit": "MaxxFix",
+   "type": "fixe",
+   "duree": 2,
+   "en_ligne": true,
+   "debut": "2024-04-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=maxxfix&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 22.652264,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 26.433464,
+    "prix_nuit": 19.606364,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 249,
+   "fournisseur": "LUMINUS",
+   "produit": "MaxxFlex",
+   "type": "variable",
+   "duree": 2,
+   "en_ligne": true,
+   "debut": "2024-04-30",
+   "fin": null,
+   "formule": "Jour (compteur de jour) = 0,10973 x Belpex + 3,61489 Jour (compteur de jour et de nuit) = 0,12913 x Belpex + 4,01708 Nuit (compteur de jour et de nuit) = 0,09413 x Belpex + 3,3187 Exclusif Nuit = 0,09413 x Belpex + 3,3187",
+   "parametre": "145,01543",
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=maxxflex&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/res_generalconditions_fr.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 20.699076,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "vérifié contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 0.10973,
+    "unite_terme": "c€/kWh",
+    "constante": 3.61489,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.10973,
+    "constante_ckwh_htva": 3.61489,
+    "parametre_vreg": 145.01543
+   },
+   "bihoraire": {
+    "prix_jour": 24.107495,
+    "prix_nuit": 17.98714,
+    "redevance": 65.0,
+    "certificats_verts": 3.030243,
+    "decodage_jour": {
+     "coefficient": 0.12913,
+     "unite_terme": "c€/kWh",
+     "constante": 4.01708,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.12913,
+     "constante_ckwh_htva": 4.01708,
+     "parametre_vreg": 145.01543
+    },
+    "decodage_nuit": {
+     "coefficient": 0.09413,
+     "unite_terme": "c€/kWh",
+     "constante": 3.3187,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.09413,
+     "constante_ckwh_htva": 3.3187,
+     "parametre_vreg": 145.01543
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 453,
+   "fournisseur": "LUMINUS",
+   "produit": "SmartFlex",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2026-02-28",
+   "fin": null,
+   "formule": "SmartFlex Heures pleines = 0,13033 x Belpex + 2,9139 SmartFlex Heures creuses = 0,10833 x Belpex + 2,8339 SmartFlex Heures super-creuses = 0,04133 x Belpex + 2,8339",
+   "parametre": "145,01543",
+   "fiche": "https://www.luminus.be/api-next/get-pricelist?documentSlug=smartflex&energyType=electricity&language=fr&tabValue=Wallonia",
+   "conditions_generales": "https://www.luminus.be/-/media/general/documents/generalterms/pro_generalconditions_fr.pdf",
+   "redevance": 65.0,
+   "prix_kwh": 20.278697,
+   "certificats_verts": 3.030243,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "vérifié contre Engie, Luminus et Mega"
+   },
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 146,
+   "fournisseur": "MEGA",
+   "produit": "Cosy Green Fixed",
+   "type": "fixe",
+   "duree": 2,
+   "en_ligne": true,
+   "debut": "2023-05-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Cosy0110-Fixed.pdf",
+   "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
+   "redevance": 145.0,
+   "prix_kwh": 21.79678,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 25.02554,
+    "prix_nuit": 19.61,
+    "redevance": 145.0,
+    "certificats_verts": 3.26586,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 145,
+   "fournisseur": "MEGA",
+   "produit": "Cosy Green Flex",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2023-05-31",
+   "fin": null,
+   "formule": "(HTVA); Compteur mono-horaire : Epex RLP * 1,1095 + 3,35 c€/kWh; Compteur bi-horaire - Jour : Epex RLP * 1,3275 + 3,35 c€/kWh; Compteur bi-horaire - Nuit : Epex RLP * 0,94 + 3,35 c€/kWh; Compteur exclusif nuit : Epex RLP * 0,94 + 3,35 c€/kWh",
+   "parametre": "150.94895",
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Cosy0110.pdf",
+   "conditions_generales": "https://www.mega.be//nl/algemene-voorwaarden",
+   "redevance": 105.0,
+   "prix_kwh": 21.303653,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.1095,
+    "unite_terme": "€/MWh",
+    "constante": 3.35,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.11095,
+    "constante_ckwh_htva": 3.35,
+    "parametre_vreg": 150.94895
+   },
+   "bihoraire": {
+    "prix_jour": 24.791781,
+    "prix_nuit": 18.591553,
+    "redevance": 105.0,
+    "certificats_verts": 3.26586,
+    "decodage_jour": {
+     "coefficient": 1.3275,
+     "unite_terme": "€/MWh",
+     "constante": 3.35,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.13275,
+     "constante_ckwh_htva": 3.35,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 0.94,
+     "unite_terme": "€/MWh",
+     "constante": 3.35,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.094,
+     "constante_ckwh_htva": 3.35,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 439,
+   "fournisseur": "MEGA",
+   "produit": "Offpeak Green Fixed",
+   "type": "fixe",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2026-01-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Offpeak-Bi0110-Fix.pdf",
+   "conditions_generales": "https://www.mega.be//nl/algemene-voorwaarden",
+   "redevance": 75.0,
+   "prix_kwh": 20.32656,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 24.84746,
+    "prix_nuit": 16.92396,
+    "redevance": 75.0,
+    "certificats_verts": 3.26586,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 447,
+   "fournisseur": "MEGA",
+   "produit": "Offpeak Green Flex",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2026-01-31",
+   "fin": null,
+   "formule": "HTVA); Compteur mono-horaire : Epex RLP * 1,1 + 1,85 c€/kWh; Compteur bi-horaire - Jour : Epex RLP * 1,328 + 2,85 c€/kWh; Compteur bi-horaire - Nuit : Epex RLP * 0,94 + 0,85 c€/kWh; Compteur exclusif nuit : Epex RLP * 0,94 + 0,85 c€/kWh",
+   "parametre": "150.94895",
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Offpeak-Bi-Var.pdf",
+   "conditions_generales": "https://www.mega.be//nl/algemene-voorwaarden",
+   "redevance": 75.0,
+   "prix_kwh": 19.713653,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 24.261781,
+    "prix_nuit": 15.941553,
+    "redevance": 75.0,
+    "certificats_verts": 3.26586,
+    "decodage_jour": {
+     "coefficient": 1.328,
+     "unite_terme": "€/MWh",
+     "constante": 2.85,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1328,
+     "constante_ckwh_htva": 2.85,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 0.94,
+     "unite_terme": "€/MWh",
+     "constante": 0.85,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.094,
+     "constante_ckwh_htva": 0.85,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 330,
+   "fournisseur": "MEGA",
+   "produit": "Offre spéciale Testachats - FIX",
+   "type": "fixe",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-03-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-TA0526_0110-Fix.pdf",
+   "conditions_generales": "https://www.mega.be/nl/energie/voorwaarden",
+   "redevance": 60.0,
+   "prix_kwh": 22.90236,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 26.36326,
+    "prix_nuit": 20.55976,
+    "redevance": 60.0,
+    "certificats_verts": 3.26586,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 334,
+   "fournisseur": "MEGA",
+   "produit": "Offre spéciale Testachats - VAR",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-03-31",
+   "fin": null,
+   "formule": "(HTVA) : Epex * 1,09 + 3,45 c€/kWh",
+   "parametre": "145.01543",
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-TA0526-Var.pdf",
+   "conditions_generales": "https://www.mega.be/nl/energie/voorwaarden",
+   "redevance": 60.0,
+   "prix_kwh": 20.412083,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM",
+    "statut": "exact",
+    "raison": "vérifié contre Engie, Luminus et Mega"
+   },
+   "decodage": {
+    "coefficient": 1.09,
+    "unite_terme": "€/MWh",
+    "constante": 3.45,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.109,
+    "constante_ckwh_htva": 3.45,
+    "parametre_vreg": 145.01543
+   },
+   "bihoraire": {
+    "prix_jour": 20.412083,
+    "prix_nuit": 20.412083,
+    "redevance": 60.0,
+    "certificats_verts": 3.26586,
+    "decodage_jour": {
+     "coefficient": 1.09,
+     "unite_terme": "€/MWh",
+     "constante": 3.45,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.109,
+     "constante_ckwh_htva": 3.45,
+     "parametre_vreg": 145.01543
+    },
+    "decodage_nuit": {
+     "coefficient": 1.09,
+     "unite_terme": "€/MWh",
+     "constante": 3.45,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.109,
+     "constante_ckwh_htva": 3.45,
+     "parametre_vreg": 145.01543
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 308,
+   "fournisseur": "MEGA",
+   "produit": "Online Green Fixed",
+   "type": "fixe",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2024-12-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Online0110-Fixed.pdf",
+   "conditions_generales": "https://www.mega.be//nl/algemene-voorwaarden",
+   "redevance": 60.0,
+   "prix_kwh": 21.84236,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 25.30326,
+    "prix_nuit": 19.49976,
+    "redevance": 60.0,
+    "certificats_verts": 3.26586,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 148,
+   "fournisseur": "MEGA",
+   "produit": "Online Green Flex",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2023-05-31",
+   "fin": null,
+   "formule": "(HTVA); Compteur mono-horaire : Epex RLP * 1,1095 + 2,55 c€/kWh; Compteur bi-horaire heures pleines : Epex RLP * 1,3275 + 2,55 c€/kWh; Compteur bi-horaire heures creuses : Epex RLP* 0,94 + 2,55 c€/kWh; Compteur exclusif nuit : Epex RLP * 0,94 + 2,55 c€/kWh",
+   "parametre": "150.94895",
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Online0110-Green.pdf",
+   "conditions_generales": "https://www.mega.be//nl/algemene-voorwaarden",
+   "redevance": 45.0,
+   "prix_kwh": 20.455653,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.1095,
+    "unite_terme": "€/MWh",
+    "constante": 2.55,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.11095,
+    "constante_ckwh_htva": 2.55,
+    "parametre_vreg": 150.94895
+   },
+   "bihoraire": {
+    "prix_jour": 23.943781,
+    "prix_nuit": 17.743553,
+    "redevance": 45.0,
+    "certificats_verts": 3.26586,
+    "decodage_jour": {
+     "coefficient": 1.3275,
+     "unite_terme": "€/MWh",
+     "constante": 2.55,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.13275,
+     "constante_ckwh_htva": 2.55,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 0.94,
+     "unite_terme": "€/MWh",
+     "constante": 2.55,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.094,
+     "constante_ckwh_htva": 2.55,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 326,
+   "fournisseur": "MEGA",
+   "produit": "Prepaid Fixed",
+   "type": "fixe",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2025-02-28",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Prepaid0110-Fix.pdf",
+   "conditions_generales": "https://www.mega.be/fr/conditions-generales-de-vente",
+   "redevance": 45.0,
+   "prix_kwh": 19.88136,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 23.34226,
+    "prix_nuit": 17.53876,
+    "redevance": 45.0,
+    "certificats_verts": 3.26586,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 206,
+   "fournisseur": "MEGA",
+   "produit": "Prepaid Flex",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2023-10-31",
+   "fin": null,
+   "formule": "(HTVA); Compteur mono-horaire : Epex RLP * 1,1095 + 0,7 c€/kWh; Compteur bi-horaire heures pleines : Epex RLP * 1,3275 + 0,7 c€/kWh; Compteur bi-horaire heures creuses : Epex RLP * 0,94 + 0,7 c€/kWh; Compteur exclusif nuit : Epex RLP * 0,94 + 0,7 c€/kWh",
+   "parametre": "150.94895",
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Prepaid.pdf",
+   "conditions_generales": "https://www.mega.be//nl/algemene-voorwaarden",
+   "redevance": 45.0,
+   "prix_kwh": 18.494653,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.1095,
+    "unite_terme": "€/MWh",
+    "constante": 0.7,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.11095,
+    "constante_ckwh_htva": 0.7,
+    "parametre_vreg": 150.94895
+   },
+   "bihoraire": {
+    "prix_jour": 21.982781,
+    "prix_nuit": 15.782553,
+    "redevance": 45.0,
+    "certificats_verts": 3.26586,
+    "decodage_jour": {
+     "coefficient": 1.3275,
+     "unite_terme": "€/MWh",
+     "constante": 0.7,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.13275,
+     "constante_ckwh_htva": 0.7,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 0.94,
+     "unite_terme": "€/MWh",
+     "constante": 0.7,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.094,
+     "constante_ckwh_htva": 0.7,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 200,
+   "fournisseur": "MEGA",
+   "produit": "Smart Green Fixed",
+   "type": "fixe",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2023-07-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Smart0110-Fixed.pdf",
+   "conditions_generales": "https://www.mega.be//nl/algemene-voorwaarden",
+   "redevance": 110.0,
+   "prix_kwh": 21.79678,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 25.02554,
+    "prix_nuit": 19.61,
+    "redevance": 110.0,
+    "certificats_verts": 3.26586,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 149,
+   "fournisseur": "MEGA",
+   "produit": "Smart Green Flex",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2023-05-31",
+   "fin": null,
+   "formule": "(HTVA); Compteur mono-horaire : Epex RLP * 1,1095 + 3,35 c€/kWh; Compteur bi-horaire - Jour : Epex RLP * 1,3275 + 3,35 c€/kWh; Compteur bi-horaire - Nuit : Epex RLP * 0,94 + 3,35 c€/kWh; Compteur exclusif nuit : Epex RLP * 0,94 + 3,35 c€/kWh",
+   "parametre": "150.94895",
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Smart0110.pdf",
+   "conditions_generales": "https://www.mega.be//nl/algemene-voorwaarden",
+   "redevance": 70.0,
+   "prix_kwh": 21.303653,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 1.1095,
+    "unite_terme": "€/MWh",
+    "constante": 3.35,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.11095,
+    "constante_ckwh_htva": 3.35,
+    "parametre_vreg": 150.94895
+   },
+   "bihoraire": {
+    "prix_jour": 24.791781,
+    "prix_nuit": 18.591553,
+    "redevance": 70.0,
+    "certificats_verts": 3.26586,
+    "decodage_jour": {
+     "coefficient": 1.3275,
+     "unite_terme": "€/MWh",
+     "constante": 3.35,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.13275,
+     "constante_ckwh_htva": 3.35,
+     "parametre_vreg": 150.94895
+    },
+    "decodage_nuit": {
+     "coefficient": 0.94,
+     "unite_terme": "€/MWh",
+     "constante": 3.35,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.094,
+     "constante_ckwh_htva": 3.35,
+     "parametre_vreg": 150.94895
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 443,
+   "fournisseur": "MEGA",
+   "produit": "Zen Green Fixed",
+   "type": "fixe",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2026-01-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://my.mega.be/resources/tarif/Mega-FR-EL-B2C-WL-102026-Zen0110-Fix.pdf",
+   "conditions_generales": "https://www.mega.be//nl/algemene-voorwaarden",
+   "redevance": 110.0,
+   "prix_kwh": 21.37278,
+   "certificats_verts": 3.26586,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 24.60154,
+    "prix_nuit": 19.186,
+    "redevance": 110.0,
+    "certificats_verts": 3.26586,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 516,
+   "fournisseur": "OCTA+",
+   "produit": "Basic Online",
+   "type": "variable",
+   "duree": -1,
+   "en_ligne": true,
+   "debut": "2026-09-30",
+   "fin": null,
+   "formule": "Compteur mono (TH) : Epex RLP x 1,056 + 6,27 ; Compteur bi (HI) : Epex RLP x 1,275 + 6,27 ; Compteur bi (LO) : Epex RLP x 0,893 + 6,27 ; Compteur exclusif nuit (EX) : Epex RLP x 0,977 + 6,27 ; Impact Eco : Epex RLP x 0,820 + 6,27 ; Impact Medium : Epex RLP x 1,132 + 6,27 ; Impact Pic : Epex RLP x 1,356 + 6,27.",
+   "parametre": "Epex RLP",
+   "fiche": "https://files.octaplus.be/tariffs/E_OCTA_BASICONLINE_RE_WL_FR.pdf?_ga=2.76886480.453097928.1717492506-1438632901.1670394591",
+   "conditions_generales": "https://octa.cdn.prismic.io/octa/15f458b5-49ad-4392-a125-4a8d27858f31_cgv+conso+fr.pdf",
+   "redevance": 40.0044,
+   "prix_kwh": 17.561242,
+   "certificats_verts": 3.1376,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 21.065371,
+    "prix_nuit": 14.953146,
+    "redevance": 40.0044,
+    "certificats_verts": 3.1376,
+    "decodage_jour": null,
+    "decodage_nuit": null,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 517,
+   "fournisseur": "OCTA+",
+   "produit": "Boost Fix",
+   "type": "fixe",
+   "duree": -1,
+   "en_ligne": true,
+   "debut": "2026-09-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://files.octaplus.be/tariffs/E_OCTA_BOOSTFIX_RE_WL_FR.pdf",
+   "conditions_generales": "https://octa.cdn.prismic.io/octa/aQhx8rpReVYa38EH_CGV_RES_FR_202511.pdf",
+   "redevance": 109.9962,
+   "prix_kwh": 20.27406,
+   "certificats_verts": 3.1376,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 23.715895,
+    "prix_nuit": 17.718987,
+    "redevance": 109.9962,
+    "certificats_verts": 3.1376,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 515,
+   "fournisseur": "OCTA+",
+   "produit": "Boost Flex",
+   "type": "variable",
+   "duree": -1,
+   "en_ligne": true,
+   "debut": "2026-09-30",
+   "fin": null,
+   "formule": "Compteur mono (TH) : Epex RLP x 1,066 + 6,77 ; Compteur bi (HI) : Epex RLP x 1,285 + 6,77 ; Compteur bi (LO) : Epex RLP x 0,903 + 6,77 ; Compteur exclusif nuit (EX) : Epex RLP x 0,987 + 6,77 ; Impact Eco : Epex RLP x 0,830 + 6,77 ; Impact Medium : Epex RLP x 1,142 + 6,77 ; Impact Pic : Epex RLP x 1,366 + 6,77.",
+   "parametre": "Epex RLP",
+   "fiche": "https://files.octaplus.be/tariffs/E_OCTA_BOOSTFLEX_RE_WL_FR.pdf?_ga=2.76886480.453097928.1717492506-1438632901.1670394591",
+   "conditions_generales": "https://octa.cdn.prismic.io/octa/15f458b5-49ad-4392-a125-4a8d27858f31_cgv+conso+fr.pdf",
+   "redevance": 64.9992,
+   "prix_kwh": 17.774248,
+   "certificats_verts": 3.1376,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 21.278376,
+    "prix_nuit": 15.166152,
+    "redevance": 64.9992,
+    "certificats_verts": 3.1376,
+    "decodage_jour": null,
+    "decodage_nuit": null,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 321,
+   "fournisseur": "OCTA+",
+   "produit": "Dynamic",
+   "type": "dynamique",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2025-02-28",
+   "fin": null,
+   "formule": "Epex 15' * 1,094 + 5,52",
+   "parametre": "Belpex H",
+   "fiche": "https://files.octaplus.be/tariffs/E_OCTA_DYNAMIC_RE_WL_FR.pdf",
+   "conditions_generales": "https://octa.cdn.prismic.io/octa/15f458b5-49ad-4392-a125-4a8d27858f31_cgv+conso+fr.pdf",
+   "redevance": 64.9992,
+   "prix_kwh": 18.115837,
+   "certificats_verts": 3.1376,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 526,
+   "fournisseur": "OCTA+",
+   "produit": "Eco Boost Fix",
+   "type": "fixe",
+   "duree": -1,
+   "en_ligne": true,
+   "debut": "2026-09-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://files.octaplus.be/tariffs/E_OCTA_ECOBOOSTFIX_RE_WL_FR.pdf",
+   "conditions_generales": "https://octa.cdn.prismic.io/octa/aQhx8rpReVYa38EH_CGV_RES_FR_202511.pdf",
+   "redevance": 150.0006,
+   "prix_kwh": 22.76294,
+   "certificats_verts": 3.1376,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 26.204775,
+    "prix_nuit": 20.207867,
+    "redevance": 150.0006,
+    "certificats_verts": 3.1376,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 522,
+   "fournisseur": "OCTA+",
+   "produit": "Eco Boost Flex",
+   "type": "variable",
+   "duree": -1,
+   "en_ligne": true,
+   "debut": "2026-09-30",
+   "fin": null,
+   "formule": "Compteur mono (TH) : Epex RLP x 1,056 + 33,27 ; Compteur bi (HI) : Epex RLP x 1,275 + 33,27 ; Compteur bi (LO) : Epex RLP x 0,893 + 33,27 ; Compteur exclusif nuit (EX) : Epex RLP x 0,977 + 33,27 ; Impact Eco : Epex RLP x 0,820 + 33,27 ; Impact Medium : Epex RLP x 1,132 + 33,27 ; Impact Pic : Epex RLP x 1,356 + 33,27.",
+   "parametre": "EPEX RLP",
+   "fiche": "https://files.octaplus.be/tariffs/E_OCTA_ECOBOOSTFLEX_RE_WL_FR.pdf?_ga=2.76886480.453097928.1717492506-1438632901.1670394591",
+   "conditions_generales": "https://octa.cdn.prismic.io/octa/15f458b5-49ad-4392-a125-4a8d27858f31_cgv+conso+fr.pdf",
+   "redevance": 150.0006,
+   "prix_kwh": 20.423242,
+   "certificats_verts": 3.1376,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 23.927371,
+    "prix_nuit": 17.815146,
+    "redevance": 150.0006,
+    "certificats_verts": 3.1376,
+    "decodage_jour": null,
+    "decodage_nuit": null,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 323,
+   "fournisseur": "OCTA+",
+   "produit": "Eco Dynamic",
+   "type": "dynamique",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2025-02-28",
+   "fin": null,
+   "formule": "Epex 15' * 1,087 + 13.17",
+   "parametre": "Belpex H",
+   "fiche": "https://files.octaplus.be/tariffs/E_OCTA_ECODYNAMIC_RE_WL_FR.pdf",
+   "conditions_generales": "https://octa.cdn.prismic.io/octa/15f458b5-49ad-4392-a125-4a8d27858f31_cgv+conso+fr.pdf",
+   "redevance": 150.0006,
+   "prix_kwh": 18.856905,
+   "certificats_verts": 3.0952,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 17,
+   "fournisseur": "OCTA+",
+   "produit": "Smart Variable",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2023-04-30",
+   "fin": null,
+   "formule": "compteur monohoraire : Belpex RLP * 1,15 + 10 ; compteur bihoraire heures pleines : Belpex RLP * 1,29 + 10 ; compteur bihoraire heures creuses : Belpex RLP * 1,011 + 10 ; compteur exclusif nuit : Belpex RLP * 1,061 + 10",
+   "parametre": "Belpex RLP 133.99€",
+   "fiche": "https://files.octaplus.be/tariffs/E_OCTA_SMARTVARIABLE_RE_WL_FR.pdf?_ga=2.144194416.453097928.1717492506-1438632901.1670394591",
+   "conditions_generales": "https://octa.cdn.prismic.io/octa/15f458b5-49ad-4392-a125-4a8d27858f31_cgv+conso+fr.pdf",
+   "redevance": 64.9992,
+   "prix_kwh": 19.460677,
+   "certificats_verts": 3.0952,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "approche",
+    "raison": "le paramètre du comparateur n’est pas la moyenne mensuelle (périodicité ou pondération différente)"
+   },
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 21.700759,
+    "prix_nuit": 17.236595,
+    "redevance": 64.9992,
+    "certificats_verts": 3.0952,
+    "decodage_jour": null,
+    "decodage_nuit": null,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 131,
+   "fournisseur": "Tarif social",
+   "produit": "Tarif Social Electricité",
+   "type": "fixe",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2022-12-31",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": null,
+   "conditions_generales": null,
+   "redevance": 0.0,
+   "prix_kwh": 26.95686,
+   "certificats_verts": 0.0,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 26.95686,
+    "prix_nuit": 25.76648,
+    "redevance": 0.0,
+    "certificats_verts": 0.0,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 399,
+   "fournisseur": "TotalEnergies",
+   "produit": "myComfort Fixed",
+   "type": "fixe",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYCOMFORT-FIXED_ELECTRICITY_WAL_FR.pdf",
+   "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
+   "redevance": 90.0046,
+   "prix_kwh": 21.357834,
+   "certificats_verts": 3.361472,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 23.124536,
+    "prix_nuit": 19.828784,
+    "redevance": 90.0046,
+    "certificats_verts": 3.361472,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 397,
+   "fournisseur": "TotalEnergies",
+   "produit": "myComfort Variable",
+   "type": "variable",
+   "duree": null,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "0.1096 * BELPEXM_RLP + 2.52 0.122 * BELPEXM_RLP + 2.52 0.0988 * BELPEXM_RLP + 2.52 0.1034 * BELPEXM_RLP + 2.42",
+   "parametre": "€ 150,95",
+   "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYCOMFORT_ELECTRICITY_WAL_FR.pdf",
+   "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
+   "redevance": 90.0046,
+   "prix_kwh": 20.20784,
+   "certificats_verts": 3.361472,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.1096,
+    "unite_terme": "c€/kWh",
+    "constante": 2.52,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1096,
+    "constante_ckwh_htva": 2.52,
+    "parametre_vreg": 150.95
+   },
+   "bihoraire": {
+    "prix_jour": 22.191948,
+    "prix_nuit": 18.479828,
+    "redevance": 90.0046,
+    "certificats_verts": 3.361472,
+    "decodage_jour": {
+     "coefficient": 0.122,
+     "unite_terme": "c€/kWh",
+     "constante": 2.52,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.122,
+     "constante_ckwh_htva": 2.52,
+     "parametre_vreg": 150.95
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0988,
+     "unite_terme": "c€/kWh",
+     "constante": 2.52,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0988,
+     "constante_ckwh_htva": 2.52,
+     "parametre_vreg": 150.95
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 401,
+   "fournisseur": "TotalEnergies",
+   "produit": "myDrive",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "0.1096 * BELPEXM_RLP + 1.84 0.122 * BELPEXM_RLP + 2.94 0.0988 * BELPEXM_RLP + 1.34 0.1034 * BELPEXM_RLP + 2.27",
+   "parametre": "€ 150,95",
+   "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYDRIVE_ELECTRICITY_WAL_FR.pdf",
+   "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
+   "redevance": 90.0046,
+   "prix_kwh": 19.48704,
+   "certificats_verts": 3.361472,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.1096,
+    "unite_terme": "c€/kWh",
+    "constante": 1.84,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1096,
+    "constante_ckwh_htva": 1.84,
+    "parametre_vreg": 150.95
+   },
+   "bihoraire": {
+    "prix_jour": 22.637148,
+    "prix_nuit": 17.229028,
+    "redevance": 90.0046,
+    "certificats_verts": 3.361472,
+    "decodage_jour": {
+     "coefficient": 0.122,
+     "unite_terme": "c€/kWh",
+     "constante": 2.94,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.122,
+     "constante_ckwh_htva": 2.94,
+     "parametre_vreg": 150.95
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0988,
+     "unite_terme": "c€/kWh",
+     "constante": 1.34,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0988,
+     "constante_ckwh_htva": 1.34,
+     "parametre_vreg": 150.95
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 451,
+   "fournisseur": "TotalEnergies",
+   "produit": "myDynamic",
+   "type": "dynamique",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2026-01-31",
+   "fin": null,
+   "formule": "0.1031 * BELPEXH + 2.04 0.1031 * BELPEXH + 2.04 0.1031 * BELPEXH + 2.04 0.1031 * BELPEXH + 1.94",
+   "parametre": null,
+   "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYDYNAMIC_ELECTRICITY_WAL_FR.pdf",
+   "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
+   "redevance": 90.0046,
+   "prix_kwh": 18.681555,
+   "certificats_verts": 3.361472,
+   "tranches": false,
+   "compteur_intelligent": true,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": null
+  },
+  {
+   "id": 404,
+   "fournisseur": "TotalEnergies",
+   "produit": "myEssential Fixed",
+   "type": "fixe",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": null,
+   "parametre": null,
+   "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYESSENTIAL-FIXED_ELECTRICITY_WAL_FR.pdf",
+   "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
+   "redevance": 35.0012,
+   "prix_kwh": 20.534426,
+   "certificats_verts": 3.361472,
+   "tranches": false,
+   "rattachement": null,
+   "decodage": null,
+   "bihoraire": {
+    "prix_jour": 22.301128,
+    "prix_nuit": 19.005376,
+    "redevance": 35.0012,
+    "certificats_verts": 3.361472,
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  },
+  {
+   "id": 402,
+   "fournisseur": "TotalEnergies",
+   "produit": "myEssential Variable",
+   "type": "variable",
+   "duree": 1,
+   "en_ligne": true,
+   "debut": "2025-09-30",
+   "fin": null,
+   "formule": "0.1097 * BELPEXM_RLP + 1.72 0.1219 * BELPEXM_RLP + 1.72 0.0993 * BELPEXM_RLP + 1.72 0.1042 * BELPEXM_RLP + 1.63",
+   "parametre": "€ 150,95",
+   "fiche": "https://totalenergies.be/static/marketing-documents/b2c/tariff-card/latest/MYESSENTIAL_ELECTRICITY_WAL_FR.pdf",
+   "conditions_generales": "https://totalenergies.be/fr/particuliers/conditions-generales-totalenergies-groupe",
+   "redevance": 35.0012,
+   "prix_kwh": 19.375846,
+   "certificats_verts": 3.361472,
+   "tranches": false,
+   "rattachement": {
+    "indice": "Epex DAM RLP",
+    "statut": "exact",
+    "raison": "vérifié contre le Belpex RLP M publié par Luminus"
+   },
+   "decodage": {
+    "coefficient": 0.1097,
+    "unite_terme": "c€/kWh",
+    "constante": 1.72,
+    "unite_constante": "c€/kWh",
+    "pente_ckwh": 0.1097,
+    "constante_ckwh_htva": 1.72,
+    "parametre_vreg": 150.95
+   },
+   "bihoraire": {
+    "prix_jour": 21.327942,
+    "prix_nuit": 17.711752,
+    "redevance": 35.0012,
+    "certificats_verts": 3.361472,
+    "decodage_jour": {
+     "coefficient": 0.1219,
+     "unite_terme": "c€/kWh",
+     "constante": 1.72,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.1219,
+     "constante_ckwh_htva": 1.72,
+     "parametre_vreg": 150.95
+    },
+    "decodage_nuit": {
+     "coefficient": 0.0993,
+     "unite_terme": "c€/kWh",
+     "constante": 1.72,
+     "unite_constante": "c€/kWh",
+     "pente_ckwh": 0.0993,
+     "constante_ckwh_htva": 1.72,
+     "parametre_vreg": 150.95
+    },
+    "repartition": {
+     "jour": 3600,
+     "nuit": 3900
+    }
+   }
+  }
+ ]
+}

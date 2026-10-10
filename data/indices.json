@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-09T12:09:33+00:00",
+ "genere_le": "2026-10-10T11:25:58+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -332,8 +332,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 171.6741,
-    "jours_connus": 9,
+    "valeur": 159.7193,
+    "jours_connus": 10,
     "jours_total": 31,
     "definitif": false
    }
@@ -365,8 +365,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 177.9654,
-    "jours_connus": 9,
+    "valeur": 165.6254,
+    "jours_connus": 10,
     "jours_total": 31,
     "definitif": false
    }
@@ -398,8 +398,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 134.7347,
-    "jours_connus": 9,
+    "valeur": 123.3959,
+    "jours_connus": 10,
     "jours_total": 31,
     "definitif": false
    }
@@ -500,8 +500,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 171.6741,
-    "jours_connus": 9,
+    "valeur": 159.7193,
+    "jours_connus": 10,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre"
@@ -726,8 +726,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 75.39,
-    "jours_connus": 8,
+    "valeur": 75.9244,
+    "jours_connus": 9,
     "jours_total": 31,
     "definitif": false
    }
@@ -870,8 +870,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 75.546,
-    "jours_connus": 8,
+    "valeur": 76.077,
+    "jours_connus": 9,
     "jours_total": 31,
     "definitif": false
    }
@@ -1127,8 +1127,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 75.0263,
-    "jours_connus": 8,
+    "valeur": 75.579,
+    "jours_connus": 9,
     "jours_total": 31,
     "definitif": false
    }
@@ -1160,8 +1160,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 75.0263,
-    "jours_connus": 8,
+    "valeur": 75.579,
+    "jours_connus": 9,
     "jours_total": 31,
     "definitif": false
    }
@@ -1193,8 +1193,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 75.1805,
-    "jours_connus": 8,
+    "valeur": 75.7305,
+    "jours_connus": 9,
     "jours_total": 31,
     "definitif": false
    }
