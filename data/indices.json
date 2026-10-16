@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-15T10:18:49+00:00",
+ "genere_le": "2026-10-16T10:11:54+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -332,8 +332,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 166.2614,
-    "jours_connus": 15,
+    "valeur": 169.249,
+    "jours_connus": 16,
     "jours_total": 31,
     "definitif": false
    }
@@ -365,8 +365,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 172.9965,
-    "jours_connus": 15,
+    "valeur": 175.9481,
+    "jours_connus": 16,
     "jours_total": 31,
     "definitif": false
    }
@@ -398,8 +398,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 126.1291,
-    "jours_connus": 15,
+    "valeur": 129.9082,
+    "jours_connus": 16,
     "jours_total": 31,
     "definitif": false
    }
@@ -500,8 +500,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 166.2614,
-    "jours_connus": 15,
+    "valeur": 169.249,
+    "jours_connus": 16,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre"
@@ -726,8 +726,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 78.6974,
-    "jours_connus": 14,
+    "valeur": 79.2231,
+    "jours_connus": 15,
     "jours_total": 31,
     "definitif": false
    }
@@ -780,8 +780,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 78.6974,
-    "jours_connus": 14,
+    "valeur": 79.2231,
+    "jours_connus": 15,
     "jours_total": 31,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -835,8 +835,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 78.6974,
-    "jours_connus": 14,
+    "valeur": 79.2231,
+    "jours_connus": 15,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre",
@@ -870,8 +870,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 79.2555,
-    "jours_connus": 14,
+    "valeur": 79.8619,
+    "jours_connus": 15,
     "jours_total": 31,
     "definitif": false
    }
@@ -924,8 +924,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 79.2555,
-    "jours_connus": 14,
+    "valeur": 79.8619,
+    "jours_connus": 15,
     "jours_total": 31,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -1127,8 +1127,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 78.4029,
-    "jours_connus": 14,
+    "valeur": 78.9414,
+    "jours_connus": 15,
     "jours_total": 31,
     "definitif": false
    }
@@ -1160,8 +1160,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 78.4029,
-    "jours_connus": 14,
+    "valeur": 78.9414,
+    "jours_connus": 15,
     "jours_total": 31,
     "definitif": false
    }
@@ -1193,8 +1193,8 @@
    },
    "estime": {
     "mois": "2026-10",
-    "valeur": 78.9662,
-    "jours_connus": 14,
+    "valeur": 79.588,
+    "jours_connus": 15,
     "jours_total": 31,
     "definitif": false
    }
