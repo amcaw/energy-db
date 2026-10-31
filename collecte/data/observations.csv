@@ -845,3 +845,4 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-10-06T12:17:00+00:00,electricite,2026-09,Epex DAM SPP,100.5259,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
 2026-10-28T11:37:20+00:00,electricite,2026-10,Epex DAM RLP,170.3391,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
 2026-10-28T11:37:20+00:00,electricite,2026-10,Epex DAM SPP,133.5283,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-10-31T11:06:21+00:00,gaz,2026-10,TTF DAM,86.2729,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
