@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-31T11:09:46+00:00",
+ "genere_le": "2026-11-01T12:04:14+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -248,8 +248,8 @@
    "note": "Moyenne des moyennes journalieres du marche belge de l'electricite. Connue a la fin du mois. C'est l'ancien Belpex.",
    "source": "energy-charts.info (Fraunhofer ISE), recoupe avec SMARD",
    "premier_mois": "2020-04",
-   "dernier_mois": "2026-09",
-   "mois_publies": 78,
+   "dernier_mois": "2026-10",
+   "mois_publies": 79,
    "publie": {
     "2020-04": 14.72,
     "2020-05": 15.39,
@@ -328,13 +328,19 @@
     "2026-06": 112.13,
     "2026-07": 109.25,
     "2026-08": 129.32,
-    "2026-09": 156.41
+    "2026-09": 156.41,
+    "2026-10": 174.3982
+   },
+   "calcule": {
+    "2026-10": {
+     "valeur": 174.3982
+    }
    },
    "estime": {
-    "mois": "2026-10",
-    "valeur": 174.3982,
-    "jours_connus": 31,
-    "jours_total": 31,
+    "mois": "2026-11",
+    "valeur": 250.0878,
+    "jours_connus": 1,
+    "jours_total": 30,
     "definitif": false
    }
   },
@@ -363,6 +369,13 @@
     "2026-08": 134.9339,
     "2026-09": 164.4231,
     "2026-10": 170.3391
+   },
+   "estime": {
+    "mois": "2026-11",
+    "valeur": 253.3998,
+    "jours_connus": 1,
+    "jours_total": 30,
+    "definitif": false
    }
   },
   "Epex DAM SPP": {
@@ -390,6 +403,13 @@
     "2026-08": 79.1084,
     "2026-09": 100.5259,
     "2026-10": 133.5283
+   },
+   "estime": {
+    "mois": "2026-11",
+    "valeur": 229.6066,
+    "jours_connus": 1,
+    "jours_total": 30,
+    "definitif": false
    }
   },
   "Epex DAM trimestriel": {
@@ -487,9 +507,9 @@
     "2026-09": 131.3884
    },
    "estime": {
-    "mois": "2026-10",
-    "valeur": 174.3982,
-    "jours_connus": 31,
+    "mois": "2026-11",
+    "valeur": 176.7635,
+    "jours_connus": 32,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre"
@@ -849,13 +869,6 @@
     "2026-07": 53.0954,
     "2026-08": 61.7261,
     "2026-09": 75.3463
-   },
-   "estime": {
-    "mois": "2026-10",
-    "valeur": 88.1835,
-    "jours_connus": 30,
-    "jours_total": 31,
-    "definitif": false
    }
   },
   "TTF DAM RLP Heren": {
@@ -1172,13 +1185,6 @@
     "2026-07": 53.0644,
     "2026-08": 61.896,
     "2026-09": 75.3117
-   },
-   "estime": {
-    "mois": "2026-10",
-    "valeur": 87.9985,
-    "jours_connus": 30,
-    "jours_total": 31,
-    "definitif": false
    }
   }
  }
