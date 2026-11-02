@@ -846,3 +846,11 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-10-28T11:37:20+00:00,electricite,2026-10,Epex DAM RLP,170.3391,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
 2026-10-28T11:37:20+00:00,electricite,2026-10,Epex DAM SPP,133.5283,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
 2026-10-31T11:06:21+00:00,gaz,2026-10,TTF DAM,86.2729,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
+2026-11-02T13:43:41+00:00,electricite,2026-11,Endex 303,146.22,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,60291cf1804c59b7
+2026-11-02T13:43:41+00:00,electricite,2026-11,Endex 103,170.89,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,60291cf1804c59b7
+2026-11-02T13:43:41+00:00,electricite,2026-11,Endex 101,195.00,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,60291cf1804c59b7
+2026-11-02T13:43:41+00:00,electricite,2026-10,Epex DAM,174.40,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,60291cf1804c59b7
+2026-11-02T13:43:41+00:00,gaz,2026-11,TTF 103 (Heren),75.2818,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,e51266bda19cc254
+2026-11-02T13:43:41+00:00,gaz,2026-11,TTF 101 Heren,86.6506,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,e51266bda19cc254
+2026-11-02T13:43:41+00:00,gaz,2026-11,ZTP 101,86.554,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,e51266bda19cc254
+2026-11-02T13:43:41+00:00,gaz,2026-10,ZTP DAM,85.777,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,e51266bda19cc254
