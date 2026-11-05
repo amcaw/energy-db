@@ -1,13 +1,13 @@
 {
  "mois": "2026-11",
- "jours_connus": 3,
- "TTF DAM Heren trimestriel": 87.3566,
+ "jours_connus": 4,
+ "TTF DAM Heren trimestriel": 87.3908,
  "trimestre": {
-  "jours_connus": 33,
+  "jours_connus": 34,
   "jours_total": 92
  },
- "TTF DAM Heren": 98.1933,
- "TTF DAM RLP Heren": 98.1182,
+ "TTF DAM Heren": 95.7745,
+ "TTF DAM RLP Heren": 95.646,
  "base": "EEX EGSI TTF Day + Weekend, par jour de livraison",
- "calcule_le": "2026-11-04T13:15:02+00:00"
+ "calcule_le": "2026-11-05T13:28:58+00:00"
 }
