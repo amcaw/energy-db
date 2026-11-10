@@ -1,33 +1,33 @@
 {
- "genere_le": "2026-11-09T14:20:13+00:00",
+ "genere_le": "2026-11-10T13:48:55+00:00",
  "indices": 19,
  "series_quotidiennes": {
   "Epex DAM": {
-   "jours": 2506,
+   "jours": 2507,
    "premier": "2020-01-01",
-   "dernier": "2026-11-10"
+   "dernier": "2026-11-11"
   },
   "TTF DAM": {
-   "jours": 419,
+   "jours": 420,
    "premier": "2025-09-16",
-   "dernier": "2026-11-10"
+   "dernier": "2026-11-11"
   },
   "ZTP DAM": {
-   "jours": 419,
+   "jours": 420,
    "premier": "2025-09-16",
-   "dernier": "2026-11-10"
+   "dernier": "2026-11-11"
   },
   "ZTP DAM EGSI": {
-   "jours": 419,
+   "jours": 420,
    "premier": "2025-09-16",
-   "dernier": "2026-11-10"
+   "dernier": "2026-11-11"
   }
  },
  "valeurs_mensuelles": 855,
- "valeurs_quotidiennes": 3763,
+ "valeurs_quotidiennes": 3767,
  "offres_par_comparateur": {
   "wallonie gaz": 44,
-  "bruxelles gaz": 19,
+  "bruxelles gaz": 20,
   "wallonie electricite": 58,
   "bruxelles electricite": 27
  },
