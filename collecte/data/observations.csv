@@ -856,3 +856,4 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-11-02T13:43:41+00:00,gaz,2026-10,ZTP DAM,85.777,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-gaz/,e51266bda19cc254
 2026-11-04T13:15:02+00:00,gaz,2026-10,TTF DAM Heren,86.1040,"Luminus, parametres d'indexation (TTFDAHM, ICIS Heren)",57f20dcaec81c6b2
 2026-11-04T13:15:02+00:00,gaz,2026-10,TTF DAM RLP Heren,88.2850,"Luminus (TTFDAH RLP M) recoupe avec Eneco (TTFDAW-RLP-M), ICIS Heren",57f20dcaec81c6b2
+2026-11-14T12:23:41+00:00,electricite,2022-01,Epex DAM,191.40,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,0cc30e296e9b7297
