@@ -1,11 +1,11 @@
 {
- "genere_le": "2026-11-14T12:30:56+00:00",
+ "genere_le": "2026-11-15T13:02:20+00:00",
  "indices": 19,
  "series_quotidiennes": {
   "Epex DAM": {
-   "jours": 2511,
+   "jours": 2512,
    "premier": "2020-01-01",
-   "dernier": "2026-11-15"
+   "dernier": "2026-11-16"
   },
   "TTF DAM": {
    "jours": 426,
@@ -24,7 +24,7 @@
   }
  },
  "valeurs_mensuelles": 855,
- "valeurs_quotidiennes": 3789,
+ "valeurs_quotidiennes": 3790,
  "offres_par_comparateur": {
   "wallonie gaz": 46,
   "bruxelles gaz": 21,
