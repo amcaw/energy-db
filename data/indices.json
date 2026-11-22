@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-21T13:45:59+00:00",
+ "genere_le": "2026-11-22T13:38:30+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -336,8 +336,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 229.1142,
-    "jours_connus": 22,
+    "valeur": 229.5885,
+    "jours_connus": 23,
     "jours_total": 30,
     "definitif": false
    }
@@ -370,8 +370,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 233.4589,
-    "jours_connus": 22,
+    "valeur": 234.1102,
+    "jours_connus": 23,
     "jours_total": 30,
     "definitif": false
    }
@@ -404,8 +404,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 225.4294,
-    "jours_connus": 22,
+    "valeur": 225.5199,
+    "jours_connus": 23,
     "jours_total": 30,
     "definitif": false
    }
@@ -506,8 +506,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 197.1105,
-    "jours_connus": 53,
+    "valeur": 197.9052,
+    "jours_connus": 54,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre"
