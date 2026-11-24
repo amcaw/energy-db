@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-23T16:28:42+00:00",
+ "genere_le": "2026-11-24T16:14:59+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -336,8 +336,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 230.3312,
-    "jours_connus": 24,
+    "valeur": 231.2732,
+    "jours_connus": 25,
     "jours_total": 30,
     "definitif": false
    }
@@ -370,8 +370,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 234.8993,
-    "jours_connus": 24,
+    "valeur": 235.9365,
+    "jours_connus": 25,
     "jours_total": 30,
     "definitif": false
    }
@@ -404,8 +404,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 225.8613,
-    "jours_connus": 24,
+    "valeur": 227.2316,
+    "jours_connus": 25,
     "jours_total": 30,
     "definitif": false
    }
@@ -506,8 +506,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 198.8053,
-    "jours_connus": 55,
+    "valeur": 199.7888,
+    "jours_connus": 56,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre"
@@ -735,7 +735,7 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 88.8038,
+    "valeur": 88.9499,
     "jours_connus": 23,
     "jours_total": 30,
     "definitif": false
@@ -790,7 +790,7 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 88.8038,
+    "valeur": 88.9499,
     "jours_connus": 23,
     "jours_total": 30,
     "definitif": false,
@@ -845,7 +845,7 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 87.3712,
+    "valeur": 87.4346,
     "jours_connus": 53,
     "jours_total": 92,
     "definitif": false,
@@ -880,7 +880,7 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 88.544,
+    "valeur": 88.7195,
     "jours_connus": 23,
     "jours_total": 30,
     "definitif": false
@@ -935,7 +935,7 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 88.544,
+    "valeur": 88.7195,
     "jours_connus": 23,
     "jours_total": 30,
     "definitif": false,
@@ -1140,7 +1140,7 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.3409,
+    "valeur": 89.5031,
     "jours_connus": 23,
     "jours_total": 30,
     "definitif": false
@@ -1173,7 +1173,7 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.3409,
+    "valeur": 89.5031,
     "jours_connus": 23,
     "jours_total": 30,
     "definitif": false
@@ -1206,7 +1206,7 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.0626,
+    "valeur": 89.2575,
     "jours_connus": 23,
     "jours_total": 30,
     "definitif": false
