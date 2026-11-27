@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-26T15:43:36+00:00",
+ "genere_le": "2026-11-27T15:36:53+00:00",
  "unite": "EUR/MWh",
  "indices": {
   "Endex 101": {
@@ -336,8 +336,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 235.8996,
-    "jours_connus": 27,
+    "valeur": 234.6133,
+    "jours_connus": 28,
     "jours_total": 30,
     "definitif": false
    }
@@ -351,8 +351,8 @@
    "note": "Prix horaires ponderes par le profil RLP0N (somme horaire), moyenne arithmetique de tous les gestionnaires de reseau belges. Aligne sur le Belpex RLP M publie par Luminus.",
    "source": "energy-charts.info + profil Synergrid RLP0N",
    "premier_mois": "2025-10",
-   "dernier_mois": "2026-10",
-   "mois_publies": 13,
+   "dernier_mois": "2026-11",
+   "mois_publies": 14,
    "publie": {
     "2025-10": 77.9001,
     "2025-11": 89.4278,
@@ -366,14 +366,8 @@
     "2026-07": 114.2847,
     "2026-08": 134.9339,
     "2026-09": 164.4231,
-    "2026-10": 170.3391
-   },
-   "estime": {
-    "mois": "2026-11",
-    "valeur": 241.1168,
-    "jours_connus": 27,
-    "jours_total": 30,
-    "definitif": false
+    "2026-10": 170.3391,
+    "2026-11": 239.5339
    }
   },
   "Epex DAM SPP": {
@@ -385,8 +379,8 @@
    "note": "Prix quart-horaires ponderes par le profil SPP. C'est le parametre usuel des contrats d'injection photovoltaique.",
    "source": "energy-charts.info + profil Synergrid SPP",
    "premier_mois": "2025-10",
-   "dernier_mois": "2026-10",
-   "mois_publies": 13,
+   "dernier_mois": "2026-11",
+   "mois_publies": 14,
    "publie": {
     "2025-10": 66.1435,
     "2025-11": 78.9417,
@@ -400,14 +394,8 @@
     "2026-07": 62.646,
     "2026-08": 79.1084,
     "2026-09": 100.5259,
-    "2026-10": 133.5283
-   },
-   "estime": {
-    "mois": "2026-11",
-    "valeur": 232.0051,
-    "jours_connus": 27,
-    "jours_total": 30,
-    "definitif": false
+    "2026-10": 133.5283,
+    "2026-11": 230.8097
    }
   },
   "Epex DAM trimestriel": {
@@ -506,8 +494,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 203.0282,
-    "jours_connus": 58,
+    "valeur": 202.9748,
+    "jours_connus": 59,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre"
@@ -735,8 +723,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.3473,
-    "jours_connus": 26,
+    "valeur": 89.3276,
+    "jours_connus": 27,
     "jours_total": 30,
     "definitif": false
    }
@@ -790,8 +778,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.3473,
-    "jours_connus": 26,
+    "valeur": 89.3276,
+    "jours_connus": 27,
     "jours_total": 30,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -845,8 +833,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 87.7003,
-    "jours_connus": 56,
+    "valeur": 87.7199,
+    "jours_connus": 57,
     "jours_total": 92,
     "definitif": false,
     "periode": "trimestre",
@@ -880,8 +868,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.1137,
-    "jours_connus": 26,
+    "valeur": 89.1013,
+    "jours_connus": 27,
     "jours_total": 30,
     "definitif": false
    }
@@ -935,8 +923,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.1137,
-    "jours_connus": 26,
+    "valeur": 89.1013,
+    "jours_connus": 27,
     "jours_total": 30,
     "definitif": false,
     "approche": "EEX EGSI TTF Day + Weekend, par jour de livraison"
@@ -1140,8 +1128,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.9086,
-    "jours_connus": 26,
+    "valeur": 89.8901,
+    "jours_connus": 27,
     "jours_total": 30,
     "definitif": false
    }
@@ -1173,8 +1161,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.9086,
-    "jours_connus": 26,
+    "valeur": 89.8901,
+    "jours_connus": 27,
     "jours_total": 30,
     "definitif": false
    }
@@ -1206,8 +1194,8 @@
    },
    "estime": {
     "mois": "2026-11",
-    "valeur": 89.6756,
-    "jours_connus": 26,
+    "valeur": 89.6645,
+    "jours_connus": 27,
     "jours_total": 30,
     "definitif": false
    }
