@@ -859,3 +859,4 @@ observed_at,energie,mois,indice,valeur,source,sha256
 2026-11-14T12:23:41+00:00,electricite,2022-01,Epex DAM,191.40,https://www.engie.be/fr/energie/electricite-gaz/prix-conditions/parametres-indexation/parametres-indexation-electricite/,0cc30e296e9b7297
 2026-11-27T15:36:04+00:00,electricite,2026-11,Epex DAM RLP,239.5339,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
 2026-11-27T15:36:04+00:00,electricite,2026-11,Epex DAM SPP,230.8097,EPEX day-ahead BE (energy-charts.info) pondere par le profil Synergrid,
+2026-11-28T14:31:42+00:00,gaz,2026-11,TTF DAM,88.9384,"EEX EGSI TTF Day + Weekend, api.eex-group.com/pub/market-data",
